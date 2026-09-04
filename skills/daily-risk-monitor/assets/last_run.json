@@ -1,0 +1,184 @@
+{
+  "signals": {
+    "1": {
+      "state": "🟢",
+      "notes": "HY OAS 2.66% @2026-09-02；4週 -9bps，單日 +1bp"
+    },
+    "2": {
+      "state": "🟢",
+      "notes": "S5TH 66.40 @2026-09-03；SPX 未創新高"
+    },
+    "3": {
+      "state": "🔴",
+      "notes": "BofA Bull&Bear 9.7 @2026-08-05（滯後4週）>8.0 觸發"
+    },
+    "4": {
+      "state": "🟢",
+      "notes": "VIX 15.20 / VIX3M 17.73 @2026-09-02，正價差 +2.53"
+    },
+    "5": {
+      "state": "🟡",
+      "notes": "淨流動性 5768.7B @2026-09-02；連4週下降成立，但 SPX 同期 -0.74%"
+    },
+    "6": {
+      "state": "🟢",
+      "notes": "SPX 未創新高，頂背離前提不成立；A/D 累積線絕對值不可讀"
+    },
+    "7": {
+      "state": "⚪️",
+      "notes": "NAAIM 79.70 @2026-07-29（滯後5週）；2026-08-01 起改訂閱制"
+    },
+    "8": {
+      "state": "🟢",
+      "notes": "AAII 多空差 +2.1 @週2026-09-02（Bull 39.7/Bear 37.6）"
+    },
+    "9": {
+      "state": "🟢",
+      "notes": "CNN F&G 44.8 fear @2026-09-04"
+    },
+    "10": {
+      "state": "🟢",
+      "notes": "CBOE Equity P/C 0.56 @2026-09-02"
+    },
+    "11": {
+      "state": "🟡",
+      "notes": "Margin Debt 1.4172T @2026-07（滯後5週）；YoY +38.6% 貼近 +40%"
+    },
+    "12": {
+      "state": "⚪️",
+      "notes": "GuruFocus 403；索引標題 0.23 @2026-07（滯後9週）"
+    },
+    "13": {
+      "state": "🔴",
+      "notes": "IPO YTD 件數 106 (-25.9%) / 金額 145.8B (+541.8%)；金額腿觸發"
+    },
+    "14": {
+      "state": "🟢",
+      "notes": "BTC/ETH/SOL 各 0.0100%/8h（年化10.95%）@Hyperliquid（Binance 451）"
+    },
+    "15": {
+      "state": "🔴",
+      "notes": "24h 清算 557.05M @2026-09-04 >500M；空頭 469.46M > 多頭 87.6M"
+    },
+    "16": {
+      "state": "⚪️",
+      "notes": "Dominance 59.27% @2026-09-04；24h 與 7d 皆無法判定（本地歷史僅1天）"
+    },
+    "17": {
+      "state": "🟢",
+      "notes": "USDT+USDC 257.84B @2026-09-04；7d +0.62B"
+    },
+    "18": {
+      "state": "🟢",
+      "notes": "SP500 +0.03% / XYZ100 +0.51% 隱含跳空（收盤觀測日2026-09-03，滯後1交易日）"
+    },
+    "19": {
+      "state": "🟢",
+      "notes": "SPX 1.98σ（+1.06% @2026-09-03，1σ=0.54%）<2σ；BTC 腿 ⚪️ 無歷史"
+    },
+    "20": {
+      "state": "🟢",
+      "notes": "VRP +7.61（VIX 15.20 − RV20 7.59，同日2026-09-02）"
+    },
+    "21": {
+      "state": "🟢",
+      "notes": "SPX +1.06% 上漲，無 >1% 單日下跌 → 不適用"
+    },
+    "22": {
+      "state": "⚪️",
+      "notes": "RSP−SPY 需 yfinance，限流3次；上次 +0.08pt @2026-08-07（滯後4週）"
+    },
+    "23": {
+      "state": "🟢",
+      "notes": "T10Y2Y +0.43 / T10Y3M +0.88 @2026-09-03；未倒掛"
+    },
+    "24": {
+      "state": "🟢",
+      "notes": "Sahm -0.03 @2026-07（滯後9週）"
+    },
+    "25": {
+      "state": "🟢",
+      "notes": "LEI 6個月變化 +0.2%（Jan-Jul 2026，發布2026-08-20）"
+    },
+    "26": {
+      "state": "🟢",
+      "notes": "SPX 7747.71 / 200DMA 7136.53，偏離 +8.56%，20日斜率 +1.30%；多頭機制"
+    },
+    "27": {
+      "state": "🔴",
+      "notes": "Buffett 218.14% @2026-Q1（滯後35週）>200%"
+    },
+    "28": {
+      "state": "🔴",
+      "notes": "Shiller CAPE 42.38 @2026-09-03 >30"
+    },
+    "29": {
+      "state": "🔴",
+      "notes": "AAII 家庭股票配置 71.05% @2026-08 >70%"
+    },
+    "30": {
+      "state": "🔴",
+      "notes": "Margin Debt/GDP 4.36%（1417.2B ÷ 32486.1B）>3.0%"
+    }
+  },
+  "hard_thresholds": {
+    "1": {
+      "notes": "VIX 15.20 @2026-09-02；窗口內無一日 >25",
+      "symbol": "❌",
+      "name": "VIX 突破并站稳（>25 且连续 3 个交易日）"
+    },
+    "2": {
+      "notes": "Margin Debt 僅 1 個月月減 @2026-07（滯後5週）",
+      "symbol": "❌",
+      "name": "Margin Debt 月减（连续 3 个月）"
+    },
+    "3": {
+      "notes": "HY OAS 2.66% @2026-09-02",
+      "symbol": "❌",
+      "name": "HY Spread 扩张（>4.5%）"
+    },
+    "4": {
+      "notes": "F&G 44.8 @2026-09-04；近30日高點 66.6，從未 >75",
+      "symbol": "❌",
+      "name": "Fear & Greed 从高位回落（>75 跌回 <50）"
+    },
+    "5": {
+      "notes": "SPX 未創新高 @2026-09-03，頂背離前提不成立",
+      "symbol": "❌",
+      "name": "A/D Line 顶背离（SPX 新高但 A/D 未创新高）"
+    },
+    "6": {
+      "notes": "BofA 9.7 @2026-08-05（滯後4週）>8.0",
+      "symbol": "✅",
+      "name": "BofA Bull & Bear（>8.0）"
+    },
+    "7": {
+      "notes": "GuruFocus 403；上次 0.23 @2026-07（滯後9週）",
+      "symbol": "⚪️",
+      "name": "Insider Buy/Sell（<0.17）"
+    }
+  },
+  "tracks": {
+    "strategic": {
+      "baseline_pct": 100
+    },
+    "tactical": {
+      "state": "🟢",
+      "above_200dma": true,
+      "dma200_slope_positive": true
+    }
+  },
+  "date": "2026-09-04",
+  "updated_at": "2026-09-04 08:31:25+0000",
+  "written_by": "snapshot.py",
+  "history": [
+    {
+      "date": "2026-09-04",
+      "trigger_count": 1,
+      "unknown_count": 1,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟢",
+      "above_200dma": true
+    }
+  ]
+}

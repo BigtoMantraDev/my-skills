@@ -749,18 +749,25 @@ run_stablecoins() {
   fi
 
   # 两条序列按 date 对齐后相加（日期不一致时只取交集，避免拿两个不同日的数相加）
+  # 用 --slurpfile 而非 --argjson "$(cat ...)"：两条序列各约 400KB，塞进命令列参数会撞
+  # Linux 单一参数上限（MAX_ARG_STRLEN 128KB）→ jq 回 "Argument list too long"，
+  # 而后续 render 会把缺值印成 $0.00B，看起来像真数据。必须从档案读。
   jq -n \
-    --argjson t "$(cat "$WORK/st_usdt.json")" \
-    --argjson c "$(cat "$WORK/st_usdc.json")" '
-    ( [ $t[] | {d:(.date|tonumber), v:(.totalCirculating.peggedUSD)} ] ) as $T
-    | ( [ $c[] | {d:(.date|tonumber), v:(.totalCirculating.peggedUSD)} ] ) as $C
+    --slurpfile t "$WORK/st_usdt.json" \
+    --slurpfile c "$WORK/st_usdc.json" '
+    ( [ $t[0][] | {d:(.date|tonumber), v:(.totalCirculating.peggedUSD)} ] ) as $T
+    | ( [ $c[0][] | {d:(.date|tonumber), v:(.totalCirculating.peggedUSD)} ] ) as $C
     | ( $C | map({key:(.d|tostring), value:.v}) | from_entries ) as $cm
     | [ $T[] | select($cm[(.d|tostring)] != null)
         | {date:(.d|gmtime|strftime("%Y-%m-%d")), usdt:.v, usdc:$cm[(.d|tostring)], total:(.v + $cm[(.d|tostring)])} ]
     | sort_by(.date)' > "$WORK/st_series.json"
 
   local n
-  n="$(jq 'length' "$WORK/st_series.json")"
+  n="$(jq 'length' "$WORK/st_series.json" 2>/dev/null)"
+  # 对齐步骤失败时 n 会是空字串；不加这道保险的话下游会把缺值印成 $0.00B（假数据）
+  case "$n" in
+    ''|*[!0-9]*) STABLE_NOTE="USDT / USDC 序列对齐失败（jq 未产出可用序列）"; return 1 ;;
+  esac
   if [ "$n" -lt 2 ]; then
     STABLE_NOTE="USDT / USDC 两条序列的日期无交集（只对齐到 ${n} 天）"; return 1
   fi
