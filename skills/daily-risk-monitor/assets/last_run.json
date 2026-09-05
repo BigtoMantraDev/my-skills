@@ -1,0 +1,177 @@
+{
+  "signals": {
+    "1": {
+      "state": "🟢",
+      "notes": "HY OAS 2.65% @09-03，4週 -6bp"
+    },
+    "2": {
+      "state": "⚪️",
+      "notes": "200DMA廣度值不可得；SPX未創新高故觸發條件第一腿證偽"
+    },
+    "3": {
+      "state": "🔴",
+      "notes": "BofA 9.7 @08-07（滯後4週）≥8.0 已觸發"
+    },
+    "4": {
+      "state": "🟢",
+      "notes": "VIX 14.32 / VIX3M 17.42，正價差+3.10"
+    },
+    "5": {
+      "state": "🟡",
+      "notes": "淨流動性連4週降，但SPX同期-0.74%，第二腿不成立"
+    },
+    "6": {
+      "state": "🟢",
+      "notes": "SPX未創新高（ATH 7798.99@08-13），頂背離不成立"
+    },
+    "7": {
+      "state": "⚪️",
+      "notes": "NAAIM 79.7 @07-29，來源08-01轉訂閱制，滯後5週"
+    },
+    "8": {
+      "state": "🟢",
+      "notes": "AAII多空差+2.1 @週09-02"
+    },
+    "9": {
+      "state": "🟢",
+      "notes": "CNN F&G 41.9 fear @09-04"
+    },
+    "10": {
+      "state": "🟢",
+      "notes": "CBOE Equity P/C 0.67 @09-01"
+    },
+    "11": {
+      "state": "🟡",
+      "notes": "Margin Debt 1417.2B 2026-07，YoY+38.6%近40%閾值"
+    },
+    "12": {
+      "state": "🟢",
+      "notes": "GuruFocus內部人比 0.23 @2026-07，>0.17"
+    },
+    "13": {
+      "state": "🔴",
+      "notes": "IPO募資 145.8B YTD +541.8% YoY 已觸發"
+    },
+    "14": {
+      "state": "🟢",
+      "notes": "資金費率 BTC0.0038/ETH0.0100/SOL0.0100 %每8h"
+    },
+    "15": {
+      "state": "🟡",
+      "notes": "24h清算 468.59M @09-04，空頭87.09%，近500M閾值"
+    },
+    "16": {
+      "state": "⚪️",
+      "notes": "24h +1.17pt未觸發；7d腿歷史不足（已累積1天）"
+    },
+    "17": {
+      "state": "🟢",
+      "notes": "穩定幣 258.11B @09-05，7d +0.49B淨流入"
+    },
+    "18": {
+      "state": "🟢",
+      "notes": "隱含跳空 SP500 -0.05% / XYZ100 -0.01%"
+    },
+    "19": {
+      "state": "🟢",
+      "notes": "SPX 0.72σ；BTC 0.01σ，皆屬日常波動"
+    },
+    "20": {
+      "state": "🟢",
+      "notes": "VRP +5.83 @09-03（VIX14.32-RV20 8.49）"
+    },
+    "21": {
+      "state": "🟢",
+      "notes": "SPX單日-0.38%未達-1%判定門檻，不適用"
+    },
+    "22": {
+      "state": "⚪️",
+      "notes": "RSP-SPY需yfinance，本環境SSL重置，滯後4週"
+    },
+    "23": {
+      "state": "🟢",
+      "notes": "T10Y2Y+0.41 / T10Y3M+0.87，皆未倒掛"
+    },
+    "24": {
+      "state": "🟢",
+      "notes": "Sahm -0.07 @2026-08，遠離0.50"
+    },
+    "25": {
+      "state": "🟢",
+      "notes": "LEI 99.5 2026-07，6個月增速+0.2%"
+    },
+    "26": {
+      "state": "🟢",
+      "notes": "SPX偏離200DMA +8.08%，斜率+1.30%，多頭機制"
+    },
+    "27": {
+      "state": "🔴",
+      "notes": "Buffett 218.14% @2026Q1 >200% 已觸發"
+    },
+    "28": {
+      "state": "🔴",
+      "notes": "CAPE 41.41 @09-04 >30 已觸發"
+    },
+    "29": {
+      "state": "🟡",
+      "notes": "AAII股票配置 67.3% @2026-08，近70%閾值"
+    },
+    "30": {
+      "state": "🔴",
+      "notes": "Margin Debt/GDP 4.36% >3.0% 已觸發"
+    }
+  },
+  "hard_thresholds": {
+    "1": {
+      "symbol": "❌",
+      "name": "VIX 突破并站稳（>25 且连续 3 个交易日）"
+    },
+    "2": {
+      "symbol": "❌",
+      "name": "Margin Debt 月减（连续 3 个月）"
+    },
+    "3": {
+      "symbol": "❌",
+      "name": "HY Spread 扩张（>4.5%）"
+    },
+    "4": {
+      "symbol": "❌",
+      "name": "Fear & Greed 从高位回落（>75 跌回 <50）"
+    },
+    "5": {
+      "symbol": "❌",
+      "name": "A/D Line 顶背离（SPX 新高但 A/D 未创新高）"
+    },
+    "6": {
+      "symbol": "✅",
+      "name": "BofA Bull & Bear（>8.0）"
+    },
+    "7": {
+      "symbol": "❌",
+      "name": "Insider Buy/Sell（<0.17）"
+    }
+  },
+  "tracks": {
+    "strategic": {
+      "baseline_pct": 100
+    },
+    "tactical": {
+      "state": "🟢",
+      "above_200dma": true,
+      "dma200_slope_positive": true
+    }
+  },
+  "date": "2026-09-05",
+  "updated_at": "2026-09-05 08:22:43+0000",
+  "written_by": "snapshot.py",
+  "history": [
+    {
+      "date": "2026-09-05",
+      "trigger_count": 1,
+      "unknown_count": 0,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟢",
+      "above_200dma": true
+    }
+  ]
+}
