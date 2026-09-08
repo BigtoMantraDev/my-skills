@@ -23,9 +23,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 88.74,
+        "price": 86.48,
         "as_of": "2026-09-08",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/ （页面未标注报价日；抓取于 2026-09-08 约 10:30 ET 美股盘中，为盘中最新挂牌报价、非当日收盘。同页并列显示 YTW：9.625%→12.36%、9.75%→12.31%、9.00%→12.04%、8.50%EUR→11.29%，与本地反解可交叉核对）"
+        "source": "TradingView NASDAQ:CRWV bonds page（同上）；ISIN/CUSIP USU2069EAE0，9.625% 15-Jul-2032；页面未标注报价日，抓取于2026-09-08约18:10 ET"
       }
     },
     {
@@ -43,9 +43,9 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 90.5,
+        "price": 90.16,
         "as_of": "2026-09-08",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/ （页面未标注报价日；抓取于 2026-09-08 约 10:30 ET 美股盘中，为盘中最新挂牌报价、非当日收盘。同页并列显示 YTW：9.625%→12.36%、9.75%→12.31%、9.00%→12.04%、8.50%EUR→11.29%，与本地反解可交叉核对）"
+        "source": "TradingView NASDAQ:CRWV bonds page (https://www.tradingview.com/symbols/NASDAQ-CRWV/bonds/)；ISIN/CUSIP USU2069EAC4，9.75% 01-Oct-2031；页面未标注报价日，抓取于2026-09-08约18:10 ET"
       }
     },
     {
@@ -62,9 +62,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 90.51,
+        "price": 88.26,
         "as_of": "2026-09-08",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/ （页面未标注报价日；抓取于 2026-09-08 约 10:30 ET 美股盘中，为盘中最新挂牌报价、非当日收盘。同页并列显示 YTW：9.625%→12.36%、9.75%→12.31%、9.00%→12.04%、8.50%EUR→11.29%，与本地反解可交叉核对）"
+        "source": "TradingView NASDAQ:CRWV bonds page（同上）；ISIN/CUSIP USU2069EAB6，9.00% 01-Feb-2031；页面未标注报价日，抓取于2026-09-08约18:10 ET"
       }
     },
     {
@@ -82,9 +82,9 @@
       "rating_cohort": "single_b",
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
-        "price": 88.21,
+        "price": 87.25,
         "as_of": "2026-09-08",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/ （页面未标注报价日；抓取于 2026-09-08 约 10:30 ET 美股盘中，为盘中最新挂牌报价、非当日收盘。同页并列显示 YTW：9.625%→12.36%、9.75%→12.31%、9.00%→12.04%、8.50%EUR→11.29%，与本地反解可交叉核对）"
+        "source": "TradingView NASDAQ:CRWV bonds page（同上）；ISIN 显示为 XS333313928（页面渲染/抓取可能截断，未逐位核实），8.50% 15-Jul-2032，EUR计价；页面未标注报价日，抓取于2026-09-08约18:10 ET；EUR债绝对利差按下游口径标N/A，仅供EUR HY相对比较"
       }
     },
     {
@@ -102,9 +102,9 @@
       "note": "项目层 SPV，背后是 AWS 10-15 年租约 → L2 真正的主题指标。这条走阔才是论点崩坏",
       "is_l2_benchmark": true,
       "quote": {
-        "price": 101.28,
-        "as_of": "2026-07-30",
-        "source": "ICE/FactSet 挂牌报价"
+        "price": 100.36,
+        "as_of": "2026-09-08",
+        "source": "TradingView NASDAQ:CIFR bonds page (https://www.tradingview.com/symbols/NASDAQ-CIFR/bonds/)；行标识 BLPG6304798，Black Pearl Compute LLC 6.125% 15-Feb-2031，Moody's Ba2；页面未标注报价日，抓取于2026-09-08约18:10 ET"
       }
     },
     {
