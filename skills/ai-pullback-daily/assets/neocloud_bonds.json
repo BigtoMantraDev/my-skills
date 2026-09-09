@@ -23,9 +23,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 88.74,
-        "as_of": "2026-09-08",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/ （页面未标注报价日；抓取于 2026-09-08 约 10:30 ET 美股盘中，为盘中最新挂牌报价、非当日收盘。同页并列显示 YTW：9.625%→12.36%、9.75%→12.31%、9.00%→12.04%、8.50%EUR→11.29%，与本地反解可交叉核对）"
+        "price": 87.3,
+        "as_of": "2026-09-09",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CRWV/bonds/ （挂牌报价，页面未标注报价日，抓取于 2026-09-09）"
       }
     },
     {
@@ -43,9 +43,9 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 90.5,
-        "as_of": "2026-09-08",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/ （页面未标注报价日；抓取于 2026-09-08 约 10:30 ET 美股盘中，为盘中最新挂牌报价、非当日收盘。同页并列显示 YTW：9.625%→12.36%、9.75%→12.31%、9.00%→12.04%、8.50%EUR→11.29%，与本地反解可交叉核对）"
+        "price": 90.26,
+        "as_of": "2026-09-09",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CRWV/bonds/ （挂牌报价，页面未标注报价日，抓取于 2026-09-09）"
       }
     },
     {
@@ -62,9 +62,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 90.51,
-        "as_of": "2026-09-08",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/ （页面未标注报价日；抓取于 2026-09-08 约 10:30 ET 美股盘中，为盘中最新挂牌报价、非当日收盘。同页并列显示 YTW：9.625%→12.36%、9.75%→12.31%、9.00%→12.04%、8.50%EUR→11.29%，与本地反解可交叉核对）"
+        "price": 89.26,
+        "as_of": "2026-09-09",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CRWV/bonds/ （挂牌报价，页面未标注报价日，抓取于 2026-09-09）"
       }
     },
     {
@@ -102,9 +102,9 @@
       "note": "项目层 SPV，背后是 AWS 10-15 年租约 → L2 真正的主题指标。这条走阔才是论点崩坏",
       "is_l2_benchmark": true,
       "quote": {
-        "price": 101.28,
-        "as_of": "2026-07-30",
-        "source": "ICE/FactSet 挂牌报价"
+        "price": 99.69,
+        "as_of": "2026-09-09",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CIFR/bonds/ （Black Pearl Compute LLC 6.125% 15-FEB-2031；挂牌报价，页面未标注报价日，抓取于 2026-09-09）"
       }
     },
     {
@@ -180,6 +180,34 @@
         "status": "priced",
         "purpose": "CoreWeave 北达科他数据中心",
         "source": "对照点：6月为信用修复叙事顶点（半年前投资人索要10%）"
+      },
+      {
+        "date": "2026-08-10",
+        "issuer": "CoreWeave",
+        "instrument": "DDTL 5.5 Facility (delayed draw term loan, CoreWeave Financing DDTL V-V, LLC)",
+        "size_usd_mm": 2600,
+        "base_rate": "SOFR",
+        "initial_spread_bp": 425,
+        "final_spread_bp": 550,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "support the purchase and deployment of HPC-backed infrastructure dedicated to customer contracts",
+        "source": "SEC EDGAR 8-K EX-99.1 https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex991pr.htm (2026-08-10, $2.6bn priced at SOFR+5.50%, Ba2/BB+, DSCR 1.35x). initial_spread_bp=425 取自二手报导的初始区间下限(SOFR+425~450)。注：极可能与本档 2026-07-29 'Term Loan B' repricing 为同一笔交易的定价讨论期/关闭期两次记录；两笔均保留，脚本按日期倒序只取最近一笔候选。"
+      },
+      {
+        "date": "2026-08-28",
+        "issuer": "Lambda",
+        "instrument": "short-term private debt (arranged by JPMorgan Chase)",
+        "size_usd_mm": 1000,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "purchase Nvidia AI chips to lease to Microsoft",
+        "source": "TechCrunch https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/ （条款未披露：无 base_rate/spread/OID，故不进脚本候选、不参与 L1 判定；date 为报导日）"
       }
     ]
   },
