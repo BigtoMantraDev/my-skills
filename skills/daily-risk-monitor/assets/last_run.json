@@ -2,123 +2,123 @@
   "signals": {
     "1": {
       "state": "🟢",
-      "notes": "HY OAS 2.65% @09-03; 4wk -6bp; SPX 未创新高"
+      "notes": "HY OAS 2.70% @09-10，4 周内未走阔 50bps"
     },
     "2": {
       "state": "🟢",
-      "notes": "读数⚪️(barchart空/macromicro403/搜索无日期); 触发前提 SPX 新高=否"
+      "notes": "SPX 未创新高（-1.82%），触发前提不成立；比例值本身未取得"
     },
     "3": {
       "state": "⚪️",
-      "notes": "BofA B&B 无公开源; 上次已知 9.7 @2026-08上旬, 滞后4周(该读数>8.0)"
+      "notes": "BofA 无 9 月期读数；上次 9.7 @2026-08-28，滞后 2 周"
     },
     "4": {
-      "state": "🟢",
-      "notes": "VIX 14.32 / VIX3M 17.42 @09-03, 正价差 +3.10"
+      "state": "🟡",
+      "notes": "VIX 17.84 / VIX3M 19.73，价差 +1.89 压缩至 9.6%"
     },
     "5": {
-      "state": "🟡",
-      "notes": "净流动性 5768.7B @09-02, 连4周降; 但 SPX 同期 -0.74% 未上涨"
+      "state": "🟢",
+      "notes": "净流动性 $5,856.9B @09-09，周环比 +$88.2B，非连 4 周降"
     },
     "6": {
       "state": "🟢",
-      "notes": "A/D 当日净涨跌 -89 @09-04; 累积线⚪️; 触发前提 SPX 新高=否"
+      "notes": "SPX 未创新高，顶背离前提不成立"
     },
     "7": {
       "state": "⚪️",
-      "notes": "NAAIM 自2026-08-01改订阅制/公开延迟3月; 上次 79.70 @07-29, 滞后6周"
+      "notes": "NAAIM 转订阅制；上次 79.7 @2026-07-29，滞后 6 周"
     },
     "8": {
       "state": "🟢",
-      "notes": "AAII 多空差 +2.1pt @週結09-02 (39.7/22.7/37.6)"
+      "notes": "AAII 多空差 -1.3 @09-09，连续 >30 週数 0"
     },
     "9": {
       "state": "🟢",
-      "notes": "CNN F&G 41.9 fear @09-08; 30日高点66.6, 从未>75"
+      "notes": "F&G 33.3（恐惧）@09-11"
     },
     "10": {
       "state": "🟢",
-      "notes": "CBOE equity P/C 0.67 @09-01 (thetrading.tools 镜像)"
+      "notes": "CBOE Equity P/C 0.58 @09-11"
     },
     "11": {
       "state": "🟡",
-      "notes": "Margin Debt 1417.2B @2026-07; YoY +38.6% 距+40%不足10%; MoM -5.7% 首月降"
+      "notes": "Margin Debt YoY +38.6% @2026-07，距 +40% 阈值 3.5%"
     },
     "12": {
       "state": "⚪️",
-      "notes": "GuruFocus HTTP 403; 上次已知 0.23 @2026-07, 滞后10周(>0.17)"
+      "notes": "GuruFocus 403 / openinsider 503；上次 0.23 @2026-07-01，滞后 10 周"
     },
     "13": {
       "state": "🔴",
-      "notes": "IPO 募资 $145.8B YoY +541.8% >100% 触发; 件数 106 宗 -25.9% 未触发"
+      "notes": "IPO 金额 YoY +437.9%，剔除最大单案仍 +121.8%"
     },
     "14": {
       "state": "🟢",
-      "notes": "费率 BTC -0.0044/ETH +0.0027/SOL -0.0119 %/8h @09-08 (Hyperliquid, Binance 451)"
+      "notes": "Hyperliquid 备援源：BTC -0.0107%/8h、ETH +0.0100%、SOL -0.0101%"
     },
     "15": {
       "state": "⚪️",
-      "notes": "清算无免费公开源; 上次 $304M(多头246/空头57.6) @2026-08-26, 滞后2周"
+      "notes": "Coinglass 需 key；上次 $304M @2026-08-26，滞后 2.4 周"
     },
     "16": {
       "state": "⚪️",
-      "notes": "Dominance 58.93% @09-08, 24h +1.16pt 未触发; 7d腿⚪️历史不足(已累积1天)"
+      "notes": "24h +1.83% 未触发；7d 腿历史不足（已累积 2 天）"
     },
     "17": {
-      "state": "🟢",
-      "notes": "USDT+USDC 257.74B @09-08; 7d +0.93B 净流入; 14d +0.29% 近乎持平"
+      "state": "🔴",
+      "notes": "稳定币 7 日净流出 -$158.4M，触发；14 日 +$372.3M 未确认"
     },
     "18": {
       "state": "🟢",
-      "notes": "xyz:SP500 -0.43% / XYZ100 -0.26% vs 09-04 收盘; 费率年化 5.47% 纯利率"
+      "notes": "SP500 隐含跳空 +0.056%、XYZ100 +0.053%（现货收盘滞后 1 交易日）"
     },
     "19": {
-      "state": "🟢",
-      "notes": "SPX 0.72σ (-0.38%, 1σ=0.523%) @09-04; BTC 0.39σ (-1.01%, 1σ=2.616%)"
+      "state": "⚪️",
+      "notes": "SPX 1.52σ 🟢；BTC-USD 取不到（HTTP 451）→ 本项取较严一档"
     },
     "20": {
       "state": "🟢",
-      "notes": "VRP = 14.32 - RV20 8.49 = +5.83 @09-03 (同日同源 FRED)"
+      "notes": "VRP +9.11 @09-10"
     },
     "21": {
       "state": "🟢",
-      "notes": "不适用: 上一交易日 SPX -0.38%, 未达 -1% 判定门槛"
+      "notes": "SPY +0.85%，未跌逾 1%，不适用"
     },
     "22": {
-      "state": "⚪️",
-      "notes": "RSP-SPY 取不到 (yfinance 429/连线重置x3, stooq JS挑战); 上次 +0.08pt @08-07, 滞后5周"
+      "state": "🟢",
+      "notes": "RSP-SPY -0.055pt，广度一致"
     },
     "23": {
       "state": "🟢",
-      "notes": "T10Y2Y +0.41 / T10Y3M +0.87 @09-04, 皆未倒挂; 无当期倒挂转正事件"
+      "notes": "10Y-2Y +0.33 / 10Y-3M +0.89，窗口内无倒挂"
     },
     "24": {
       "state": "🟢",
-      "notes": "Sahm -0.07 @2026-08, 滞后5周, 远离 0.50"
+      "notes": "Sahm -0.07 @2026-08"
     },
     "25": {
       "state": "🟢",
-      "notes": "LEI 2026-07 +0.2% MoM; 6个月成长率 +0.2%, 未低于 -4%"
+      "notes": "LEI 99.5 @2026-07，6 个月变化 +0.2%（未年化）"
     },
     "26": {
       "state": "🟢",
-      "notes": "SPX 7718.60 vs 200DMA 7141.76 (+8.08%), 20日斜率 +1.30%, 连续105交易日站稳 (FRED SP500 自算)"
+      "notes": "SPX 高于 200DMA +6.90%，斜率 +1.30%，连续 109 交易日"
     },
     "27": {
-      "state": "🔴",
-      "notes": "Buffett 218.14% @2026-Q1 同季对齐, >200% 触发, 滞后35周"
+      "state": "⚪️",
+      "notes": "fred.sh --buffett 量级自检未过 exit 4，do_not_quote；对照源口径不同"
     },
     "28": {
       "state": "🔴",
-      "notes": "Shiller CAPE 41.41 @09-04, >30 触发, 距史高44.19 -2.78"
+      "notes": "Shiller CAPE 41.09 @09-11"
     },
     "29": {
       "state": "🔴",
-      "notes": "AAII 家庭股票配置 71.05% @2026-08, >70% 触发"
+      "notes": "AAII 家庭股票配置 71.05% @2026-08"
     },
     "30": {
       "state": "🔴",
-      "notes": "Margin Debt/GDP = 1417.2B/32486.1B = 4.36%, >3.0% 触发"
+      "notes": "Margin Debt/GDP 4.36% @2026-07"
     }
   },
   "hard_thresholds": {
@@ -161,12 +161,20 @@
       "dma200_slope_positive": true
     }
   },
-  "date": "2026-09-08",
-  "updated_at": "2026-09-08 08:31:45+0000",
+  "date": "2026-09-12",
+  "updated_at": "2026-09-12 09:18:10+0000",
   "written_by": "snapshot.py",
   "history": [
     {
       "date": "2026-09-08",
+      "trigger_count": 0,
+      "unknown_count": 2,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟢",
+      "above_200dma": true
+    },
+    {
+      "date": "2026-09-12",
       "trigger_count": 0,
       "unknown_count": 2,
       "strategic_baseline_pct": 100,
