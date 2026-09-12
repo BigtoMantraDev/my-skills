@@ -25,7 +25,7 @@
       "quote": {
         "price": 86.6,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAE0，9.625%、到期 2032-07-15；同页 YTW 12.34%）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAE0；干净价 clean price；同页 YTW 12.34%）。页面无报价日期字段，取数日 2026-09-12 为周六休市，as_of 归属最近完整美国交易日 2026-09-11。"
       }
     },
     {
@@ -45,7 +45,7 @@
       "quote": {
         "price": 90.04,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAC4，9.750%；同页 YTW 12.25%；同页到期显示 2031-10-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAC4；干净价 clean price；同页 YTW 12.25%）。页面无报价日期字段，取数日 2026-09-12 为周六休市，as_of 归属最近完整美国交易日 2026-09-11。"
       }
     },
     {
@@ -64,7 +64,7 @@
       "quote": {
         "price": 88.85,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAB6，9.000%；同页 YTW 11.76%；同页到期显示 2031-02-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAB6；干净价 clean price；同页 YTW 11.76%）。页面无报价日期字段，取数日 2026-09-12 为周六休市，as_of 归属最近完整美国交易日 2026-09-11。"
       }
     },
     {
@@ -104,7 +104,7 @@
       "quote": {
         "price": 99.34,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC，6.125%、到期 2031-02-15、USD；Moody's Ba2；YTW 列为「—」，无同源收益率可交叉核对）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。本次取回的价与 2026-09-10 观测值相同（同页 CRWV 三笔当日均有变动），系当日重新取数结果，非沿用旧价。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC；干净价 clean price；同页 YTW 为「—」，成交稀薄、无同源收益率可交叉核对）。页面无报价日期字段，取数日 2026-09-12 为周六休市，as_of 归属最近完整美国交易日 2026-09-11。"
       }
     },
     {
@@ -121,9 +121,9 @@
       "rating_cohort": null,
       "note": "转债：利差被期权价值污染，不可直读为纯信用利差 → 仅参考，不参与任何判定",
       "quote": {
-        "price": 70.1,
-        "as_of": "2026-07-30",
-        "source": "ICE/FactSet 挂牌报价"
+        "price": 79.35,
+        "as_of": "2026-09-11",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-IREN/bonds/（ISIN US46270CAL3；干净价 clean price；同页 YTW 为「—」）。转债，仅参考。页面无报价日期字段，取数日 2026-09-12 为周六休市，as_of 归属最近完整美国交易日 2026-09-11。"
       }
     },
     {
@@ -140,9 +140,9 @@
       "rating_cohort": null,
       "note": "零息转债，同上仅参考",
       "quote": {
-        "price": 73.25,
-        "as_of": "2026-07-30",
-        "source": "ICE/FactSet 挂牌报价"
+        "price": 78.35,
+        "as_of": "2026-09-11",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-IREN/bonds/（ISIN US46270CAE9；干净价 clean price；同页 YTW 为「—」）。零息转债，仅参考。页面无报价日期字段，取数日 2026-09-12 为周六休市，as_of 归属最近完整美国交易日 2026-09-11。"
       }
     }
   ],
