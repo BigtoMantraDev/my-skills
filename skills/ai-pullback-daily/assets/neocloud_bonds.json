@@ -121,9 +121,9 @@
       "rating_cohort": null,
       "note": "转债：利差被期权价值污染，不可直读为纯信用利差 → 仅参考，不参与任何判定",
       "quote": {
-        "price": 70.1,
-        "as_of": "2026-07-30",
-        "source": "ICE/FactSet 挂牌报价"
+        "price": 79.35,
+        "as_of": "2026-09-11",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-IREN/bonds/（ISIN US46270CAL3，1.00%、USD、未偿 $3bn；同页到期显示 2033-12-01，本档 terms 为 2033-12-15/月精度，本次只更新 quote、不改 terms；YTW 列为「—」）。页面无报价日期字段、标注 Market closed / No trades，as_of 取最近完整交易日 2026-09-11（2026-09-12 周六休市），last price 可能来自更早成交日、页面未披露。转债利差含期权价值，不可直读为纯信用利差 → 仅参考，不参与判定。"
       }
     },
     {
@@ -140,9 +140,9 @@
       "rating_cohort": null,
       "note": "零息转债，同上仅参考",
       "quote": {
-        "price": 73.25,
-        "as_of": "2026-07-30",
-        "source": "ICE/FactSet 挂牌报价"
+        "price": 78.35,
+        "as_of": "2026-09-11",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-IREN/bonds/（ISIN US46270CAE9，0.00%、USD、未偿 $1bn；同页到期显示 2031-07-01，本档 terms 为 2031-07-15/月精度，本次只更新 quote、不改 terms；YTW 列为「—」）。页面无报价日期字段、标注 Market closed / No trades，as_of 取最近完整交易日 2026-09-11（2026-09-12 周六休市），last price 可能来自更早成交日、页面未披露。零息转债，同上仅参考，不参与判定。"
       }
     }
   ],
@@ -222,6 +222,20 @@
         "status": "priced",
         "purpose": "为非投资级客户部署采购 GPU；来源逐字「funds 90% of associated GPU capex」，并与客户预付款合计「provides funding in excess of GPU capex, supporting other data center capex requirements」",
         "source": "发行人一级来源：IREN Ltd FY26 业绩发布正文，SEC EDGAR sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm。逐字要点：$2.8B new GPU financings for non-investment grade customer deployments；$2.4B led by Blue Owl 与 Pacific Investment Management Company LLC (as adviser)；Mackenzie 风冷扩建融资逐字「9.0% fixed rate」。⚠️ 三点必须随本笔一起读：(1) 来源措辞为 committed，未写 closed/priced，本条 status 填 \"priced\" 是枚举内最接近项，非来源原词；(2) 未披露初始与最终利差指引，initial_spread_bp / final_spread_bp 皆留 null、未回填、不估算，故该笔不进 L1 候选过滤器；(3) date 2026-08-27 取 IREN FY26 业绩发布日（该融资随业绩公布），非必然为逐笔定价日。本笔与资产档现存 2026-06 IREN $3.65B 投资级 GPU 融资（$2.10B 私募 ≈SOFR+213bp、$1.55B DDTL SOFR+225bp）为不同交易。"
+      },
+      {
+        "date": "2026-08-13",
+        "issuer": "Zenith Arc LLC",
+        "instrument": "5 年期优先担保绿色票据（Senior Secured Green Notes）",
+        "size_usd_mm": 2250,
+        "base_rate": "FIXED",
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": 99.5,
+        "status": "priced",
+        "purpose": "为中俄克拉荷马州数据中心（149MW）及变电站的开发与建设融资；产能出租给 Jane Street，15 年 triple-net 租约并附担保",
+        "source": "Bloomberg bloomberg.com/news/articles/2026-08-13/jane-street-lease-backs-2-25-billion-of-green-data-center-bonds（文章日期 2026-08-13 周四），逐字「The five-year notes … priced late Thursday at 99.5 cents on the dollar to yield almost 9%. That was at the wide end of earlier pricing discussions.」。交叉核对：Octus Americas Leveraged Finance Weekly（2026-08-14）记票息 8.875%、OID 99.5；S&P Global Ratings 予 preliminary 'BB'、展望正面。⚠️ 三点须一起读：(1) date 取自文章日期与「priced late Thursday」的一致推定，非发行人一级文件确认的定价日；(2) 固定利率发行，来源未披露以 bp 计的初始/最终价格指引，两个 spread 留 null、不估算，故本笔不进 L1 候选过滤器；(3) 发行人为 Jane Street 承租的数据中心 SPV，非 neocloud 公司层发行人，与本档 bonds[] 无对应券。"
       }
     ]
   },
