@@ -104,7 +104,7 @@
       "quote": {
         "price": 99.34,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC，6.125%、到期 2031-02-15、USD；Moody's Ba2；YTW 列为「—」，无同源收益率可交叉核对）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。本次取回的价与 2026-09-10 观测值相同（同页 CRWV 三笔当日均有变动），系当日重新取数结果，非沿用旧价。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC，6.125%、到期 2031-02-15、USD；Moody's Ba2；YTW 列为「—」，无同源收益率可交叉核对）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。⚠️ 2026-09-13（周日）重新取数确认同价 99.34、页面标示「Market closed」与「No trades」——此价已连续三次观测（09-10 / 09-11 / 09-13）完全相同，而同页 CRWV 三笔在 09-10→09-11 间均有变动。**故本券挂牌价的真实报价日可能早于 as_of 所记的 2026-09-11，来源无法确证。** 成交稀薄、无同源 YTW 可交叉核对，据实记录、不推测。L2 项目层单靠本券支撑，其 5 天陈旧闸门按 as_of 计算，可能因此比实际更宽松——判读 L2 时须一并读本注。"
       }
     },
     {
