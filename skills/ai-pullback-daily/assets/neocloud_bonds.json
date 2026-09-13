@@ -25,7 +25,7 @@
       "quote": {
         "price": 86.6,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAE0，9.625%、到期 2032-07-15；同页 YTW 12.34%）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAE0，9.625%、到期 2032-07-15；同页 Price 列 86.60%、YTW 12.34%）。页面无报价日期字段且标示「Market closed」；2026-09-13（周日、美国二级市场休市）重新取数，读数与 2026-09-11 相同，系周末无新成交后的重取确认、非沿用旧价。as_of 记为最近一个完整交易日 2026-09-11（报价日上界）。"
       }
     },
     {
@@ -45,7 +45,7 @@
       "quote": {
         "price": 90.04,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAC4，9.750%；同页 YTW 12.25%；同页到期显示 2031-10-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAC4，9.750%；同页 Price 列 90.04%、YTW 12.25%；同页到期显示 2031-10-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms）。页面无报价日期字段且标示「Market closed」；2026-09-13（周日）重新取数，读数与 2026-09-11 相同，系重取确认、非沿用旧价。as_of 为报价日上界 2026-09-11。"
       }
     },
     {
@@ -64,7 +64,7 @@
       "quote": {
         "price": 88.85,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAB6，9.000%；同页 YTW 11.76%；同页到期显示 2031-02-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAB6，9.000%；同页 Price 列 88.85%、YTW 11.76%；同页到期显示 2031-02-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms）。页面无报价日期字段且标示「Market closed」；2026-09-13（周日）重新取数，读数与 2026-09-11 相同，系重取确认、非沿用旧价。as_of 为报价日上界 2026-09-11。"
       }
     },
     {
@@ -84,7 +84,7 @@
       "quote": {
         "price": 87.97,
         "as_of": "2026-09-10",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN XS333313928，8.500%、到期 2032-07-15、EUR 计价；同页 YTW 11.49%）。页面无报价日期字段，as_of 为观测日 2026-09-10（美股收盘后）。EUR 计价，绝对利差 N/A，只对 EUR HY 指数 BAMLHE00EHYIOAS 做相对比较，仅参考。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN XS333313928，8.500%、到期 2032-07-15、EUR 计价；同页 YTW 11.49%）。页面无报价日期字段，as_of 为观测日 2026-09-10（美股收盘后）。 ⚠️ 2026-09-13 重取得 Price 86.60% / YTW 11.24%，但两者互相矛盾：价较上次 87.97 下跌 1.37 点，YTW 反而由 11.49% 降至 11.24%（价跌应使收益率上行，久期约 4.5 年下 YTW 应约 11.8%）。且 86.60 与同页 USU2069EAE0 行两位小数完全相同，独立交叉核对失败（tradingview.com/symbols/FWB-XS333313928/ 需登录、live.deutsche-boerse.com/bond/xs333313928 返回 404）。疑为页面读数串行，故本轮不写入该读数，保留 2026-09-10 观测值。本债 EUR 计价、绝对利差 N/A，按 neocloud-credit 规则⑤「仅参考、不参与判定」，不影响四层裁决。"
       }
     },
     {
@@ -104,7 +104,7 @@
       "quote": {
         "price": 99.34,
         "as_of": "2026-09-11",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC，6.125%、到期 2031-02-15、USD；Moody's Ba2；YTW 列为「—」，无同源收益率可交叉核对）。页面无报价日期字段，as_of 为观测日 2026-09-11（美股收盘后）。本次取回的价与 2026-09-10 观测值相同（同页 CRWV 三笔当日均有变动），系当日重新取数结果，非沿用旧价。"
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC，6.125%、到期 2031-02-15、USD；Moody's Ba2；YTW 列显示「—」，无同源收益率可交叉核对）。页面无报价日期字段且标示「Market closed」；2026-09-13（周日）重新取数，读数与 2026-09-10／09-11 两次观测相同，系重取确认、非沿用旧价。⚠️ 该 SPV 债成交稀薄，「价格未动」与「报价未更新」在本页无法区分。as_of 为报价日上界 2026-09-11。"
       }
     },
     {
