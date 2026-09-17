@@ -24,9 +24,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 87.31,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAE0，9.625%、到期 2032-07-15；同页 YTW 12.43%；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
+        "price": 87.56,
+        "as_of": "2026-09-17",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAE0，9.625%、到期 2032-07-15；同页 YTW 12.44%；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-17；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
         "quote_kind": "close_clean"
       }
     },
@@ -45,9 +45,9 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 89.39,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAC4，9.750%；同页 YTW 12.46%；同页到期显示 2031-10-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
+        "price": 88.25,
+        "as_of": "2026-09-17",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAC4，9.750%；同页 YTW 12.78%；同页到期显示 2031-10-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-17（页面显示 Market closed / No trades）；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
         "quote_kind": "close_clean"
       }
     },
@@ -65,9 +65,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 88.29,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAB6，9.000%；同页 YTW 11.91%；同页到期显示 2031-02-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
+        "price": 88.48,
+        "as_of": "2026-09-17",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAB6，9.000%；同页 YTW 12.01%；同页到期显示 2031-02-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-17；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
         "quote_kind": "close_clean"
       }
     },
@@ -86,9 +86,9 @@
       "rating_cohort": "single_b",
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
-        "price": 86.57,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN XS333313928，8.500%、到期 2032-07-15、EUR 计价；同页 YTW 11.39%）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。EUR 计价，绝对利差 N/A，只对 EUR HY 指数 BAMLHE00EHYIOAS 做相对比较，仅参考。",
+        "price": 86.99,
+        "as_of": "2026-09-17",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN XS333313928，8.500%、到期 2032-07-15、EUR 计价；同页 YTW 11.24%；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-17；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。EUR 计价，绝对利差 N/A，只对 EUR HY 指数 BAMLHE00EHYIOAS 做相对比较，仅参考。",
         "quote_kind": "close_clean"
       }
     },
@@ -108,8 +108,8 @@
       "is_l2_benchmark": true,
       "quote": {
         "price": 99.34,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC，6.125%、到期 2031-02-15、USD；Moody's Ba2；YTW 列未显示，无同源收益率可交叉核对）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。本次取回的价与 2026-09-14 / 2026-09-11 观测值相同，系 2026-09-16 当日重新取数结果，非沿用旧价。",
+        "as_of": "2026-09-17",
+        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC，6.125%、到期 2031-02-15、USD；Moody's Ba2；YTW 列未显示，无同源收益率可交叉核对）。页面无报价日期字段，as_of 为观测日 2026-09-17（页面显示 Market closed / No trades）；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。本次取回的价与 2026-09-16 / 2026-09-14 / 2026-09-11 观测值相同，系 2026-09-17 当日重新取数结果，非沿用旧价。",
         "quote_kind": "close_clean"
       }
     },
@@ -228,6 +228,76 @@
         "status": "priced",
         "purpose": "为非投资级客户部署采购 GPU；来源逐字「funds 90% of associated GPU capex」，并与客户预付款合计「provides funding in excess of GPU capex, supporting other data center capex requirements」",
         "source": "发行人一级来源：IREN Ltd FY26 业绩发布正文，SEC EDGAR sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm。逐字要点：$2.8B new GPU financings for non-investment grade customer deployments；$2.4B led by Blue Owl 与 Pacific Investment Management Company LLC (as adviser)；Mackenzie 风冷扩建融资逐字「9.0% fixed rate」。⚠️ 三点必须随本笔一起读：(1) 来源措辞为 committed，未写 closed/priced，本条 status 填 \"priced\" 是枚举内最接近项，非来源原词；(2) 未披露初始与最终利差指引，initial_spread_bp / final_spread_bp 皆留 null、未回填、不估算，故该笔不进 L1 候选过滤器；(3) date 2026-08-27 取 IREN FY26 业绩发布日（该融资随业绩公布），非必然为逐笔定价日。本笔与资产档现存 2026-06 IREN $3.65B 投资级 GPU 融资（$2.10B 私募 ≈SOFR+213bp、$1.55B DDTL SOFR+225bp）为不同交易。"
+      },
+      {
+        "date": "2026-08-19",
+        "issuer": "WhiteFiber",
+        "instrument": "5.00% Convertible Senior Notes due 2032（可转债）",
+        "size_usd_mm": 310,
+        "base_rate": "FIXED",
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "来源未逐字披露用途明细（公司称用于一般公司用途与算力基础设施扩张）",
+        "source": "发行人一级来源：WhiteFiber, Inc.「Announces Pricing of Upsized $270.0 Million Convertible Senior Notes Offering」新闻稿（nasdaq.com 转载）＋ SEC 8-K sec.gov/Archives/edgar/data/0002042022/000121390026092599/。逐字要点：定价日 2026-08-19，5.00% Convertible Senior Notes due 2032（到期 2032-09-01），自 $250.0M 上调至 $270.0M，另授予 $40.0M 超额配售权；初始转股价约 $33.84，较 2026-08-18 收盘溢价约 25%；2026-08-21 closing 且超额配售权全额行使，合计 $310.0M。⚠️ 两点随本笔一起读：(1) date 取定价日 2026-08-19（closing 为 2026-08-21）；(2) 可转债票息含期权价值、非纯信用利差，initial/final spread 留 null、未估算，故本笔不进 L1 候选过滤器。"
+      },
+      {
+        "date": "2026-08-24",
+        "issuer": "Nebius Group",
+        "instrument": "0.50% Convertible Senior Notes due 2030（可转债）",
+        "size_usd_mm": 3450,
+        "base_rate": "FIXED",
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "AI 基础设施扩张（来源：Nebius 新闻稿）",
+        "source": "发行人一级来源：Nebius Group「announces closing of private offering of convertible senior notes, with aggregate gross proceeds of approximately $5.75 billion」nebius.com/newsroom/ ＋ SEC 6-K sec.gov/Archives/edgar/data/0001513845/000110465926100347/。逐字要点：2026-08-24 closing，两档 —— 0.50% due 2030 本金 $3.45B、4.50% due 2034 本金 $2.30B，合计 $5.75B；2030 档初始转股价约 $313.46/Class A 股。⚠️ (1) date 2026-08-24 为来源披露的 closing 日（定价日更早，来源另有一份 upsized $5.0B 定价稿，本次未逐字确认其日期，故未回填）；(2) 可转债票息含期权价值、非纯信用利差，spread 留 null，不进 L1 候选过滤器。"
+      },
+      {
+        "date": "2026-08-24",
+        "issuer": "Nebius Group",
+        "instrument": "4.50% Convertible Senior Notes due 2034（可转债）",
+        "size_usd_mm": 2300,
+        "base_rate": "FIXED",
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "AI 基础设施扩张（来源：Nebius 新闻稿）",
+        "source": "同上一笔，发行人一级来源 Nebius Group closing 新闻稿 nebius.com/newsroom/ ＋ SEC 6-K。本档 4.50% due 2034，本金 $2.30B，初始转股价约 $324.65/Class A 股。与上一笔为同一次发行的两个 series，按票息与到期不同分列两条，未合并。⚠️ 同上：date 为 closing 日；可转债 spread 留 null，不进 L1 候选过滤器。"
+      },
+      {
+        "date": "2026-08-31",
+        "issuer": "Nscale（Nscale Ward County Borrower SPV, LLC）",
+        "instrument": "Senior Secured Delayed Draw Term Loan（杠杆贷款，DDTL）",
+        "size_usd_mm": 1850,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "部署 NVIDIA GB300(Blackwell Ultra) 与 VR200(Vera Rubin) 系统，支撑 Ward County, TX 园区约 275MW IT 负载及配套网络/存储/液冷设备",
+        "source": "发行人一级来源：Nscale「Closes Approximately $3 Billion in Financing for Both Ward County, Texas and Madison County, North Carolina AI Deployments」nscale.com/press-releases/nscale-3-billion-delayed-draw-term-loans（同稿 PR Newswire 2026-09-07 转载）。逐字要点：2026-08-31 closing，两笔 senior secured DDTL 合计约 $3B commitments；Ward County 至多 $1.85B，经 Nscale Ward County Borrower SPV, LLC 发行；两笔均获投资级评级、展望稳定；J.P. Morgan 与 Goldman Sachs 联席牵头/联席簿记/联席结构代理，Ward County 由 JPM 任 lead left。⚠️ 三点：(1) 来源明确未披露 SOFR 利差与其他定价条款 → base_rate / initial_spread_bp / final_spread_bp / OID 全部留 null，未估算、未回填，本笔不进 L1 候选过滤器；(2) date 2026-08-31 为来源披露的 closed 日期，非必然为定价日；(3) size 为 commitment 上限（up to $1.85B），非已提取金额。"
+      },
+      {
+        "date": "2026-08-31",
+        "issuer": "Nscale（Madison County, NC）",
+        "instrument": "Senior Secured Delayed Draw Term Loan（杠杆贷款，DDTL）",
+        "size_usd_mm": 1200,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "部署 Madison County, NC AI 园区的 GPU 基础设施及配套网络/存储/液冷设备",
+        "source": "同上一笔，发行人一级来源 Nscale 新闻稿 nscale.com/press-releases/nscale-3-billion-delayed-draw-term-loans。本笔 Madison County, NC 至多 $1.2B，Goldman Sachs 任该笔 lead left。与上一笔为同一次公告的两笔独立设施，按借款主体/园区分列两条，未合并。⚠️ 同上：利差与 OID 未披露 → 留 null，不进 L1 候选过滤器；date 为 closed 日期；size 为 commitment 上限。"
       }
     ]
   },
