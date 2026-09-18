@@ -160,6 +160,20 @@
     ],
     "deals": [
       {
+        "date": "2026-09-17",
+        "issuer": "CoreWeave",
+        "instrument": "2.875% Convertible Senior Notes due 2033（144A 私募，规模自 $3.0B 上调至 $3.7B；另有 $500mm 增发选择权，13 日内可行使）",
+        "size_usd_mm": 3700,
+        "base_rate": "FIXED",
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "可转债融资；结算日 2026-09-22。初始转股价约 $97.85，较 2026-09-17 收盘 $79.88 溢价约 22.50%",
+        "source": "stocktitan.net/news/CRWV/core-weave-prices-upsized-3-7-billion-convertible-senior-notes-mehpzqf6tg8n.html（定价日 2026-09-17）。**转债，仅历史参照**：neocloud-credit.md 规则⑤『转债利差含期权价值 → 仅参考，不参与判定』；base_rate=FIXED 且两个 spread 均为 null，故不进 L1 一级市场候选过滤器（脚本 live 筛选要求 initial/final spread 皆非空）。记录理由：2.875% 票息 + 22.5% 转股溢价是本轮观察窗内唯一一笔 neocloud 一级市场定价，属融资可得性的正面证据"
+      },
+      {
         "date": "2026-08-10",
         "issuer": "CoreWeave",
         "instrument": "Delayed Draw Term Loan Facility（DDTL 5.5 Facility，杠杆贷款）",
