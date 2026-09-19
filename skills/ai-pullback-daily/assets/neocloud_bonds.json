@@ -228,6 +228,20 @@
         "status": "priced",
         "purpose": "为非投资级客户部署采购 GPU；来源逐字「funds 90% of associated GPU capex」，并与客户预付款合计「provides funding in excess of GPU capex, supporting other data center capex requirements」",
         "source": "发行人一级来源：IREN Ltd FY26 业绩发布正文，SEC EDGAR sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm。逐字要点：$2.8B new GPU financings for non-investment grade customer deployments；$2.4B led by Blue Owl 与 Pacific Investment Management Company LLC (as adviser)；Mackenzie 风冷扩建融资逐字「9.0% fixed rate」。⚠️ 三点必须随本笔一起读：(1) 来源措辞为 committed，未写 closed/priced，本条 status 填 \"priced\" 是枚举内最接近项，非来源原词；(2) 未披露初始与最终利差指引，initial_spread_bp / final_spread_bp 皆留 null、未回填、不估算，故该笔不进 L1 候选过滤器；(3) date 2026-08-27 取 IREN FY26 业绩发布日（该融资随业绩公布），非必然为逐笔定价日。本笔与资产档现存 2026-06 IREN $3.65B 投资级 GPU 融资（$2.10B 私募 ≈SOFR+213bp、$1.55B DDTL SOFR+225bp）为不同交易。"
+      },
+      {
+        "date": "2026-09-18",
+        "issuer": "CoreWeave",
+        "instrument": "2.875% Convertible Senior Notes due 2033-04-01（144A 私募）",
+        "size_usd_mm": 3700,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "净募集约 $3.6bn（超额配售全额行权约 $4.1bn），其中约 $498.8mm 用于 capped call，其余一般公司用途",
+        "source": "https://www.investing.com/news/company-news/coreweave-prices-37-billion-convertible-notes-offering-93CH-4907109（定价稿 2026-09-18）。逐字要点：发行规模自 $3.0bn 上调至 $3.7bn，另有 13 日内 $500mm 超额配售权；票息 2.875%；转股比率 10.2194/千美元，转股价约 $97.85，较 2026-09-17 收盘 $79.88 溢价 22.50%；结算 2026-09-22；2030-04-05 起可赎回。⚠️ 三点须随本笔一起读：(1) 本笔为**可转债**，票息含期权价值，**不可直读为纯信用利差**，不参与任何利差判定；(2) 未披露利差指引，initial_spread_bp / final_spread_bp 皆留 null、未估算、不回填，故本笔**不进 L1 一级市场候选过滤器**（脚本要求 status∈{priced,repricing} 且两个 spread 均非空）；(3) 方向为**上调发行规模 + 22.5% 转股溢价**，属需求强劲而非被迫让价，与 2026-08-10 DDTL 的 S+425→S+550 让价方向相反。"
       }
     ]
   },
