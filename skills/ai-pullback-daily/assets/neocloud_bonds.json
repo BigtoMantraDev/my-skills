@@ -24,9 +24,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 87.31,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAE0，9.625%、到期 2032-07-15；同页 YTW 12.43%；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
+        "price": 87.07,
+        "as_of": "2026-09-18",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CRWV/bonds/ — ISIN USU2069EAE0，页面 Price% 87.07。页面无报价日期字段：取数侧观测日为 2026-09-20（周日、债市休市），故 as_of 按「报价自身日期必 ≤ 最近完整交易日」记为 2026-09-18，不把观测日当报价日。页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
         "quote_kind": "close_clean"
       }
     },
@@ -45,9 +45,9 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 89.39,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAC4，9.750%；同页 YTW 12.46%；同页到期显示 2031-10-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
+        "price": 87.41,
+        "as_of": "2026-09-18",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CRWV/bonds/ — ISIN USU2069EAC4（L1 基准债），页面 Price% 87.41；页面到期日作 2031-10-01，与本档 terms 的当月 15 日不同，本次只更新 quote、不改 terms。页面无报价日期字段：取数侧观测日为 2026-09-20（周日、债市休市），故 as_of 按「报价自身日期必 ≤ 最近完整交易日」记为 2026-09-18，不把观测日当报价日。页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
         "quote_kind": "close_clean"
       }
     },
@@ -65,9 +65,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 88.29,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN USU2069EAB6，9.000%；同页 YTW 11.91%；同页到期显示 2031-02-01，与资产档 terms 的当月 15 日不同，本次只更新 quote、不改 terms；评级列 B/B1）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
+        "price": 88.45,
+        "as_of": "2026-09-18",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CRWV/bonds/ — ISIN USU2069EAB6，页面 Price% 88.45；页面到期日作 2031-02-01，与本档 terms 的当月 15 日不同，本次只更新 quote、不改 terms。页面无报价日期字段：取数侧观测日为 2026-09-20（周日、债市休市），故 as_of 按「报价自身日期必 ≤ 最近完整交易日」记为 2026-09-18，不把观测日当报价日。页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
         "quote_kind": "close_clean"
       }
     },
@@ -86,9 +86,9 @@
       "rating_cohort": "single_b",
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
-        "price": 86.57,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CRWV/bonds/（ISIN XS333313928，8.500%、到期 2032-07-15、EUR 计价；同页 YTW 11.39%）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。EUR 计价，绝对利差 N/A，只对 EUR HY 指数 BAMLHE00EHYIOAS 做相对比较，仅参考。",
+        "price": 87.25,
+        "as_of": "2026-09-18",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CRWV/bonds/ — ISIN XS333313928，EUR 计价，页面 Price% 87.25。EUR 计价绝对利差 N/A，仅对 EUR HY 指数 BAMLHE00EHYIOAS 相对比较，仅参考。页面无报价日期字段：取数侧观测日为 2026-09-20（周日、债市休市），故 as_of 按「报价自身日期必 ≤ 最近完整交易日」记为 2026-09-18，不把观测日当报价日。页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
         "quote_kind": "close_clean"
       }
     },
@@ -108,8 +108,8 @@
       "is_l2_benchmark": true,
       "quote": {
         "price": 99.34,
-        "as_of": "2026-09-16",
-        "source": "TradingView 债券页 tradingview.com/symbols/NASDAQ-CIFR/bonds/（识别码 BLPG6304798，发行人 Black Pearl Compute LLC，6.125%、到期 2031-02-15、USD；Moody's Ba2；YTW 列未显示，无同源收益率可交叉核对）。页面无报价日期字段，as_of 为观测日 2026-09-16；页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。本次取回的价与 2026-09-14 / 2026-09-11 观测值相同，系 2026-09-16 当日重新取数结果，非沿用旧价。",
+        "as_of": "2026-09-18",
+        "source": "TradingView 债券页 https://www.tradingview.com/symbols/NASDAQ-CIFR/bonds/ — TradingView 符号 BLPG6304798（Black Pearl Compute LLC 6.125% 15-FEB-2031），页面 Price% 99.34。⚠️ 与 2026-09-16 观测值完全相同，且单券页显示「No trades / Market closed」，本次取回的很可能仍是 2026-09-16 或更早的同一笔成交价，非新价。页面无报价日期字段：取数侧观测日为 2026-09-20（周日、债市休市），故 as_of 按「报价自身日期必 ≤ 最近完整交易日」记为 2026-09-18，不把观测日当报价日。页面未标注 clean/dirty，按面值百分比挂牌惯例判为干净价。",
         "quote_kind": "close_clean"
       }
     },
@@ -228,6 +228,20 @@
         "status": "priced",
         "purpose": "为非投资级客户部署采购 GPU；来源逐字「funds 90% of associated GPU capex」，并与客户预付款合计「provides funding in excess of GPU capex, supporting other data center capex requirements」",
         "source": "发行人一级来源：IREN Ltd FY26 业绩发布正文，SEC EDGAR sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm。逐字要点：$2.8B new GPU financings for non-investment grade customer deployments；$2.4B led by Blue Owl 与 Pacific Investment Management Company LLC (as adviser)；Mackenzie 风冷扩建融资逐字「9.0% fixed rate」。⚠️ 三点必须随本笔一起读：(1) 来源措辞为 committed，未写 closed/priced，本条 status 填 \"priced\" 是枚举内最接近项，非来源原词；(2) 未披露初始与最终利差指引，initial_spread_bp / final_spread_bp 皆留 null、未回填、不估算，故该笔不进 L1 候选过滤器；(3) date 2026-08-27 取 IREN FY26 业绩发布日（该融资随业绩公布），非必然为逐笔定价日。本笔与资产档现存 2026-06 IREN $3.65B 投资级 GPU 融资（$2.10B 私募 ≈SOFR+213bp、$1.55B DDTL SOFR+225bp）为不同交易。"
+      },
+      {
+        "date": "2026-09-17",
+        "issuer": "CoreWeave, Inc.",
+        "instrument": "2.875% Convertible Senior Notes due 2033-04-01（144A，自 $3.0bn 上调至 $3.7bn 定价，另授予初始购买人 $500mm 增额权）",
+        "size_usd_mm": 3700,
+        "base_rate": "FIXED_COUPON_CONVERTIBLE",
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "约 $498.8mm 用于 capped call 交易成本，其余一般公司用途；初始转股价约 $97.85/股，较 2026-09-17 收盘 $79.88 溢价约 22.50%；结算日 2026-09-22",
+        "source": "发行人一级来源：CoreWeave IR 新闻稿 investors.coreweave.com/news/news-details/2026/CoreWeave-Prices-Upsized-3-7-Billion-Convertible-Senior-Notes-Offering/（新闻稿 2026-09-18，定价 2026-09-17）。⚠️ 三点随本笔一起读：(1) 本笔为**可转债**，利差含期权价值、不可直读为纯信用利差，故 initial/final_spread_bp 留 null、未估算，该笔**不进 L1 候选过滤器**，仅作一级市场可及性的历史记录；(2) base_rate 非大写 SOFR，不计入全包成本折算；(3) 上调发行规模并以 22.5% 转股溢价定价，方向上是融资窗口通畅的证据，非被迫让价。"
       }
     ]
   },
