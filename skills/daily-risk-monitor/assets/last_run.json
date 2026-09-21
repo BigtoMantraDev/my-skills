@@ -2,31 +2,31 @@
   "signals": {
     "1": {
       "state": "🟢",
-      "notes": "HY OAS 2.70% @09-17，4週 −5bp；IG 0.78%/BBB 0.95% 觀察腿，分化 none"
+      "notes": "HY OAS 2.70% @09-17，4週 −5bp；IG 0.78%/BBB 0.95% 觀察腿（各用自己的線 +12/+14bp），分化 none"
     },
     "2": {
       "state": "🟢",
-      "notes": "比例本身未取得（barchart/stockcharts 皆空），但 SPX 未創新高(at_new_high=false)→前提不成立，觸發確定未成立"
+      "notes": "比例本身未取得（barchart 空 body／stockcharts 301→JS 殼／investing 為 2024-09-18 陳舊快照），但 SPX 未創新高(at_new_high=false，−1.90%)→前提不成立，觸發確定未成立"
     },
     "3": {
       "state": "🔴",
-      "notes": "BofA Bull&Bear 9.5 @09-17 > 8.0，已觸發（硬閾值第6項）"
+      "notes": "BofA Bull&Bear 9.5 @09-17（Flow Show 轉載）> 8.0，已觸發（硬閾值第6項）；前期 9.7 @08-28"
     },
     "4": {
       "state": "🟢",
-      "notes": "VIX 15.44 vs VIX3M 18.55 @09-17，正價差 +3.11"
+      "notes": "VIX 15.44 vs VIX3M 18.55 @09-17，正價差 +3.11，無倒掛"
     },
     "5": {
       "state": "🟢",
-      "notes": "淨流動性 $5,864.1B @09-16，週增 +$7.2B，非連4週下降"
+      "notes": "淨流動性 $5,864.1B @09-16，週增 +$7.2B；週變動 −12.3/−10.8/+88.2/+7.2，非連4週下降"
     },
     "6": {
       "state": "🟢",
-      "notes": "A/D 線 NYSE 口徑未取得，但 SPX 未創新高→前提不成立，觸發確定未成立"
+      "notes": "A/D 線未取到同構造「當前值+歷史峰值」配對（$NYAD 為 JS 殼），但 SPX 未創新高→前提不成立，觸發確定未成立"
     },
     "7": {
       "state": "⚪️",
-      "notes": "NAAIM 暫缺：官網轉訂閱制；上次 79.7 @2026-07-29，滯後 7 週"
+      "notes": "NAAIM 暫缺：naaim.org 自 2026-08-01 轉訂閱制(公開頁僅三個月延遲)／macromicro 鏡像 403；上次 79.7 @2026-07-29，滯後 7.7 週"
     },
     "8": {
       "state": "🟢",
@@ -34,55 +34,55 @@
     },
     "9": {
       "state": "🟢",
-      "notes": "CNN F&G 29.1 fear @09-18，未達 >75 亦未跌破 <25"
+      "notes": "CNN F&G 29.1 fear @09-21，未達 >75 亦未跌破 <25；30日峰值 66.11 @08-13"
     },
     "10": {
       "state": "🟢",
-      "notes": "CBOE Equity Put/Call 0.58 @09-18，未低於 0.50"
+      "notes": "CBOE Equity Put/Call 0.58 @09-18(頁面未標日期，按發布節奏推定)，未低於 0.50 亦未高於 1.20"
     },
     "11": {
       "state": "🟡",
-      "notes": "Margin Debt $1.45T @2026-08，YoY +37.2% 逼近 +40% 線；MoM +2.6% ↑"
+      "notes": "Margin Debt $1,453,832M @2026-08，YoY +37.2% 逼近 +40% 線；MoM +2.6% ↑"
     },
     "12": {
       "state": "⚪️",
-      "notes": "內部人暫缺：GuruFocus 403 / openinsider 503；上次 0.23 @2026-07，滯後 11 週"
+      "notes": "內部人暫缺：GuruFocus USA Overall Market 403／openinsider 兩次 503；上次 0.23 @2026-07，滯後 11.7 週"
     },
     "13": {
       "state": "🔴",
-      "notes": "IPO 金額 YTD $146.5B 同比 +392.3% > +100%，已觸發；剔除 SpaceX 後仍 +140.3%"
+      "notes": "IPO 金額 YTD $146.5B 同比 +392.3% > +100%，已觸發；件數 109 宗 同比 −30.1% 未觸發；SpaceX $75.5B 佔 51.5%"
     },
     "14": {
       "state": "🟢",
-      "notes": "資金費率 BTC 0.0107%/ETH 0.0152%/SOL 0.0100% (8h)，遠低於 0.05%；源 Hyperliquid(Binance 451)"
+      "notes": "資金費率 BTC 0.0100%/ETH 0.0183%/SOL 0.0112% (8h)，遠低於 0.05%；源 Hyperliquid(Binance 451)"
     },
     "15": {
-      "state": "🟡",
-      "notes": "24h 清算 $495M（窗口止 09-18 15:13），逼近 $500M 線；空頭 $440M(88.9%) 遠多於多頭"
+      "state": "🟢",
+      "notes": "24h 清算 $316M（窗口止 09-20）< $500M；多頭 $183M(57.9%) 多於空頭 $133M"
     },
     "16": {
-      "state": "⚪️",
-      "notes": "Dominance 58.36%，24h +2.96%(上升)未觸發；7d 腿⚪️歷史斷層：最近一筆 09-08 已 11 天，落在 6–10 天窗口外"
+      "state": "🟢",
+      "notes": "Dominance 58.25% @09-21，24h +1.19%(上升)；7d −1.05%(基準 09-14 同源 coingecko，剛好 7 天) 未達 −3%"
     },
     "17": {
-      "state": "🔴",
-      "notes": "穩定幣 $257.80B @09-19，7d −$146.5M 淨流出已觸發；14d −$309.9M 中期確認"
+      "state": "🟡",
+      "notes": "穩定幣 $257.80B @09-21，7d +$42.3M(+0.016% 形同持平) 未觸發淨流出；14d −$296.5M 中期萎縮仍成立"
     },
     "18": {
       "state": "🟢",
-      "notes": "SP500 perp 隱含跳空 +0.16%(對 09-17 收盤，滯後2日) / XYZ100 −0.13%(對 09-18)，皆 <1%"
+      "notes": "SP500 perp 隱含跳空 +0.72%(對 09-17 收盤，滯後4日) / XYZ100 +0.92%(對 09-18，滯後3日)，皆 <1%"
     },
     "19": {
       "state": "🟢",
-      "notes": "SPX 0.28σ / BTC 0.14σ @09-18，皆 <2σ 正常波動"
+      "notes": "SPX 0.28σ @09-18 / BTC 0.44σ @09-21，皆 <2σ 正常波動"
     },
     "20": {
       "state": "🟢",
-      "notes": "VRP +5.57（VIX 15.44 − RV20 9.87）@09-17，未轉負"
+      "notes": "VRP +5.57（VIX 15.44 − RV20 9.87）@09-17，未轉負亦未 >15"
     },
     "21": {
       "state": "🟢",
-      "notes": "SPY −0.12% 未跌逾 1%，本信號不適用"
+      "notes": "SPY −0.12% @09-18 未跌逾 1%，本信號不適用"
     },
     "22": {
       "state": "🟢",
@@ -90,7 +90,7 @@
     },
     "23": {
       "state": "🟢",
-      "notes": "T10Y2Y +0.25 / T10Y3M +0.87 @09-18，30日窗口內未曾倒掛，無 un-inversion"
+      "notes": "T10Y2Y +0.25 / T10Y3M +0.87 @09-18，窗口內未曾倒掛，無 un-inversion"
     },
     "24": {
       "state": "🟢",
@@ -98,15 +98,15 @@
     },
     "25": {
       "state": "🟢",
-      "notes": "LEI 99.5 @2026-08，六個月變化 −0.1%（非年化口徑）遠離 −4%"
+      "notes": "LEI 99.5 @2026-08，六個月變化 −0.1%（年化口徑未確認，兩種讀法皆遠離 −4%）"
     },
     "26": {
       "state": "🟢",
-      "notes": "SPX 7650.5 vs 200DMA 7183.05，偏離 +6.51%，斜率 +1.29%，多頭機制；連續站穩 114 日"
+      "notes": "SPX 7650.5 vs 200DMA 7183.05 @09-18，偏離 +6.51%，斜率 +1.29%，多頭機制；連續站穩 114 日"
     },
     "27": {
       "state": "🔴",
-      "notes": "Buffett 255.65% @2026-Q2（FRED 同季對齊）> 200%"
+      "notes": "Buffett 255.65% @2026-Q2（FRED 同季對齊）> 200%；對照源 CMV 244% @2026-Q2（口徑不同，不替代）"
     },
     "28": {
       "state": "🔴",
@@ -118,17 +118,17 @@
     },
     "30": {
       "state": "🔴",
-      "notes": "Margin Debt/GDP 4.36% @2026-07 > 3.0%（GuruFocus 路徑①）"
+      "notes": "Margin Debt/GDP 4.36% @2026-07 > 3.0%（GuruFocus 路徑①，頁面本體 403、數值取自搜索結果標題）"
     }
   },
   "hard_thresholds": {
     "1": {
-      "notes": "VIX 15.44 @09-17，近期最高 17.84，未曾 >25",
+      "notes": "VIX 15.44 @09-17，30日窗口最高 17.84，未曾 >25",
       "symbol": "❌",
       "name": "VIX 突破并站稳（>25 且连续 3 个交易日）"
     },
     "2": {
-      "notes": "Margin Debt 6月↑ / 7月↓ / 8月↑，非連續3個月月減",
+      "notes": "Margin Debt 6月↑/7月↓/8月↑ @2026-08，非連續3個月月減",
       "symbol": "❌",
       "name": "Margin Debt 月减（连续 3 个月）"
     },
@@ -138,12 +138,12 @@
       "name": "HY Spread 扩张（>4.5%）"
     },
     "4": {
-      "notes": "F&G 29.1 @09-18；30日峰值 66.11 從未 >75，腳本回 false 非 null",
+      "notes": "F&G 29.1 @09-21；30日峰值 66.11 從未 >75，腳本回 false 非 null",
       "symbol": "❌",
       "name": "Fear & Greed 从高位回落（>75 跌回 <50）"
     },
     "5": {
-      "notes": "SPX 未創新高(at_new_high=false，距252日收盤高 −1.90%)，前提不成立",
+      "notes": "SPX 未創新高(at_new_high=false，距252日收盤高 −1.90% @09-18)，前提不成立",
       "symbol": "❌",
       "name": "A/D Line 顶背离（SPX 新高但 A/D 未创新高）"
     },
@@ -153,7 +153,7 @@
       "name": "BofA Bull & Bear（>8.0）"
     },
     "7": {
-      "notes": "GuruFocus 403 / openinsider 503；上次 0.23 @2026-07，滯後 11 週",
+      "notes": "GuruFocus 403／openinsider 503×2；上次 0.23 @2026-07，滯後 11.7 週",
       "symbol": "⚪️",
       "name": "Insider Buy/Sell（<0.17）"
     }
@@ -168,8 +168,8 @@
       "dma200_slope_positive": true
     }
   },
-  "date": "2026-09-19",
-  "updated_at": "2026-09-19 08:19:30+0000",
+  "date": "2026-09-21",
+  "updated_at": "2026-09-21 08:23:01+0000",
   "written_by": "snapshot.py",
   "history": [
     {
@@ -198,6 +198,14 @@
     },
     {
       "date": "2026-09-19",
+      "trigger_count": 1,
+      "unknown_count": 1,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟢",
+      "above_200dma": true
+    },
+    {
+      "date": "2026-09-21",
       "trigger_count": 1,
       "unknown_count": 1,
       "strategic_baseline_pct": 100,
