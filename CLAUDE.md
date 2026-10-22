@@ -331,7 +331,7 @@ to the rest of the script directory.
 ## Fallback chains — the rule
 
 Several data points in this repo have no single reliable source, so they are
-fetched through an ordered chain. Seven exist today: HK prices (`hk_quote.py` →
+fetched through an ordered chain. Eight exist today: HK prices (`hk_quote.py` →
 yfinance, derived indicators only, never the price), VIX (FRED `VIXCLS` →
 yfinance `^VIX`), funding rates (Binance → Hyperliquid → coinglass search), BTC
 dominance (CoinGecko → CoinPaprika), ETF holdings (Alpha Vantage → yfinance
@@ -373,8 +373,18 @@ load-bearing:
   but cross-signal comparison is not, so the fallback emits an explicit
   date-skew warning into `degraded_reasons`. This is rule 3 in its sharpest form.
 
+An **eighth**, added 2026-10-22, is `fetch_fundamentals.py`'s FCF margin for the
+cash-flow/leverage rating caps: cash-flow-statement TTM (four quarter-ends aligned
+with the income statement) → latest annual statement → N/A. Both tiers are the
+same line (`Free Cash Flow` / revenue) over a 12-month window and differ only in
+as-of date, which is why the same `CASH_DEBT_TH` thresholds apply to both — the
+one place rule 4 is deliberately *not* invoked, and the reason is written here so
+it is not mistaken for an oversight. Every verdict carries the tier and period
+end, a period older than `max_period_age_days` is refused on either tier (rule 7),
+and the TTM-unavailable reason is recorded in `fcf_fallback_notes` (rule 6).
+
 They were each written separately; these constraints are common
-to all of them, and an eighth chain should follow them rather than reinvent one.
+to all of them, and a ninth chain should follow them rather than reinvent one.
 
 1. **The order is fixed and written down.** Not chosen at call time, not
    "whichever answers first".
@@ -612,6 +622,57 @@ the rolled baseline.
   report body and pushed to Slack, so a local absolute path would leak the
   machine's username.
 
+### Cash-flow / leverage rating caps (added 2026-10-22)
+
+Low free cash flow and high debt now cap a ticker's rating. Five things about it
+are load-bearing:
+
+- **The thresholds live in exactly one place**: `CASH_DEBT_TH` in
+  `fetch_fundamentals.py`. The rule body in `rating-rules.md` describes the rule's
+  shape and deliberately quotes no threshold numbers; the script prints the dict
+  into every run's 「现金流与负债 · 评级上限」 section and into `--json`
+  `cash_debt.criteria`. This is the two-`TH`-dicts trap avoided by construction —
+  do not copy the numbers into the rule body. Dated editor notes may record the
+  *readings* a calibration was made on, never the thresholds themselves.
+- **The cap is enforced, not requested.** The script emits `cash_debt.caps`
+  (`{ticker: {cap, applicable, evaluated, fcf_evaluated, reasons, na_reasons}}`) and
+  `baseline.py validate/diff/write --caps <fundamentals.json>` refuses any row
+  rated above its cap, refuses a caps file older than 7 days, dated in the
+  future or missing a ticker, and without `--caps` says so on stdout, stderr and
+  in JSON (`caps_checked: false` plus a `degraded_reasons` entry). That JSON is
+  the contract between the two scripts. `--caps` may be given more than once —
+  a full fetch plus a `--tickers` rerun written to a *separate* file — and per
+  ticker the entry from the most recently fetched file wins; a missing ticker is
+  judged against the union. `cap: null` is ambiguous on its own — it
+  means "no cap" only when `evaluated` is `"full"`; an applicable ticker that was
+  not fully evaluated has an *unknown* cap, is listed in `caps_unevaluated` /
+  `degraded_reasons`, and may not be rated 🟢 if its FCF leg was not evaluated —
+  every cap seen at calibration came from the FCF leg, so a net-cash leverage
+  reading cannot stand in for it. The rating order comes from `universe.json`
+  `ratings`; `fetch_fundamentals.py` refuses to run if that list stops matching
+  the four tiers the rule is written for. Its step-1 preview of rows that must
+  come down reads `baseline.md` through `baseline.py`'s own `Table` /
+  `column_index`, so the preview and the step-3 refusal cannot parse the table
+  two different ways.
+- **Statement retries must use a fresh `yf.Ticker`.** yfinance caches an empty
+  frame from a failed fetch on the Ticker object, so retrying on the same object
+  re-reads the cache without a single new request. Measured 2026-10-22: one
+  transient failure moved INTC from TTM to annual FCF and its cap from 🔵 to 🟡.
+  `_frame(t, attr, renew)` therefore re-instantiates on every retry.
+- **FCF never comes from `.info` `freeCashflow`.** Measured 2026-10-22 it differs
+  from the cash-flow statement's TTM `Free Cash Flow` in both directions
+  (NVDA 13.8% vs 41.9% of revenue, NET 27.5% vs 12.5%) — probably Yahoo's levered
+  FCF. The `FCF` field of mapping `F` is kept untouched (hard constraint 3) but
+  is reference only. TTM must take the **same** four quarter-ends from the
+  cash-flow statement and the income statement; picking each table's own "first
+  four non-empty columns" misaligned MU's revenue to 0.68× of the real TTM. The
+  order is TTM → latest annual (either rejected if older than `max_period_age_days`) →
+  N/A, and the tier is labelled — HK rows and MRAAY have no quarterly cash flow.
+- **Leverage is net debt / EBITDA, not 资产负债率.** Liabilities-to-assets counts
+  customer prepayments and deferred revenue as debt (NET 75% while net cash,
+  VRT 70%, ASML 57%) and would have downgraded VRT and ASML. It and D/E are
+  printed as reference only.
+
 ### Other non-obvious constraints
 
 - `references/*.md` are **verbatim migrations** from a private source document.
@@ -677,9 +738,9 @@ S=skills/ai-industry-weekly
 
 python3 $S/scripts/baseline.py show                    # current table (header + separator + rows)
 python3 $S/scripts/baseline.py meta                    # {date, updated_at, count, path}
-python3 $S/scripts/baseline.py validate <table.md>     # check only; exit 1 lists every problem
-python3 $S/scripts/baseline.py diff <table.md>         # rating changes + field drift
-python3 $S/scripts/baseline.py write <table.md> --date YYYY-MM-DD
+python3 $S/scripts/baseline.py validate <table.md> --caps /tmp/fundamentals.json   # check only; exit 1 lists every problem
+python3 $S/scripts/baseline.py diff <table.md> --caps /tmp/fundamentals.json       # rating changes + field drift
+python3 $S/scripts/baseline.py write <table.md> --date YYYY-MM-DD --caps /tmp/fundamentals.json
 
 python3 $S/scripts/fetch_fundamentals.py                      # all tickers
 python3 $S/scripts/fetch_fundamentals.py --tickers NVDA,TSM   # subset, for debugging
@@ -749,3 +810,45 @@ their own descriptive names — `AI_INDUSTRY_WEEKLY_DIR` (sibling-skill location
 `git push` uses the SSH host alias `github.com-personal`, while `gh` may be
 authenticated as a different account — check `gh auth status` before assuming
 PR creation will work.
+
+## Commits and pull requests
+
+The two follow **different** conventions on purpose: a commit subject names the
+change, a PR title names the problem that motivated it. Do not use one form
+where the other belongs.
+
+- **Commit messages follow [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)**:
+  `<type>[(scope)][!]: <description>`, then a blank line, then the body, then a
+  blank line before any footers.
+  - **Types in use here:** `feat`, `fix`, `docs`, `chore`, `refactor`, `style`.
+    The spec also allows `perf`, `test`, `ci` and `build`; this repo has no test
+    suite, no CI and no build, so reach for those only when the change really is
+    one of them.
+  - **Scope is the skill directory**: `ai-industry-weekly`, `ai-pullback-daily`,
+    `daily-risk-monitor`, `rust-best-practices`. Use `claude` for `CLAUDE.md`
+    and `.claude/`, `readme` for `README.md`. Comma-separate when a change
+    genuinely spans two — `refactor(ai-pullback-daily,daily-risk-monitor):`.
+    The routines' own data commits keep their established shape,
+    `chore(<skill>): daily run YYYY-MM-DD`.
+  - **Breaking changes** take `!` before the colon (`feat(ai-industry-weekly)!:`)
+    and/or a `BREAKING CHANGE:` footer. That token is the one part of the format
+    that MUST be uppercase. Here "breaking" means a script's CLI, its `--json`
+    shape, or a state file's format changed in a way an existing caller or the
+    sibling skill would trip over.
+  - **Footers are git trailers** (`Token: value`, hyphens not spaces), so the
+    `Co-Authored-By:` trailer belongs there — after a blank line, never glued to
+    the body.
+- **PR titles start with `Problem`** — `Problem: <the problem>` or, scoped,
+  `Problem(ai-industry-weekly): <the problem>`. State what is wrong, not what you
+  did: "Problem: one throttled ticker forces a full 46-ticker refetch before
+  `--caps` will accept the table", not "allow multiple --caps files". The
+  reviewer then reads the diff as an answer to a question rather than a claim to
+  audit, and the merge commit records why the work happened. GitHub appends
+  `(#NN)` itself — do not add it.
+- **Each commit should leave every script runnable on its own**, so a regression
+  bisects. There is no type-checker or test suite here, so "runnable" means the
+  scripts still compile (`python3 -m py_compile`) and the verification commands
+  for the area you touched still pass. Split by concern, not by file count, and
+  when two files cannot change apart (a `--json` field renamed in one script
+  while its reader in the other is repointed, say) keep them in one commit and
+  say so in the body rather than shipping a commit that breaks the hand-off.
