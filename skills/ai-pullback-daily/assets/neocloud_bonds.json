@@ -25,8 +25,8 @@
       "note": "公司层无担保高收益债",
       "quote": {
         "price": 80.5,
-        "as_of": "2026-10-21",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/a4ewub-coreweave-anleihe ; WKN A4EWUB, ISIN USU2069EAE06; headline Aktueller Kurs 80,50 % Kurszeit 21.10.2026 22:40:57 (German local, after US close), selected venue gettex (BMN), same venue as 2026-10-20; Vortag 80,50, Eroeffnung 80,50, Tagestief/Tageshoch 80,50/80,50 (headline equals prior day's value, as also on 2026-10-20). Bid/ask table 22:45:51 clean 79,61 / 82,55, dirty 82,17 / 85,11 (Stueckzinsen 2,563 per Kennzahlen). Duesseldorf realtime 21:19:08 bid 80,05 / ask 82,11. Other venues (no per-venue timestamps): Baader 81,11, Duesseldorf 79,46, Frankfurt 79,23, Muenchen 78,39, Quotrix 80,04. Headline not itself labelled clean/dirty; treated as clean consistent with prior runs (clean bid/ask straddles it).",
+        "as_of": "2026-10-22",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB, ISIN USU2069EAE06; venue gettex (BMN) last 80,50 % at 22.10.2026 22:42:11 (German local = 16:42 ET, after the US close), Vortag 80,50, range 80,50-80,50 (unchanged from prior days, as on 2026-10-20/21). Other venues on 22.10.2026: Baader 80,95 % 17:29:03 (Vortag 81,11, range 80,91-81,18); Duesseldorf 80,21 % 09:07:55 (Vortag 79,46); Frankfurt 80,04 % 08:00:25 (Vortag 79,23); Muenchen 80,13 % 17:02:09 (Vortag 78,39, range 80,00-80,14); Quotrix 79,93 % 17:30:28 (Vortag 80,04). Headline page HTTP 403, so no bid/ask or Stueckzinsen this run. Not labelled clean/dirty; treated as clean, consistent with prior runs.",
         "quote_kind": "close_clean"
       }
     },
@@ -45,9 +45,9 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 79.7,
-        "as_of": "2026-10-21",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/a4eucn-coreweave-anleihe ; WKN A4EUCN, ISIN USU2069EAC40; headline Aktueller Kurs 79,70 % Kurszeit 21.10.2026 17:23:54 (German local = about 11:23 ET, during US hours), venue Quotrix (XQTX), same venue as 2026-10-20; Vortag 80,47; Eroeffnung shown as 0,00 (no opening price). Bid/ask table 17:23:54 clean 79,70 / 85,70, dirty 80,23 / 86,23 (Stueckzinsen 0,536). Other venues (no per-venue timestamps): Duesseldorf 78,67, Frankfurt 79,61, Quotrix 79,70. Headline equals the clean bid. L1 benchmark bond.",
+        "price": 79.81,
+        "as_of": "2026-10-22",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN, ISIN USU2069EAC40; venue Quotrix last 79,81 % at 22.10.2026 19:46:16 (German local = 13:46 ET), Vortag 79,70, no range shown; same venue as 2026-10-20/21. Other venues: Frankfurt 79,82 % at 22.10.2026 17:20:05 (range 78,59-80,49, Vortag 79,61); Duesseldorf 80,31 % at 22.10.2026 09:07:55 (Vortag 78,67). Headline page HTTP 403, so bid/ask and Stueckzinsen were not available this run. Not labelled clean/dirty; treated as clean, consistent with prior runs. L1 benchmark bond.",
         "quote_kind": "close_clean"
       }
     },
@@ -65,9 +65,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 79.76,
-        "as_of": "2026-10-21",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66; venue Frankfurt (FSE) only, same venue as 2026-10-20; headline Aktueller Kurs 79,76 % Kurszeit 21.10.2026 08:01:56 (German local, before US open); Vortag 80,70; Eroeffnung 79,76; Tagestief/Tageshoch 79,76/79,76. Bid/ask table 17:23:00 clean 79,95 / 82,95, dirty 81,93 / 84,93 (Stueckzinsen 1,981). No other venues listed. Headline not itself labelled clean/dirty; treated as clean consistent with prior runs.",
+        "price": 80.75,
+        "as_of": "2026-10-22",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66; venue Frankfurt (FSE) only, last 80,75 % at 22.10.2026 08:00:24 (German local = 02:00 ET, before the US open), Vortag 79,76, range 80,75-80,75; no other venues listed. Page states maturity 01.02.2031. Headline page HTTP 403, so no bid/ask or Stueckzinsen this run. Not labelled clean/dirty; treated as clean, consistent with prior runs.",
         "quote_kind": "close_clean"
       }
     },
@@ -318,6 +318,20 @@
         "status": "priced",
         "purpose": "~$89.7mm capped call cost; remainder to Barber Lake equity investment, HPC build-out, development pipeline expansion, general corporate purposes",
         "source": "Issuer 8-K ex99.1 https://www.sec.gov/Archives/edgar/data/0001819989/000119312526421035/d77312dex991.htm (dateline 2026-10-14). Initial conversion price ~ $15.31 (~35.0% premium over $11.34 last sale 2026-10-13); settlement 2026-10-16. Concurrent exchange of ~$165.9mm 1.75% CB due 2030 for ~40.7mm shares. Proposed offering announced 2026-10-13; release does not state an initial marketed size, so upsize unknown. date = release date (pricing date per release). Fixed-rate convertible: no SOFR spread / OID, fields null (not estimated)."
+      },
+      {
+        "date": "2026-10-17",
+        "issuer": "Nebius Group N.V. (borrowers: Nebius Group N.V., Nebius Inc., Nebius B.V.)",
+        "instrument": "Senior secured term loan facility, 364-day (maturity 2027-10-16), Citibank N.A. mandated lead arranger and lender",
+        "size_usd_mm": 3500,
+        "base_rate": "SOFR",
+        "initial_spread_bp": null,
+        "final_spread_bp": 275,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "Financing the buildout of the Borrowers' GPU infrastructure capacity and other general corporate purposes",
+        "source": "Issuer 6-K https://www.sec.gov/Archives/edgar/data/0001513845/000110465926117978/tm2628078d1_6k.htm (filed 2026-10-22; agreement dated 2026-10-17). Terms: aggregate principal $3.5 billion; Term SOFR + applicable margin starting at 2.75% p.a., rising 0.25% for each 90-day period after 2026-10-17 up to 3.50% p.a. (contractual step-up, not price talk); maturity 2027-10-16; secured on substantially all assets of each Borrower incl. shares of the US and Dutch Borrowers; prepayable without premium or penalty. OID/upfront fee not disclosed, so left null. No initial marketed spread disclosed (bilateral facility), so initial_spread_bp is null and was not estimated. Status: source says the agreement was 'entered into'; 'priced' is the nearest enum value, not the source's word. date = agreement date."
       }
     ]
   },
