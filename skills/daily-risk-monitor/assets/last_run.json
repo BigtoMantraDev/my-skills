@@ -2,11 +2,11 @@
   "signals": {
     "1": {
       "state": "🟡",
-      "notes": "HY OAS 3.40% @10-22，4周 +60bp（1.30× 自身 p95）利差腿成立；SPX 10-23 未创 252 日收盘新高（距 10-06 高点 −2.50%）→触发未成立；IG 0.89%(+10bp)/BBB 1.11%(+14bp，达观察线) 观察腿，分化 broad_risk_appetite"
+      "notes": "HY OAS 3.40% @10-22，4周 +60bp（1.30× 自身 p95）利差腿成立；SPX 10-23 未创 252 日收盘新高（距 10-06 高点 −2.50%）→触发未成立；IG 0.89%(+10bp)/BBB 1.11%(+14bp，达自身观察线) 观察腿，分化 broad_risk_appetite"
     },
     "2": {
       "state": "🟢",
-      "notes": "SPX 10-23 收 7623.68 未创新高→前提不成立；barchart 空页/stockcharts 301→空壳→无比例读数"
+      "notes": "SPX 10-23 收 7623.68 未创新高→前提不成立；barchart 空页/stockcharts 429→无比例读数"
     },
     "3": {
       "state": "⚪️",
@@ -22,11 +22,11 @@
     },
     "6": {
       "state": "🟢",
-      "notes": "NYSE A/D 未取得（stockcharts 301→空壳），SPX 10-23 未创新高→前提不成立"
+      "notes": "NYSE A/D 未取得（stockcharts 429），SPX 10-23 未创新高→前提不成立"
     },
     "7": {
       "state": "⚪️",
-      "notes": "naaim.org 200 但公开数据滞后三个月；上次 79.7 @2026-07-29，滞后 12 周"
+      "notes": "naaim.org 200 但公开数据滞后三个月/订阅墙；上次 79.7 @2026-07-29，滞后 12 周"
     },
     "8": {
       "state": "🟢",
@@ -34,11 +34,11 @@
     },
     "9": {
       "state": "🔴",
-      "notes": "CNN F&G 21.0 extreme fear @10-23 收盘 <25（极度恐惧端）；前收 19.8，1周前 22.1，1月前 32.5；30日峰值 46.8 @10-06"
+      "notes": "CNN F&G 21.0 extreme fear @10-23 收盘 <25；前收 19.8，1周前 22.1，1月前 32.5；30日峰值 46.8 @10-06"
     },
     "10": {
       "state": "⚪️",
-      "notes": "Cboe 页有 Equity 标签但无交易日、不予采用；上次 0.53 @2026-09-22，滞后 4 周"
+      "notes": "Cboe 页 Equity 0.67 无交易日、不予采用；上次 0.53 @2026-09-22，滞后 4 周"
     },
     "11": {
       "state": "🟢",
@@ -54,27 +54,27 @@
     },
     "14": {
       "state": "🟢",
-      "notes": "BTC 0.0100% / ETH 0.0055% / SOL 0.0004% per 8h（Hyperliquid，Binance 451）"
+      "notes": "BTC 0.0083% / ETH 0.0100% / SOL 0.0047% per 8h（Hyperliquid，Binance 451）"
     },
     "15": {
       "state": "⚪️",
-      "notes": "Coinglass v4 需 key（exit 3）、检索无当日读数；上次 $70.7M @2026-10-11，滞后 1.9 周"
+      "notes": "Coinglass v4 需 key（exit 3）、检索无当日读数；上次 $70.7M @2026-10-11，滞后 2 周"
     },
     "16": {
       "state": "🟢",
-      "notes": "Dominance 59.50% @10-24 CoinGecko；24h +2.91%（上升，非跌）；7d −0.04%（同源基准 10-15）未触发"
+      "notes": "Dominance 60.10% @10-25 CoinGecko；24h +2.48%（上升，非跌）；7d +0.97%（同源基准 10-15）未触发"
     },
     "17": {
       "state": "🔴",
-      "notes": "稳定币 $254.47B @10-24，7d −$1.92B 净流出；14d −$2.76B 中期萎缩确认；1d −$0.48B"
+      "notes": "稳定币 $254.37B @10-25，7d −$1.81B 净流出；14d −$3.00B 中期萎缩确认；1d −$0.10B"
     },
     "18": {
       "state": "🟢",
-      "notes": "隐含跳空 SP500 −0.01%（对 10-23 收盘 7623.68，yfinance）/ XYZ100 −0.02%（对 10-23 FRED 收盘）；--from-fred SP500 收盘 10-21 滞后 3 天时为 −1.73%；资金费率年化 +5.47% / −2.86%"
+      "notes": "隐含跳空 SP500 +0.02%（对 10-23 收盘 7623.68，yfinance）/ XYZ100 +0.03%（对 10-23 FRED 收盘）；--from-fred SP500 收盘 10-21 滞后 4 天时为 −1.70%；资金费率年化 −2.47% / −3.45%"
     },
     "19": {
       "state": "🟢",
-      "notes": "SPX −0.52% = 0.83σ @10-23；BTC −0.47% = 0.33σ @10-24"
+      "notes": "SPX −0.52% = 0.83σ @10-23；BTC −0.33% = 0.23σ @10-25"
     },
     "20": {
       "state": "🟢",
@@ -98,7 +98,7 @@
     },
     "25": {
       "state": "🟢",
-      "notes": "LEI 99.6 @2026-09（10-22 公布），六个月 +0.6%（年化约 +1.2%，换算值）"
+      "notes": "LEI 99.6 @2026-09（10-22 公布），六个月 +0.6%（原文未标年化；年化后约 +1.2%，换算值）"
     },
     "26": {
       "state": "🟢",
@@ -118,7 +118,7 @@
     },
     "30": {
       "state": "🔴",
-      "notes": "Margin Debt/GDP 4.55% @2026-09/Q2（路径② 自算 1,480.1B÷32,563.0B；路径① GuruFocus 未取得）> 3.0%"
+      "notes": "Margin Debt/GDP 4.55% @2026-09/Q2（路径② 自算 1,480.1B÷32,563.0B；路径① GuruFocus 403）> 3.0%"
     }
   },
   "hard_thresholds": {
@@ -168,18 +168,10 @@
       "dma200_slope_positive": true
     }
   },
-  "date": "2026-10-24",
-  "updated_at": "2026-10-24 08:07:59+0000",
+  "date": "2026-10-25",
+  "updated_at": "2026-10-25 08:08:02+0000",
   "written_by": "snapshot.py",
   "history": [
-    {
-      "date": "2026-10-06",
-      "trigger_count": 1,
-      "unknown_count": 1,
-      "strategic_baseline_pct": 100,
-      "tactical_state": "🟢",
-      "above_200dma": true
-    },
     {
       "date": "2026-10-08",
       "trigger_count": 1,
@@ -278,6 +270,14 @@
     },
     {
       "date": "2026-10-24",
+      "trigger_count": 0,
+      "unknown_count": 2,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟢",
+      "above_200dma": true
+    },
+    {
+      "date": "2026-10-25",
       "trigger_count": 0,
       "unknown_count": 2,
       "strategic_baseline_pct": 100,
