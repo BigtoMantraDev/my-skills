@@ -6,11 +6,11 @@
     },
     "2": {
       "state": "🟢",
-      "notes": "SPX 10-23 收 7623.68 未创新高→前提不成立；barchart 空页/stockcharts 429→无比例读数"
+      "notes": "SPX 10-23 收 7623.68 未创新高→前提不成立；barchart 空页/stockcharts 仅页壳→无比例读数"
     },
     "3": {
       "state": "⚪️",
-      "notes": "10-23 期 Flow Show 两轮检索未见；上次 7.4 @2026-10-16，滞后 1 周"
+      "notes": "10-23 期 Flow Show 三段检索未见；上次 7.4 @2026-10-16，滞后 1 周"
     },
     "4": {
       "state": "🟢",
@@ -22,11 +22,11 @@
     },
     "6": {
       "state": "🟢",
-      "notes": "NYSE A/D 未取得（stockcharts 429），SPX 10-23 未创新高→前提不成立"
+      "notes": "NYSE A/D 未取得（stockcharts 页壳），SPX 10-23 未创新高→前提不成立"
     },
     "7": {
       "state": "⚪️",
-      "notes": "naaim.org 200 但公开数据滞后三个月/订阅墙；上次 79.7 @2026-07-29，滞后 12 周"
+      "notes": "naaim.org 公开数据滞后三个月/订阅墙；上次 79.7 @2026-07-29，滞后 12 周"
     },
     "8": {
       "state": "🟢",
@@ -34,7 +34,7 @@
     },
     "9": {
       "state": "🔴",
-      "notes": "CNN F&G 21.0 extreme fear @10-23 收盘 <25；前收 19.8，1周前 22.1，1月前 32.5；30日峰值 46.8 @10-06"
+      "notes": "CNN F&G 21.3 extreme fear @10-26 <25；前收 21.0，1周前 20.8，1月前 36.9；30日峰值 46.8 @10-06"
     },
     "10": {
       "state": "⚪️",
@@ -42,7 +42,7 @@
     },
     "11": {
       "state": "🟢",
-      "notes": "Margin Debt $1,480,054M @2026-09（FINRA xlsx），YoY +31.4%（对 2025-09 1,126,494）；MoM ↑；7月↓8月↑9月↑"
+      "notes": "Margin Debt $1,480,054M @2026-09（FINRA），YoY +31.4%；7月↓8月↑9月↑"
     },
     "12": {
       "state": "⚪️",
@@ -54,27 +54,27 @@
     },
     "14": {
       "state": "🟢",
-      "notes": "BTC 0.0083% / ETH 0.0100% / SOL 0.0047% per 8h（Hyperliquid，Binance 451）"
+      "notes": "BTC 0.0030% / ETH 0.0027% / SOL 0.0100% per 8h（Hyperliquid，Binance 451）"
     },
     "15": {
-      "state": "⚪️",
-      "notes": "Coinglass v4 需 key（exit 3）、检索无当日读数；上次 $70.7M @2026-10-11，滞后 2 周"
+      "state": "🟢",
+      "notes": "24h 清算 $109M（空头 $63.4M > 多头 $45.5M）@10-25 CoinGlass 经 PANews 转载；其他转载 $67.7M–$133M 均 <$500M"
     },
     "16": {
       "state": "🟢",
-      "notes": "Dominance 60.10% @10-25 CoinGecko；24h +2.48%（上升，非跌）；7d +0.97%（同源基准 10-15）未触发"
+      "notes": "Dominance 60.07% @10-26 CoinGecko；24h +2.11%（上升）；7d +0.87%（同源基准 10-20）未触发"
     },
     "17": {
       "state": "🔴",
-      "notes": "稳定币 $254.37B @10-25，7d −$1.81B 净流出；14d −$3.00B 中期萎缩确认；1d −$0.10B"
+      "notes": "稳定币 $254.18B @10-26，7d −$2.00B 净流出；14d −$3.13B 中期萎缩确认；1d −$0.19B"
     },
     "18": {
       "state": "🟢",
-      "notes": "隐含跳空 SP500 +0.02%（对 10-23 收盘 7623.68，yfinance）/ XYZ100 +0.03%（对 10-23 FRED 收盘）；--from-fred SP500 收盘 10-21 滞后 4 天时为 −1.70%；资金费率年化 −2.47% / −3.45%"
+      "notes": "隐含跳空 SP500 +0.02%（对 10-23 收盘 7623.68 yfinance）/ XYZ100 −0.16%（对 10-23 FRED）；资金费率年化 −9.52% / +5.47%"
     },
     "19": {
       "state": "🟢",
-      "notes": "SPX −0.52% = 0.83σ @10-23；BTC −0.33% = 0.23σ @10-25"
+      "notes": "SPX −0.52% = 0.83σ @10-23；BTC −0.28% = 0.20σ @10-26"
     },
     "20": {
       "state": "🟢",
@@ -98,7 +98,7 @@
     },
     "25": {
       "state": "🟢",
-      "notes": "LEI 99.6 @2026-09（10-22 公布），六个月 +0.6%（原文未标年化；年化后约 +1.2%，换算值）"
+      "notes": "LEI 99.6 @2026-09（10-22 公布），六个月累计 +0.6%（年化换算约 +1.2%）"
     },
     "26": {
       "state": "🟢",
@@ -138,7 +138,7 @@
       "name": "HY Spread 扩张（>4.5%）"
     },
     "4": {
-      "notes": "F&G 21.0 @10-23；30日峰值 46.8 未曾 >75，脚本回 false",
+      "notes": "F&G 21.3 @10-26；30日峰值 46.8 未曾 >75，脚本回 false",
       "symbol": "❌",
       "name": "Fear & Greed 从高位回落（>75 跌回 <50）"
     },
@@ -168,18 +168,10 @@
       "dma200_slope_positive": true
     }
   },
-  "date": "2026-10-25",
-  "updated_at": "2026-10-25 08:08:02+0000",
+  "date": "2026-10-26",
+  "updated_at": "2026-10-26 08:06:48+0000",
   "written_by": "snapshot.py",
   "history": [
-    {
-      "date": "2026-10-08",
-      "trigger_count": 1,
-      "unknown_count": 1,
-      "strategic_baseline_pct": 100,
-      "tactical_state": "🟢",
-      "above_200dma": true
-    },
     {
       "date": "2026-10-09",
       "trigger_count": 0,
@@ -278,6 +270,14 @@
     },
     {
       "date": "2026-10-25",
+      "trigger_count": 0,
+      "unknown_count": 2,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟢",
+      "above_200dma": true
+    },
+    {
+      "date": "2026-10-26",
       "trigger_count": 0,
       "unknown_count": 2,
       "strategic_baseline_pct": 100,
