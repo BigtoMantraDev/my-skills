@@ -2,19 +2,19 @@
   "signals": {
     "1": {
       "state": "🟢",
-      "notes": "HY OAS 3.30% @10-26，4周 +28bp（0.61× 自身 p95）利差腿未成立；SPX 10-27 未创 252 日收盘新高；IG 0.90%(+7bp)/BBB 1.12%(+10bp) 观察腿，分化 none"
+      "notes": "HY OAS 3.18% @10-27，4周 +10bp（0.22× 自身 p95）利差腿未成立；SPX 10-28 未创 252 日收盘新高；IG 0.88%(+4bp)/BBB 1.09%(+7bp) 观察腿，分化 none"
     },
     "2": {
       "state": "🟢",
-      "notes": "SPX 10-27 收 7722.60 未创新高（距 10-06 高点 −1.23%）→前提不成立；barchart 空页/stockcharts 页壳→无比例读数"
+      "notes": "SPX 10-28 收 7743.98 未创新高（距 10-06 高点 −0.96%）→前提不成立；barchart 空页/stockcharts 429→无比例读数"
     },
     "3": {
       "state": "⚪️",
-      "notes": "10-23 期 Flow Show 三段检索未见；上次 7.4 @2026-10-16，滞后 12 天（约 1.7 周）"
+      "notes": "10-23 期 Flow Show 三段检索未见；上次 7.4 @2026-10-16，滞后 13 天（约 1.9 周）"
     },
     "4": {
       "state": "🟢",
-      "notes": "VIX 18.39 vs VIX3M 19.94 @10-26（FRED 同源同日），正价差 +1.55"
+      "notes": "VIX 17.52 vs VIX3M 19.57 @10-27（FRED 同源同日），正价差 +2.05"
     },
     "5": {
       "state": "🟢",
@@ -22,19 +22,19 @@
     },
     "6": {
       "state": "🟢",
-      "notes": "NYSE A/D 未取得（stockcharts 页壳），SPX 10-27 未创新高→前提不成立"
+      "notes": "NYSE A/D 未取得（stockcharts JS 空壳），SPX 10-28 未创新高→前提不成立"
     },
     "7": {
       "state": "⚪️",
-      "notes": "naaim.org 订阅墙/公开数据滞后三个月；上次 79.7 @2026-07-29，滞后 13 周"
+      "notes": "naaim.org 订阅墙/公开数据滞后三个月、ceicdata 403；上次 79.7 @2026-07-29，滞后 13 周"
     },
     "8": {
       "state": "🟢",
-      "notes": "AAII 多空差 −8.9 @10-21（bull 36.9/bear 45.8），近4周 >30 周数=0"
+      "notes": "AAII 多空差 −3.6 @10-28（bull 37.8/bear 41.4），近4周 >30 周数=0"
     },
     "9": {
       "state": "🟢",
-      "notes": "CNN F&G 34.3 fear @10-28；前收 33.6，1周前 30.3，1月前 32.4；30日峰值 47.0 @10-06"
+      "notes": "CNN F&G 36.5 fear @10-29；前收 35.9，1周前 20.0，1月前 31.1；30日峰值 47.0 @10-06"
     },
     "10": {
       "state": "⚪️",
@@ -42,15 +42,15 @@
     },
     "11": {
       "state": "🟢",
-      "notes": "Margin Debt $1,480,054M @2026-09（FINRA xlsx，父级直取；macromicro 403）YoY +31.4%；7月↓8月↑9月↑"
+      "notes": "Margin Debt $1,480,054M @2026-09（FINRA xlsx，父级直取；macromicro 403）YoY +31.4%；6月→7月↓ 8月↑ 9月↑"
     },
     "12": {
       "state": "⚪️",
-      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后 12 周"
+      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后 13 周"
     },
     "13": {
       "state": "🔴",
-      "notes": "IPO 金额 YTD $148.3B 同比 +358.6%；件数 118 宗 −34.8%；剔除 SpaceX($75B, 50.6%) 后 +126.7% 仍 >+100%"
+      "notes": "IPO 金额 YTD $148.3B 同比 +345.8%；件数 119 宗 −34.6%；剔除 SpaceX($75B, 50.6%) 后 +120.3% 仍 >+100%"
     },
     "14": {
       "state": "🟢",
@@ -58,39 +58,39 @@
     },
     "15": {
       "state": "⚪️",
-      "notes": "Coinglass v4 需 key（exit 3）、检索/页面 JS 渲染无读数；上次 $109M（空>多）@2026-10-25，滞后 0 周（3 天）"
+      "notes": "Coinglass v4 需 key（exit 3）、检索/页面 JS 渲染无读数；上次 $109M（空>多）@2026-10-25，滞后 0 周（4 天）"
     },
     "16": {
       "state": "🟢",
-      "notes": "Dominance 59.43% @10-28 CoinGecko；24h +2.24%（相对，上升）；7d −0.14%（相对，基准 10-21 CoinGecko 同源）"
+      "notes": "Dominance 59.46% @10-29 CoinGecko；24h +2.22%（相对，上升）；7d +0.04%（相对，基准 10-22 CoinGecko 同源）"
     },
     "17": {
       "state": "🔴",
-      "notes": "稳定币 $253.33B @10-28，7d −$1.83B 净流出；14d −$3.96B 中期萎缩确认；1d −$0.03B"
+      "notes": "稳定币 $252.39B @10-29，7d −$3.08B 净流出；14d −$4.42B 中期萎缩确认；1d −$0.94B"
     },
     "18": {
       "state": "🟢",
-      "notes": "隐含跳空 SP500 +0.08% / XYZ100 +0.59%（对 10-27 FRED 收盘，滞后 1 交易日）；资金费率年化 −5.54% / +5.47%"
+      "notes": "隐含跳空 SP500 −0.41% / XYZ100 −1.27%（≥1% 点名；对 10-28 FRED 收盘，滞后 1 交易日）；资金费率年化 +5.36% / +5.47%"
     },
     "19": {
       "state": "🟢",
-      "notes": "SPX +0.60% = 0.94σ @10-27；BTC +0.28% = 0.22σ @10-28"
+      "notes": "SPX +0.28% = 0.44σ @10-28；BTC −1.88% = 1.42σ @10-29"
     },
     "20": {
       "state": "🟢",
-      "notes": "VRP +8.49（VIX 18.39 @10-26 − RV20 9.90）"
+      "notes": "VRP +7.42（VIX 17.52 @10-27 − RV20 10.10）"
     },
     "21": {
       "state": "🟢",
-      "notes": "SPY +0.56% @10-27 未跌逾 1%，不适用"
+      "notes": "SPY +0.34% @10-28 未跌逾 1%，不适用"
     },
     "22": {
       "state": "🟢",
-      "notes": "RSP−SPY −0.45pt @10-27，广度一致"
+      "notes": "RSP−SPY −0.39pt @10-28，广度一致"
     },
     "23": {
       "state": "🟢",
-      "notes": "T10Y2Y +0.29 / T10Y3M +0.77 @10-27，30日内未倒挂"
+      "notes": "T10Y2Y +0.38 / T10Y3M +0.87 @10-28，30日内未倒挂"
     },
     "24": {
       "state": "🟢",
@@ -102,7 +102,7 @@
     },
     "26": {
       "state": "🟢",
-      "notes": "SPX 7722.60 vs 200DMA 7298.87，+5.81%，斜率 +1.19%，连续站稳 141 交易日 @10-27"
+      "notes": "SPX 7743.98 vs 200DMA 7302.71，+6.04%，斜率 +1.19%，连续站稳 142 交易日 @10-28"
     },
     "27": {
       "state": "🔴",
@@ -110,7 +110,7 @@
     },
     "28": {
       "state": "🔴",
-      "notes": "Shiller CAPE 40.89 @10-27 > 30"
+      "notes": "Shiller CAPE 41.04 @10-28 > 30"
     },
     "29": {
       "state": "🔴",
@@ -123,7 +123,7 @@
   },
   "hard_thresholds": {
     "1": {
-      "notes": "VIX 18.39 @10-26（FRED），30日最高 19.99，<25",
+      "notes": "VIX 17.52 @10-27（FRED），30日最高 19.99，<25",
       "symbol": "❌",
       "name": "VIX 突破并站稳（>25 且连续 3 个交易日）"
     },
@@ -133,27 +133,27 @@
       "name": "Margin Debt 月减（连续 3 个月）"
     },
     "3": {
-      "notes": "HY OAS 3.30% @10-26 < 4.5%",
+      "notes": "HY OAS 3.18% @10-27 < 4.5%",
       "symbol": "❌",
       "name": "HY Spread 扩张（>4.5%）"
     },
     "4": {
-      "notes": "F&G 34.3 @10-28；30日峰值 47.0 未曾 >75，脚本回 false",
+      "notes": "F&G 36.5 @10-29；30日峰值 47.0 未曾 >75，脚本回 false",
       "symbol": "❌",
       "name": "Fear & Greed 从高位回落（>75 跌回 <50）"
     },
     "5": {
-      "notes": "SPX 10-27 未创新高，前提不成立",
+      "notes": "SPX 10-28 未创新高，前提不成立",
       "symbol": "❌",
       "name": "A/D Line 顶背离（SPX 新高但 A/D 未创新高）"
     },
     "6": {
-      "notes": "10-23 期未取得；上次 7.4 @2026-10-16，滞后 12 天（约 1.7 周）",
+      "notes": "10-23 期未取得；上次 7.4 @2026-10-16，滞后 13 天（约 1.9 周）",
       "symbol": "⚪️",
       "name": "BofA Bull & Bear（>8.0）"
     },
     "7": {
-      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后 12 周",
+      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后 13 周",
       "symbol": "⚪️",
       "name": "Insider Buy/Sell（<0.17）"
     }
@@ -168,18 +168,10 @@
       "dma200_slope_positive": true
     }
   },
-  "date": "2026-10-28",
-  "updated_at": "2026-10-28 08:05:47+0000",
+  "date": "2026-10-29",
+  "updated_at": "2026-10-29 08:06:46+0000",
   "written_by": "snapshot.py",
   "history": [
-    {
-      "date": "2026-10-11",
-      "trigger_count": 0,
-      "unknown_count": 2,
-      "strategic_baseline_pct": 100,
-      "tactical_state": "🟢",
-      "above_200dma": true
-    },
     {
       "date": "2026-10-12",
       "trigger_count": 0,
@@ -278,6 +270,14 @@
     },
     {
       "date": "2026-10-28",
+      "trigger_count": 0,
+      "unknown_count": 2,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟢",
+      "above_200dma": true
+    },
+    {
+      "date": "2026-10-29",
       "trigger_count": 0,
       "unknown_count": 2,
       "strategic_baseline_pct": 100,
