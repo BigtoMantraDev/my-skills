@@ -346,6 +346,20 @@
         "status": "repricing",
         "purpose": "Finance specialised AI chips (GPUs) and a data centre in Norway",
         "source": "Final terms: Octus 'Americas Leveraged Finance Weekly' 2026-10-16 https://octus.com/?p=46362 : 'priced on the wide end of talk at SOFR+650 bps and 95 OID' for both tranches, after Oct 14 deadline, 'priced a day late' -> date 2026-10-15 is inferred from that wording (one-day uncertainty). Initial spread 500: KuCoin flash https://www.kucoin.com/news/flash/jpmorgan-and-goldman-sachs-push-5b-volta-ai-loan-at-11-21-11-75-yield : 'first marketed the financing in August and September 2026 with a spread of approximately SOFR plus 500 basis points' (approximate, secondary; first-attempt OID not disclosed -> initial_oid null). Relaunch talk ~2026-10-07/09: S+625-650, OID 97-98 (The Star/Bloomberg 2026-10-07 https://www.thestar.com.my/business/business-news/2026/10/07/jpmorgan-dangles-11-yield-on-voltas-ai-loan-sale ; Crypto Briefing 2026-10-15 reports OID 95-98). If initial is taken as the relaunch talk instead of the first attempt, initial_spread_bp would be 625 (low end) with initial_oid 97-98 range; filled value uses the first-marketed spread, analogous to the CoreWeave DDTL 5.5 entry using initial syndication talk. Status 'repricing' = terms widened from initial marketing; no closing/funding confirmed. Issuer is not on the dispatched issuer list and has no issuer release found; secondary sources only."
+      },
+      {
+        "date": "2026-10-28",
+        "issuer": "IREN Limited",
+        "instrument": "Equipment Finance Agreement led by Wingspire Equipment Finance (refinancing of deployed GPU servers and networking equipment); six lenders, major commitments from Eldridge Capital Management and Silver Point Capital",
+        "size_usd_mm": 363,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "Refinance recently acquired, revenue-generating AI compute equipment; secured primarily by the equipment and backed by multi-year customer contracts",
+        "source": "Joint IREN / Wingspire release via Business Wire 2026-10-28 (per CCIR tracker https://ccir.io/credit); coverage https://blockspace.media/insight/iren-closes-wingspire-gpu-refinancing/ , https://cryptobriefing.com/iren-wingspire-363-million-ai-compute-financing/ . Release wording 'closed'; 'priced' is nearest enum value, not the source word. Pricing, base rate, OID and maturity not disclosed -> null, not estimated. No SEC filing found."
       }
     ]
   },
