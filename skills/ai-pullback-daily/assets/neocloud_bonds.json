@@ -25,8 +25,8 @@
       "note": "公司层无担保高收益债",
       "quote": {
         "price": 81.87,
-        "as_of": "2026-10-30",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB, ISIN USU2069EAE06 (page title 9,625% bis 15.07.2032); venue gettex last 81,87 % at 30.10.2026 22:45:44 CET (= 17:45 ET, after US close), Vortag 81,87, Spanne 81,87-81,87, Umsatz nominal '-'; same venue as prior runs (print unchanged vs Vortag). Other venues 30.10.2026: Baader 81,61 % 18:29:30 (Vortag 82,60, Spanne 81,55-82,60); Duesseldorf 81,31 % 09:00:51 (Vortag 81,54); Frankfurt 81,44 % 08:02:28 (Vortag 81,17); Muenchen 81,42 % 17:02:56 (Vortag 81,72, Spanne 81,36-81,60); Quotrix 79,79 % 18:29:34 (Vortag 81,58, no Spanne). Not labelled clean/dirty, treated as clean consistent with prior runs.",
+        "as_of": "2026-11-02",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB, ISIN USU2069EAE06 (page title 9,625% bis 15.07.2032); venue gettex last 81,87 % at 02.11.2026 22:44:23 CET (= 16:44 ET, after US close), Vortag 81,87, Spanne 81,87-81,87, Umsatz nominal '-'; same venue as prior runs; print unchanged vs Vortag (and vs prior run 30.10 value 81,87). Other venues 02.11.2026: Baader 81,69 % 17:33:47 (Vortag 81,61, Spanne 81,56-81,72); Duesseldorf 80,10 % 08:57:16 (Vortag 81,31); Frankfurt 80,09 % 08:02:37 (Vortag 81,44); Muenchen 80,35 % 17:04:38 (Vortag 81,42, Spanne 79,79-80,37); Quotrix 80,02 % 17:29:53 (Vortag 79,79, no Spanne). Not labelled clean/dirty, treated as clean consistent with prior runs.",
         "quote_kind": "close_clean"
       }
     },
@@ -45,9 +45,9 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 81.5,
-        "as_of": "2026-10-30",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN, ISIN USU2069EAC40 (page title 9,750% bis 01.10.2031); venue Quotrix last 81,50 % at 30.10.2026 19:46:17 CET (= 14:46 ET, BEFORE the US close), Vortag 82,82, no Spanne shown; same venue as prior runs. Other venues 30.10.2026: Frankfurt 81,50 % 17:20:06 CET (= 12:20 ET; Vortag 82,83, Spanne 81,31-81,99); Duesseldorf 81,90 % 09:00:51 (Vortag 82,49). Umsatz nominal '-'. No venue print after the US close on this page. Not labelled clean/dirty, treated as clean consistent with prior runs.",
+        "price": 80.2,
+        "as_of": "2026-11-02",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN, ISIN USU2069EAC40 (page title 9,750% bis 01.10.2031); venue Quotrix last 80,20 % at 02.11.2026 17:23:37 CET (= 11:23 ET, BEFORE the US close), Vortag 81,50, -1,59 %, no Spanne shown; same venue as prior runs. Other venues 02.11.2026: Frankfurt 80,17 % 17:23:39 CET (= 11:23 ET; Vortag 81,50, Spanne 80,01-80,53); Duesseldorf 79,87 % 08:57:16 (Vortag 81,90). Umsatz nominal '-'. No venue print after the US close on this page (timing is intraday relative to US session; quote_kind is the parent's call). Not labelled clean/dirty, treated as clean consistent with prior runs.",
         "quote_kind": "close_clean"
       }
     },
@@ -65,9 +65,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 82.83,
-        "as_of": "2026-10-30",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66 (page title 9,000% bis 01.02.2031); venue Frankfurt only, last 82,83 % at 30.10.2026 08:02:28 CET (= 03:02 ET, before the US open), Vortag 83,07, Spanne 82,83-82,83; no other venues listed; Umsatz nominal '-'. Not labelled clean/dirty, treated as clean consistent with prior runs.",
+        "price": 80.81,
+        "as_of": "2026-11-02",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66 (page title 9,000% bis 01.02.2031); venue Frankfurt only, last 80,81 % at 02.11.2026 08:02:37 CET (= 02:02 ET, before the US open), Vortag 82,83, -2,44 %, Spanne 80,81-80,81; no other venues listed; Umsatz nominal '-'. Not labelled clean/dirty, treated as clean consistent with prior runs.",
         "quote_kind": "close_clean"
       }
     },
@@ -86,9 +86,9 @@
       "rating_cohort": "single_b",
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
-        "price": 78.63,
-        "as_of": "2026-10-30",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/a4ewud-coreweave-anleihe ; WKN A4EWUD, ISIN XS3333139288, EUR; headline Aktueller Kurs 78,63 % Kurszeit 30.10.2026 22:40:39 CET (= 17:40 ET, after US close), venue gettex (BMN), same venue as prior runs; Vortag 79,79; Eroeffnung 79,79; Tagestief/Tageshoch 78,63/79,79. Bid/ask table 21:45:48: clean 77,17 / 78,75, dirty 79,64 / 81,22; Stueckzinsen 2,472. Other venues (no per-venue timestamps): Baader 78,02 (Vortag 79,54), Duesseldorf 77,92 (79,51), Frankfurt 78,51 (79,57), gettex 78,63 (79,79), Muenchen 77,53 (77,78), Quotrix 79,60 (80,55), Stuttgart 77,39 (77,60). EUR: absolute spread N/A.",
+        "price": 77.75,
+        "as_of": "2026-11-02",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/a4ewud-coreweave-anleihe ; WKN A4EWUD, ISIN XS3333139288, EUR; headline Aktueller Kurs 77,75 % Kurszeit 02.11.2026 22:42:55 CET (= 16:42 ET, after US close), venue gettex (BMN), same venue as prior runs; Vortag 78,63; Eroeffnung 78,63; Tagestief/Tageshoch 77,75/78,63. Bid/ask table 22:47:02: clean 76,49 / 78,14, dirty 79,03 / 80,68; Stueckzinsen 2,541. Boerse Stuttgart realtime 21:45:02 bid 75,96 / ask 78,71. Other venues (last / Vortag): Baader 77,33 / 78,02; Duesseldorf 77,46 / 77,92; Frankfurt 77,46 / 78,51; gettex 77,75 / 78,63; Muenchen 76,56 / 77,53; Quotrix 77,96 / 79,60; Stuttgart 75,96 / 77,39. Headline print lies inside the clean bid/ask range; treated as clean consistent with prior runs.",
         "quote_kind": "close_clean"
       }
     },
@@ -109,7 +109,7 @@
       "quote": {
         "price": 97.92,
         "as_of": "2026-10-30",
-        "source": "TradingView https://www.tradingview.com/symbols/NASDAQ-CIFR/bonds/ (HTTP 200); Black Pearl Compute LLC BLPG6304798 6.125% 2031-02-15 RegS, outstanding 1.93 B USD, Moody's Ba2 (S&P/Fitch '—'), face 1,000 USD, price 97.92%, YTW '—'; header order confirmed (Symbol | YTW % | Price % | Coupon % | Maturity date | ...); page shows 'Market closed' / 'No trades' and NO quote-date field; observed 2026-10-31 (Saturday, US closed), as_of 2026-10-30 is the inferred last US session, not a page-shown quote date; price changed vs prior run's 98.06 observation; no clean/dirty label, treated as clean; venue unknown. Same page also lists Cipher Digital 0.0% 2032-11-01 (US17252AAA4, 850 M USD) 85.68% and Cipher Digital 0.0% 2031-10-01 (US17253JAB2, 1.3 B USD) 88.01% (not in asset file).",
+        "source": "TradingView https://www.tradingview.com/symbols/NASDAQ-CIFR/bonds/ (HTTP 200, observed 2026-11-02 after US close); Black Pearl Compute LLC BLPG6304798 6.125% 2031-02-15 RegS, outstanding 1.93 B USD, Moody's Ba2 (S&P/Fitch '—'), face 1,000 USD, Price % 97.92%, YTW '—'; header order confirmed (Symbol | YTW % | Price % | Coupon % | Maturity date | Outstanding amt | Face value | S&P | Fitch | Moody's | Issuer); 'Market closed' / 'No trades', NO quote-date field. Symbol page https://www.tradingview.com/symbols/BLPG6304798/ (FINRA:BLPG6304798) shows the same 97.920%, no timestamp. Print unchanged vs prior run. No clean/dirty label, treated as clean; venue FINRA per symbol prefix. Same list page: Cipher Digital 0.0% 2031-10-01 (US17253JAB2) 88.01%, Cipher Digital 0.0% 2032-11-01 (US17252AAA4) 85.68% (not in asset file).",
         "quote_kind": "close_clean"
       }
     },
@@ -129,7 +129,7 @@
       "quote": {
         "price": 54.35,
         "as_of": "2026-10-30",
-        "source": "TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); US46270CAL3 IREN Limited 1.0% 2033-12-01 144A, outstanding 3 B USD, face 1,000 USD, Price % 54.35%, YTW '—', ratings '—'; header order confirmed (Symbol | YTW % | Price % | Coupon % | Maturity date | ...); no quote-date field ('Market closed' / 'No trades'); observed 2026-10-31 (Saturday), as_of 2026-10-30 is the inferred last US session; no clean/dirty label, treated as clean; venue unknown. Page maturity 2033-12-01 (asset file 2033-12-15, month precision). Convert: reference only.",
+        "source": "TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200, observed 2026-11-02 after US close); US46270CAL3 IREN Limited 1.0% 2033-12-01 144A, outstanding 3 B USD, face 1,000 USD, Price % 54.35%, YTW '—', ratings '—'; header order confirmed; 'Market closed' / 'No trades', no quote-date field. Symbol page https://www.tradingview.com/symbols/US46270CAL3/ shows 54.35%, venue FWB, no timestamp. Print unchanged vs prior run. No clean/dirty label, treated as clean. Page maturity 2033-12-01 (asset file 2033-12-15, month precision).",
         "quote_kind": "close_clean"
       }
     },
@@ -147,9 +147,9 @@
       "rating_cohort": null,
       "note": "零息转债，同上仅参考",
       "quote": {
-        "price": 53.5,
-        "as_of": "2026-10-30",
-        "source": "TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); IREN6548018 IREN Limited 0.0% 2031-07-01, outstanding 1 B USD, face 1,000 USD, Price % 53.50%, YTW '—'; header order confirmed; no quote-date field; observed 2026-10-31 (Saturday), as_of 2026-10-30 is the inferred last US session; zero coupon so clean = full; venue unknown. Page maturity 2031-07-01 (asset file 2031-07-15, month precision). Convert: reference only.",
+        "price": 49.92,
+        "as_of": "2026-11-02",
+        "source": "TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200, observed 2026-11-02 after US close; same page as prior runs); IREN6548018 IREN Limited 0.0% 2031-07-01, outstanding 1 B USD, face 1,000 USD, Price % 49.92%, YTW '—'; no quote-date field, 'Market closed' / 'No trades'. CONFLICT: symbol page https://www.tradingview.com/symbols/IREN6548018/ (FINRA:IREN6548018) FAQ text says 'trade at 51.928%', no timestamp; the two TradingView pages disagree and neither is dated; value filled is from the list page (venue of prior runs), 51.928 recorded here only. Zero coupon so clean = full. Page maturity 2031-07-01 (asset file 2031-07-15, month precision).",
         "quote_kind": "close_clean"
       }
     }
@@ -346,6 +346,20 @@
         "status": "repricing",
         "purpose": "Finance specialised AI chips (GPUs) and a data centre in Norway",
         "source": "Final terms: Octus 'Americas Leveraged Finance Weekly' 2026-10-16 https://octus.com/?p=46362 : 'priced on the wide end of talk at SOFR+650 bps and 95 OID' for both tranches, after Oct 14 deadline, 'priced a day late' -> date 2026-10-15 is inferred from that wording (one-day uncertainty). Initial spread 500: KuCoin flash https://www.kucoin.com/news/flash/jpmorgan-and-goldman-sachs-push-5b-volta-ai-loan-at-11-21-11-75-yield : 'first marketed the financing in August and September 2026 with a spread of approximately SOFR plus 500 basis points' (approximate, secondary; first-attempt OID not disclosed -> initial_oid null). Relaunch talk ~2026-10-07/09: S+625-650, OID 97-98 (The Star/Bloomberg 2026-10-07 https://www.thestar.com.my/business/business-news/2026/10/07/jpmorgan-dangles-11-yield-on-voltas-ai-loan-sale ; Crypto Briefing 2026-10-15 reports OID 95-98). If initial is taken as the relaunch talk instead of the first attempt, initial_spread_bp would be 625 (low end) with initial_oid 97-98 range; filled value uses the first-marketed spread, analogous to the CoreWeave DDTL 5.5 entry using initial syndication talk. Status 'repricing' = terms widened from initial marketing; no closing/funding confirmed. Issuer is not on the dispatched issuer list and has no issuer release found; secondary sources only."
+      },
+      {
+        "date": "2026-10-22",
+        "issuer": "Crusoe",
+        "instrument": "Asset-backed financing facility from Neuberger Specialty Finance (NBSF), secured by recently ordered power generation equipment (gas generators)",
+        "size_usd_mm": 700,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "Buy gas generators providing behind-the-meter power to Crusoe-built and Crusoe-owned AI data centers (AI factories)",
+        "source": "Issuer release https://www.crusoe.ai/resources/newsroom/neuberger-and-crusoe-announce-700-million-facility (dated 2026-10-22, title 'Crusoe and NBSF Announce $700M AI Factory Power Facility'; located via search, not fetched directly); secondary https://superpowerdaily.com/posts/crusoe-secures-700-million-financing-facility-for-gas-powered-ai-data-centers (HTTP 200). Wording: 'announced a $700 million facility'; status 'priced' is nearest enum value, not the source word. Rate/spread/base rate/OID/maturity not disclosed -> null, not estimated. date = release date, on the window's start date (2026-10-22); included so the parent can decide."
       }
     ]
   },
