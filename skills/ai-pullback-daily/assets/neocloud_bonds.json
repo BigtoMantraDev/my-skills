@@ -127,9 +127,9 @@
       "rating_cohort": null,
       "note": "转债：利差被期权价值污染，不可直读为纯信用利差 → 仅参考，不参与任何判定",
       "quote": {
-        "price": 49.93,
-        "as_of": "2026-11-03",
-        "source": "TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); US46270CAL3 IREN Limited 1.0% 01-DEC-2033 144A, outstanding 3 B USD, Price % 49.93%, YTW '—'; no quote-date field ('No trades'); fetched 2026-11-04 ~09:10 ET; as_of inferred; no clean/dirty label. Convert: reference only.",
+        "price": 45.86,
+        "as_of": "2026-11-04",
+        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); US46270CAL3 IREN Limited 1.0% 01-DEC-2033 144A, outstanding 3 B USD, Price % 45.86%, YTW '—'; no quote-date field ('No trades'); fetched 2026-11-05 ~09:10 ET; as_of 2026-11-04 inferred; no clean/dirty label.",
         "quote_kind": "close_clean"
       }
     },
@@ -147,9 +147,9 @@
       "rating_cohort": null,
       "note": "零息转债，同上仅参考",
       "quote": {
-        "price": 49.38,
+        "price": 49.01,
         "as_of": "2026-11-04",
-        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); IREN6548018 IREN Limited 0.0% 01-JUL-2031, outstanding 1 B USD, Price % 49.38%, YTW '—'; no quote-date field. Fetched 2026-11-04 ~17:10 ET; value changed from 52.18 at the 2026-11-04 ~09:10 ET pre-open fetch, so as_of 2026-11-04 is INFERRED (print disseminated during the 2026-11-04 session), not page-shown. Zero coupon, so clean = full.",
+        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); IREN6548018 IREN Limited 0.0% 01-JUL-2031, outstanding 1 B USD, Price % 49.01%, YTW '—'; no quote-date field. Fetched 2026-11-05 ~09:10 ET; as_of 2026-11-04 INFERRED. Zero coupon, so clean = full.",
         "quote_kind": "close_clean"
       }
     }
