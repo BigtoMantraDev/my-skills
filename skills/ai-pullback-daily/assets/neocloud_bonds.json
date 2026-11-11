@@ -127,9 +127,9 @@
       "rating_cohort": null,
       "note": "转债：利差被期权价值污染，不可直读为纯信用利差 → 仅参考，不参与任何判定",
       "quote": {
-        "price": 47.97,
+        "price": 44.63,
         "as_of": "2026-11-10",
-        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); row US46270CAL3 'IREN Limited 1.0% 01-DEC-2033 144A', outstanding 3 B USD, Price % 47.97%, YTW '—'; no quote-date field; 'No trades' under ticker. Fetched 2026-11-10 post US close. as_of 2026-11-10 INFERRED (last complete US session), not page-shown; could be the 2026-11-09 session. Prior recorded value 40.06 (as_of 2026-11-06). No clean/dirty label.",
+        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); row US46270CAL3 'IREN Limited 1.0% 01-DEC-2033 144A', coupon 1.000%, maturity 2033-12-01, outstanding 3 B USD, Price % 44.63%, YTW '—'; no quote-date field; 'No trades' shown twice under ticker. Fetched 2026-11-11 ~09:10 ET (US pre-market). as_of 2026-11-10 INFERRED (last complete US session), not page-shown. Prior recorded value 47.97 (recorded as_of 2026-11-10 at the 2026-11-10 post-close fetch, itself inferred). No clean/dirty label.",
         "quote_kind": "close_clean"
       }
     },
