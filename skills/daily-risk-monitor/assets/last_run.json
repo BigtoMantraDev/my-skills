@@ -6,7 +6,7 @@
     },
     "2": {
       "state": "🟢",
-      "notes": "SPX 11-10 收 7520.93 未创 252 日新高（距 10-06 −3.81%）→前提不成立；barchart/stockcharts 无读数"
+      "notes": "SPX 11-11 收 7619.38 未创 252 日新高（距 10-06 −2.55%）→前提不成立；barchart/stockcharts 无读数"
     },
     "3": {
       "state": "⚪️",
@@ -14,7 +14,7 @@
     },
     "4": {
       "state": "🟢",
-      "notes": "VIX 19.92 < VIX3M 20.85 @11-09（FRED 同源同日），正价差 +0.93"
+      "notes": "VIX 19.46 < VIX3M 20.64 @11-10（FRED 同源同日），正价差 +1.18"
     },
     "5": {
       "state": "🟢",
@@ -30,63 +30,63 @@
     },
     "8": {
       "state": "🟢",
-      "notes": "AAII 多空差 −14.3 @11-04（bull 34.1/bear 48.4），近4周 >30 周数=0"
+      "notes": "AAII 多空差 −20.6 @11-11（bull 30.8/bear 51.4），近4周 >30 周数=0"
     },
     "9": {
       "state": "🟢",
-      "notes": "CNN F&G 33.4 fear @11-11；前收 33.5，1周前 34.2，1月前 43.5"
+      "notes": "CNN F&G 36.9 fear @11-12；前收 37.0，1周前 20.0，1月前 45.2"
     },
     "10": {
       "state": "⚪️",
-      "notes": "cboe.com 每日页 Equity 0.77 无可归日期，不采用；上次 0.66 @2026-10-30，滞后 1 周"
+      "notes": "cboe.com 每日页 Equity 读数无可归日期，不采用；上次 0.66 @2026-10-30，滞后约 2 周"
     },
     "11": {
       "state": "🟢",
-      "notes": "Margin Debt $1,480,054M @2026-09（FINRA，macromicro 403）YoY +31.4%（Sep-25 1.126T 取自 YCharts FINRA 镜像）；7月↑8月↑9月↑；10月未公布"
+      "notes": "Margin Debt $1,480,054M @2026-09（FINRA，macromicro 未取得）YoY +31.4%；7月↑8月↑9月↑；10月未公布"
     },
     "12": {
       "state": "⚪️",
-      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后约 14 周"
+      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后约 15 周"
     },
     "13": {
       "state": "🔴",
-      "notes": "IPO 金额 YTD $148.6B +314.1%（SpaceX 50.5%）；件数 121 −36.0% @11-11 Renaissance"
+      "notes": "IPO 金额 YTD $148.6B +313.8%（SpaceX 50.5%；剔除后 +105%）；件数 121 −36.6% @11-12 Renaissance"
     },
     "14": {
       "state": "🟢",
-      "notes": "BTC +0.0100% / ETH +0.0100% / SOL +0.0062% per 8h（Hyperliquid，Binance 451）"
+      "notes": "BTC +0.0085% / ETH +0.0003% / SOL +0.0035% per 8h（Hyperliquid，Binance 451）"
     },
     "15": {
       "state": "⚪️",
-      "notes": "coinglass API key missing；web_search/web_fetch 无当期读数；上次 $48.7M（多 $27.8M/空 $20.9M）@2026-11-01，滞后 1 周"
+      "notes": "coinglass API key missing；web_search/web_fetch 无当期读数；上次 $48.7M（多 $27.8M/空 $20.9M）@2026-11-01，滞后 1.6 周"
     },
     "16": {
       "state": "🟢",
-      "notes": "CoinGecko 59.83% @11-11；24h +1.71% 上升；7d +0.81%（基准 11-04 同源）"
+      "notes": "CoinGecko 59.87% @11-12；24h +2.08% 上升；7d +0.52%（基准 11-05 同源）"
     },
     "17": {
       "state": "🔴",
-      "notes": "稳定币 $246.08B @11-11，7d −$3.21B 净流出；14d −$7.25B；1d −$0.76B"
+      "notes": "稳定币 $245.75B @11-12，7d −$3.31B 净流出；14d −$6.63B；1d −$0.33B"
     },
     "18": {
       "state": "🟢",
-      "notes": "隐含跳空 SP500 +0.64% / XYZ100 +1.44%（对 FRED 11-10 收盘，滞后1日）；相对强弱 +0.81pt；资金费率年化 5.47%"
+      "notes": "隐含跳空 SP500 −0.47%（对 11-11 收盘 7619.38）/ XYZ100 −0.91%（对 FRED 11-11，滞后1日）；相对强弱 −0.43pt；资金费率年化 −3.47%/+3.43%"
     },
     "19": {
       "state": "🟢",
-      "notes": "SPX −0.38% = 0.28σ @11-10；BTC +0.29% = 0.14σ @11-11"
+      "notes": "SPX +1.31% = 0.94σ @11-11；BTC −0.51% = 0.25σ @11-12"
     },
     "20": {
       "state": "🔴",
-      "notes": "VRP −1.97（FRED VIX 19.92 @11-09 − RV20 21.89）转负"
+      "notes": "VRP −2.44（FRED VIX 19.46 @11-10 − RV20 21.90）转负"
     },
     "21": {
       "state": "🟢",
-      "notes": "SPY −0.37% @11-10，未跌逾 1%，不适用"
+      "notes": "SPY +1.32% @11-11，未跌逾 1%，不适用"
     },
     "22": {
-      "state": "🟢",
-      "notes": "RSP −0.03% vs SPY −0.37%，RSP−SPY +0.34pt @11-10"
+      "state": "🟡",
+      "notes": "RSP +0.80% vs SPY +1.32%，RSP−SPY −0.52pt @11-11，涨势集中巨头"
     },
     "23": {
       "state": "🟢",
@@ -102,7 +102,7 @@
     },
     "26": {
       "state": "🟢",
-      "notes": "SPX 7520.93 vs 200DMA 7331.08，+2.59%，斜率 +0.99%，连续站稳 151 交易日 @11-10"
+      "notes": "SPX 7619.38 vs 200DMA 7334.28，+3.89%，斜率 +0.98%，连续站稳 152 交易日 @11-11"
     },
     "27": {
       "state": "🔴",
@@ -110,7 +110,7 @@
     },
     "28": {
       "state": "🔴",
-      "notes": "Shiller CAPE 39.7 @11-10 > 30"
+      "notes": "Shiller CAPE 40.24 @11-11 > 30"
     },
     "29": {
       "state": "🔴",
@@ -123,7 +123,7 @@
   },
   "hard_thresholds": {
     "1": {
-      "notes": "FRED VIXCLS 28.18 @11-05、25.64 @11-06、19.92 @11-09 → 连续 >25 中断于 2 日",
+      "notes": "FRED VIXCLS 25.64 @11-06、19.92 @11-09、19.46 @11-10 → 未连续 >25",
       "symbol": "❌",
       "name": "VIX 突破并站稳（>25 且连续 3 个交易日）"
     },
@@ -138,7 +138,7 @@
       "name": "HY Spread 扩张（>4.5%）"
     },
     "4": {
-      "notes": "F&G 33.4 @11-11；30日峰值 47.0 未曾 >75，脚本回 false",
+      "notes": "F&G 36.9 @11-12；30日峰值 47.0 未曾 >75，脚本回 false",
       "symbol": "❌",
       "name": "Fear & Greed 从高位回落（>75 跌回 <50）"
     },
@@ -153,7 +153,7 @@
       "name": "BofA Bull & Bear（>8.0）"
     },
     "7": {
-      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后约 14 周",
+      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后约 15 周",
       "symbol": "⚪️",
       "name": "Insider Buy/Sell（<0.17）"
     }
@@ -168,18 +168,10 @@
       "dma200_slope_positive": true
     }
   },
-  "date": "2026-11-11",
-  "updated_at": "2026-11-11 08:07:00+0000",
+  "date": "2026-11-12",
+  "updated_at": "2026-11-12 08:08:30+0000",
   "written_by": "snapshot.py",
   "history": [
-    {
-      "date": "2026-10-29",
-      "trigger_count": 0,
-      "unknown_count": 2,
-      "strategic_baseline_pct": 100,
-      "tactical_state": "🟢",
-      "above_200dma": true
-    },
     {
       "date": "2026-10-30",
       "trigger_count": 0,
@@ -278,6 +270,14 @@
     },
     {
       "date": "2026-11-11",
+      "trigger_count": 0,
+      "unknown_count": 2,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟡",
+      "above_200dma": true
+    },
+    {
+      "date": "2026-11-12",
       "trigger_count": 0,
       "unknown_count": 2,
       "strategic_baseline_pct": 100,
