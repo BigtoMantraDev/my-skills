@@ -25,8 +25,8 @@
       "note": "公司层无担保高收益债",
       "quote": {
         "price": 78.82,
-        "as_of": "2026-11-12",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB, ISIN USU2069EAE06 (page title 9,625% bis 15.07.2032); fetched 2026-11-12 ~17:10 ET post US close. Venue gettex (same as prior runs): Letzter 78,82 % at 22:43:09 CET 12.11.2026 (= 16:43 ET), Vortag 78,82 %, +/- '-', Spanne 78,82-78,82 (Letzter numerically identical to the 2026-11-11 record; print time is dated 12.11.2026). Other venues Letzter / Vortag / time (all 12.11.2026): Baader 79,25 / 79,25 / 17:29:01 (Spanne 79,25-79,67); Duesseldorf 78,50 / 78,49 / 09:06:24; Frankfurt 78,40 / 78,56 / 08:01:38; Muenchen 78,50 / 78,50 / 16:56:40 (Spanne 78,31-78,71); Quotrix 78,31 / 78,31 / 17:29:31 (no Spanne). Umsatz nominal '-' all venues. Not labelled clean/dirty, treated as clean.",
+        "as_of": "2026-11-13",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB, ISIN USU2069EAE06 (page title 9,625% bis 15.07.2032); fetched 2026-11-13 ~17:10 ET post US close. Venue gettex (same as prior runs): Letzter 78,82 % at 22:42:46 CET 13.11.2026 (= 16:42 ET), Vortag 78,82 %, +/- '-', Spanne 78,82-78,82 (Letzter numerically identical to the 2026-11-11 and 2026-11-12 records; print time dated 13.11.2026). Other venues Letzter / Vortag / time (all 13.11.2026): Baader 80,69 / 79,25 / 17:29:01 (Spanne 79,25-80,73); Duesseldorf 80,01 / 78,50 / 09:13:19; Frankfurt 79,07 / 78,40 / 08:02:01; Muenchen 78,50 / 78,50 / 16:52:10 (Spanne 78,31-78,50); Quotrix 77,95 / 78,31 / 17:29:54 (no Spanne). Umsatz nominal '-' all venues. Not labelled clean/dirty, treated as clean.",
         "quote_kind": "close_clean"
       }
     },
@@ -45,9 +45,9 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 80.92,
-        "as_of": "2026-11-12",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN, ISIN USU2069EAC40 (page title 9,750% bis 01.10.2031); fetched 2026-11-12 ~17:10 ET post US close. Venue Quotrix (same as prior runs): Letzter 80,92 % at 19:46:05 CET 12.11.2026 (= 13:46 ET), Vortag 84,44 %, +/- -4,17 %, Spanne '-', Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 12.11.2026): Frankfurt 80,93 / 79,17 / 17:20:06 CET (Spanne 80,53-80,94); Duesseldorf 80,89 / 78,99 / 09:06:24 CET (Spanne 80,89-80,89). Umsatz nominal '-' at all venues. Not labelled clean/dirty, treated as clean.",
+        "price": 80.81,
+        "as_of": "2026-11-13",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN, ISIN USU2069EAC40 (page title 9,750% bis 01.10.2031); fetched 2026-11-13 ~17:10 ET post US close. Venue Quotrix (same as prior runs): Letzter 80,81 % at 19:46:09 CET 13.11.2026 (= 13:46 ET), Vortag 80,92 %, +/- -0,14 %, Spanne '-', Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 13.11.2026): Frankfurt 80,82 / 80,93 / 17:20:07 CET (Spanne 80,82-81,76); Duesseldorf 81,77 / 80,89 / 09:13:19 CET (Spanne 81,77-81,77). Umsatz nominal '-' at all venues. Not labelled clean/dirty, treated as clean.",
         "quote_kind": "close_clean"
       }
     },
@@ -65,9 +65,9 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 79.28,
-        "as_of": "2026-11-12",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66 (page title 9,000% bis 01.02.2031); fetched 2026-11-12 ~17:10 ET post US close. Venue Frankfurt only (same as prior runs): Letzter 79,28 % at 08:01:38 CET 12.11.2026 (= 02:01 ET, early single print), Vortag 78,85 %, table +/- +0,55 % (page header shows +0,44 / +0,55 %), Spanne 79,28-79,28, Umsatz nominal '-'. Not labelled clean/dirty, treated as clean.",
+        "price": 80.2,
+        "as_of": "2026-11-13",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66 (page title 9,000% bis 01.02.2031); fetched 2026-11-13 ~17:10 ET post US close. Venue Frankfurt only (same as prior runs): Letzter 80,20 % at 08:02:01 CET 13.11.2026 (= 02:02 ET, early single print), Vortag 79,28 %, +/- +1,16 %, Spanne 80,20-80,20, Umsatz nominal '-'. Not labelled clean/dirty, treated as clean.",
         "quote_kind": "close_clean"
       }
     },
@@ -87,8 +87,8 @@
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
         "price": 78.9,
-        "as_of": "2026-11-12",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewud-coreweave-anleihe ; WKN A4EWUD, ISIN XS3333139288 (page title 8,500% bis 15.07.2032), EUR (currency not printed on this page; per bonds.json terms); fetched 2026-11-12 ~17:10 ET post US close. Venue gettex (same as prior runs): Letzter 78,90 % at 22:41:27 CET 12.11.2026 (= 16:41 ET), Vortag 79,84 %, +/- -1,17 %, Spanne 78,90-79,89, Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 12.11.2026): Baader 79,13/80,83/22:29:29 (Spanne 78,02-80,78); Duesseldorf 79,37/76,63/09:06:34; Frankfurt 79,43/77,64/08:01:47; Muenchen 79,44/75,63/08:48:04; Quotrix 77,94/76,24/21:30:56 (no Spanne); Stuttgart 75,80/74,12/21:45:02 (Spanne 75,31-76,06). Page +/- column does not reconcile with Letzter-Vortag at several venues (as displayed). Not labelled clean/dirty, treated as clean. EUR: absolute spread N/A.",
+        "as_of": "2026-11-13",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewud-coreweave-anleihe ; WKN A4EWUD, ISIN XS3333139288 (page title 8,500% bis 15.07.2032), EUR (currency not printed on this page; per bonds.json terms); fetched 2026-11-13 ~17:10 ET post US close. Venue gettex (same as prior runs): Letzter 78,90 % at 22:45:51 CET 13.11.2026 (= 16:45 ET), Vortag 78,90 %, +/- '-', Spanne 78,90-78,90, Umsatz nominal '-' (Letzter numerically identical to the 2026-11-12 record; print time dated 13.11.2026). Other venues Letzter / Vortag / time (all 13.11.2026): Baader 78,23/79,13/22:29:57 (Spanne 77,98-79,13); Duesseldorf 78,05/79,37/09:13:21; Frankfurt 78,04/79,43/08:07:12; Muenchen 77,71/79,44/14:15:47 (Spanne 77,71-78,04); Quotrix 79,13/77,94/07:27:08; Stuttgart 75,44/75,80/21:46:50 (Spanne 75,44-76,50). Not labelled clean/dirty, treated as clean. EUR: absolute spread N/A.",
         "quote_kind": "close_clean"
       }
     },
@@ -127,9 +127,9 @@
       "rating_cohort": null,
       "note": "转债：利差被期权价值污染，不可直读为纯信用利差 → 仅参考，不参与任何判定",
       "quote": {
-        "price": 48.12,
-        "as_of": "2026-11-12",
-        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); row US46270CAL3 'IREN Limited 1.0% 01-DEC-2033 144A', coupon 1.000%, maturity 2033-12-01, outstanding 3 B USD, Price % 48.12%, YTW '—'; no quote-date field; 'No trades' shown twice in header. Fetched 2026-11-12 ~17:10 ET post US close. Value differs from 44.63 shown at the 2026-11-11 ~17:15 ET fetch, so the print changed after that fetch; as_of 2026-11-12 INFERRED (could also be a late 2026-11-11 report), not page-shown. No clean/dirty label.",
+        "price": 45.62,
+        "as_of": "2026-11-13",
+        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); row US46270CAL3 'IREN Limited 1.0% 01-DEC-2033 144A', coupon 1.000%, maturity 2033-12-01, outstanding 3 B USD, Price % 45.62%, YTW '—'; no quote-date field; 'No trades' shown twice in header. Fetched 2026-11-13 ~17:15 ET post US close. Value differs from 48.12 shown at the 2026-11-12 ~17:10 ET fetch; as_of 2026-11-13 INFERRED (could also be a late 2026-11-12 report), not page-shown. No clean/dirty label.",
         "quote_kind": "close_clean"
       }
     },
@@ -147,9 +147,9 @@
       "rating_cohort": null,
       "note": "零息转债，同上仅参考",
       "quote": {
-        "price": 48.82,
-        "as_of": "2026-11-12",
-        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); row IREN6548018 'IREN Limited 0.0% 01-JUL-2031', coupon 0.000%, maturity 2031-07-01, outstanding 1 B USD, Price % 48.82%, YTW '—'; no quote-date field. Fetched 2026-11-12 ~17:10 ET post US close. Value differs from 49.23 at the 2026-11-11 ~17:15 ET fetch; as_of 2026-11-12 INFERRED (could also be a late 2026-11-11 report), not page-shown. Zero coupon, so clean = full. Page also lists IREN6268256 3.25% 15-JUN-2030 (157.50%) and IREN6434305 3.5% 15-DEC-2029 (550 M USD, 165.50%), not in bonds.json.",
+        "price": 46.15,
+        "as_of": "2026-11-13",
+        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); row IREN6548018 'IREN Limited 0.0% 01-JUL-2031', coupon 0.000%, maturity 2031-07-01, outstanding 1 B USD, Price % 46.15%, YTW '—'; no quote-date field. Fetched 2026-11-13 ~17:15 ET post US close. Value differs from 48.82 at the 2026-11-12 ~17:10 ET fetch; as_of 2026-11-13 INFERRED (could also be a late 2026-11-12 report), not page-shown. Zero coupon, so clean = full. Page also lists IREN6268256 3.25% 15-JUN-2030 (outstanding 212.31 M USD, 132.91%) and IREN6434305 3.5% 15-DEC-2029 (550 M USD, 165.50%), not in bonds.json.",
         "quote_kind": "close_clean"
       }
     }
