@@ -26,7 +26,7 @@
       "quote": {
         "price": 78.82,
         "as_of": "2026-11-13",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB, ISIN USU2069EAE06 (page title 9,625% bis 15.07.2032); fetched 2026-11-14 (Sat) after the 2026-11-13 US close. Venue gettex (same as prior runs): Letzter 78,82 % at 22:42:46 CET 13.11.2026 (= 16:42 ET), Vortag 78,82 %, +/- '-', Spanne 78,82-78,82 (Letzter numerically identical to the 2026-11-11 and 2026-11-12 records; print time is dated 13.11.2026). Other venues Letzter / Vortag / time (all 13.11.2026): Baader 80,69 / 79,25 / 17:29:01 (Spanne 79,25-80,73); Duesseldorf 80,01 / 78,50 / 09:13:19; Frankfurt 79,07 / 78,40 / 08:02:01; Muenchen 78,50 / 78,50 / 16:52:10 (Spanne 78,31-78,50); Quotrix 77,95 / 78,31 / 17:29:54 (no Spanne). Umsatz nominal '-' all venues. Not labelled clean/dirty, treated as clean.",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB, ISIN USU2069EAE06 (page title 9,625% bis 15.07.2032); re-fetched 2026-11-15 (Sun). Venue gettex (same as prior runs): Letzter 78,82 % at 22:42:46 CET 13.11.2026, Vortag 78,82 %, +/- '-', Spanne 78,82-78,82, Umsatz nominal '-' (numerically identical to the 2026-11-11 and 2026-11-12 records). Other venues Letzter / Vortag / time (all 13.11.2026): Baader 80,69 / 79,25 / 17:29:01 (Spanne 79,25-80,73); Duesseldorf 80,01 / 78,50 / 09:13:19; Frankfurt 79,07 / 78,40 / 08:02:01; Muenchen 78,50 / 78,50 / 16:52:10 (Spanne 78,31-78,50); Quotrix 77,95 / 78,31 / 17:29:54. Unchanged vs 2026-11-14 fetch. Not labelled clean/dirty, treated as clean.",
         "quote_kind": "close_clean"
       }
     },
@@ -47,7 +47,7 @@
       "quote": {
         "price": 80.81,
         "as_of": "2026-11-13",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN, ISIN USU2069EAC40 (page title 9,750% bis 01.10.2031); fetched 2026-11-14 (Sat) after the 2026-11-13 US close. Venue Quotrix (same as prior runs): Letzter 80,81 % at 19:46:09 CET 13.11.2026 (= 13:46 ET), Vortag 80,92 %, +/- -0,14 %, Spanne '-', Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 13.11.2026): Frankfurt 80,82 / 80,93 / 17:20:07 CET (Spanne 80,82-81,76); Duesseldorf 81,77 / 80,89 / 09:13:19 CET (Spanne 81,77-81,77). Umsatz nominal '-' at all venues. Not labelled clean/dirty, treated as clean.",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN, ISIN USU2069EAC40 (page title 9,750% bis 01.10.2031); re-fetched 2026-11-15 (Sun). Venue Quotrix (same as prior runs): Letzter 80,81 % at 19:46:09 CET 13.11.2026, Vortag 80,92 %, +/- -0,14 %, Spanne empty, Umsatz nominal '-'. Other venues (all 13.11.2026): Frankfurt 80,82 / Vortag 80,93 / 17:20:07 (Spanne 80,82-81,76); Duesseldorf 81,77 / 80,89 / 09:13:19 (Spanne 81,77-81,77). Unchanged vs 2026-11-14 fetch. Not labelled clean/dirty, treated as clean.",
         "quote_kind": "close_clean"
       }
     },
@@ -67,7 +67,7 @@
       "quote": {
         "price": 80.2,
         "as_of": "2026-11-13",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66 (page title 9,000% bis 01.02.2031); fetched 2026-11-14 (Sat) after the 2026-11-13 US close. Venue Frankfurt only (same as prior runs): Letzter 80,20 % at 08:02:01 CET 13.11.2026 (= 02:02 ET, early single print), Vortag 79,28 %, +/- +1,16 %, Spanne 80,20-80,20, Umsatz nominal '-'. Not labelled clean/dirty, treated as clean.",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66 (page title 9,000% bis 01.02.2031); re-fetched 2026-11-15 (Sun). Venue Frankfurt only: Letzter 80,20 % at 08:02:01 CET 13.11.2026 (early single print), Vortag 79,28 %, +/- +1,16 %, Spanne 80,20-80,20, Umsatz nominal '-'. Unchanged vs 2026-11-14 fetch. Not labelled clean/dirty, treated as clean.",
         "quote_kind": "close_clean"
       }
     },
@@ -88,7 +88,7 @@
       "quote": {
         "price": 78.9,
         "as_of": "2026-11-13",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewud-coreweave-anleihe ; WKN A4EWUD, ISIN XS3333139288 (page title 8,500% bis 15.07.2032), EUR (currency not printed on this page; per bonds.json terms); fetched 2026-11-14 (Sat) after the 2026-11-13 US close. Venue gettex (same as prior runs): Letzter 78,90 % at 22:45:51 CET 13.11.2026 (= 16:45 ET), Vortag 78,90 %, +/- '-', Spanne 78,90-78,90, Umsatz nominal '-' (Letzter numerically identical to the 2026-11-12 record; print time is dated 13.11.2026). Other venues Letzter / Vortag / time (all 13.11.2026): Baader 78,23/79,13/22:29:57 (Spanne 77,98-79,13); Duesseldorf 78,05/79,37/09:13:21; Frankfurt 78,04/79,43/08:07:12; Muenchen 77,71/79,44/14:15:47 (Spanne 77,71-78,04); Quotrix 79,13/77,94/07:27:08 (Spanne 79,13-79,13); Stuttgart 75,44/75,80/21:46:50 (Spanne 75,44-76,50). Umsatz nominal '-' all venues. Not labelled clean/dirty, treated as clean. EUR: absolute spread N/A.",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewud-coreweave-anleihe ; WKN A4EWUD, ISIN XS3333139288 (page title 8,500% bis 15.07.2032), EUR (currency not printed on page; per bonds.json terms); re-fetched 2026-11-15 (Sun). Venue gettex (same as prior runs): Letzter 78,90 % at 22:45:51 CET 13.11.2026, Vortag 78,90 %, +/- '-', Spanne 78,90-78,90, Umsatz nominal '-'. Other venues Letzter/Vortag/time (all 13.11.2026): Baader 78,23/79,13/22:29:57 (Spanne 77,98-79,13); Duesseldorf 78,05/79,37/09:13:21; Frankfurt 78,04/79,43/08:07:12; Muenchen 77,71/79,44/14:15:47 (Spanne 77,71-78,04); Quotrix 79,13/77,94/07:27:08; Stuttgart 75,44/75,80/21:46:50 (Spanne 75,44-76,50). Unchanged vs 2026-11-14 fetch. Not labelled clean/dirty, treated as clean. EUR: absolute spread N/A.",
         "quote_kind": "close_clean"
       }
     },
