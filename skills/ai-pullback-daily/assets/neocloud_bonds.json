@@ -26,8 +26,8 @@
       "quote": {
         "price": 78.82,
         "as_of": "2026-11-16",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB (page title 9,625% bis 15.07.2032); fetched 2026-11-16 ~15:05 CET. Venue gettex: Letzter 78,82 % at 14:41:10 CET 16.11.2026, Vortag 78,82 %, +/- '-', Spanne 78,82-78,82, Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 16.11.2026): Baader 79,42 / 80,69 / 14:20:16 (Spanne 79,42-80,69); Duesseldorf 79,43 / 80,01 / 09:11:36; Frankfurt 81,49 / 79,07 / 14:23:53 (Spanne 79,43-81,49, Umsatz nominal 24.000); Muenchen 78,50 / 78,50 / 13:58:01 (Spanne 77,95-78,50); Quotrix 80,16 / 77,95 / 15:04:42. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "intraday_indicative"
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewub-coreweave-anleihe ; WKN A4EWUB (page title 9,625% bis 15.07.2032); fetched 2026-11-16 after 17:00 ET, HTTP 200. Selected venue gettex: Letzter 78,82 % at 22:44:57 CET 16.11.2026 (16:44 ET), Vortag 78,82 %, +/- '-', Spanne 78,82-78,82, Umsatz nominal '-' (same value as the 14:41 CET print recorded earlier today). Other venues Letzter / Vortag / time (all 16.11.2026): Baader 79,46 / 80,69 / 22:29:57 (Spanne 79,32-80,69); Duesseldorf 79,43 / 80,01 / 09:11:36; Frankfurt 81,49 / 79,07 / 14:23:53 (Spanne 79,43-81,49, Umsatz nominal 24.000); Muenchen 78,49 / 78,50 / 16:58:43 (Spanne 77,95-78,61); Quotrix 78,44 / 77,95 / 21:27:12. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "close_clean"
       }
     },
     {
@@ -45,10 +45,10 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 79.26,
+        "price": 79.23,
         "as_of": "2026-11-16",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN (page title 9,750% bis 01.10.2031); fetched 2026-11-16 ~15:10 CET after two HTTP 403. Venue Quotrix: Letzter 79,26 % at 15:08:25 CET 16.11.2026, Vortag 80,81 %, +/- -1,92 %, Spanne empty, Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 16.11.2026): Frankfurt 79,56 / 80,82 / 14:40:07 (Spanne 79,56-80,77); Duesseldorf 80,70 / 81,77 / 09:11:36 (Spanne 80,70-80,70). Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "intraday_indicative"
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN (page title 9,750% bis 01.10.2031); fetched 2026-11-16 after 17:00 ET, HTTP 200. Selected venue Quotrix: Letzter 79,23 % at 19:46:11 CET 16.11.2026 (13:46 ET), Vortag 80,81 %, +/- -1,96 %, Spanne blank, Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 16.11.2026): Frankfurt 79,24 / 80,82 / 17:26:45 (Spanne 79,14-80,77); Duesseldorf 80,70 / 81,77 / 09:11:36 (Spanne 80,70-80,70). Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "close_clean"
       }
     },
     {
@@ -67,8 +67,8 @@
       "quote": {
         "price": 80.33,
         "as_of": "2026-11-16",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4 (page title 9,000% bis 01.02.2031); fetched 2026-11-16 ~15:10 CET after two HTTP 403. Venue Frankfurt only: Letzter 80,33 % at 08:01:11 CET 16.11.2026 (early single print), Vortag 80,20 %, +/- +0,16 %, Spanne 80,33-80,33, Umsatz nominal '-'. No other venues listed. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "intraday_indicative"
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4 (page title 9,000% bis 01.02.2031); fetched 2026-11-16 after 17:00 ET, HTTP 200. Venue Frankfurt only: Letzter 80,33 % at 08:01:11 CET 16.11.2026 (02:01 ET, single early print, unchanged since the morning fetch), Vortag 80,20 %, +/- +0,16 %, Spanne 80,33-80,33, Umsatz nominal '-'. No other venues listed. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "close_clean"
       }
     },
     {
@@ -107,9 +107,9 @@
       "note": "项目层 SPV，背后是 AWS 10-15 年租约 → L2 真正的主题指标。这条走阔才是论点崩坏",
       "is_l2_benchmark": true,
       "quote": {
-        "price": 96.891,
-        "as_of": "2026-11-06",
-        "source": "TradingView https://www.tradingview.com/symbols/FINRA-BLPG6304798/ (HTTP 200); Black Pearl Compute LLC 6.125% Feb 15, 2031, symbol FINRA:BLPG6304798, FAQ text 'trade at 96.891%' of face; yield not shown; 'No trades' shown twice near top; NO quote-date/time field on page. Re-fetched 2026-11-11 ~17:15 ET post US close: value unchanged from the 2026-11-07 fetch, so no newer print is shown. as_of 2026-11-06 is an INFERRED upper bound (print already visible on 2026-11-07; changed from 96.851 after the 2026-11-04 ~09:10 ET fetch, so trade date is 2026-11-04, -05 or -06), not page-shown. No clean/dirty label, treated as clean. Cross-check search (Cbonds USU0921NAA01 / BLKPRL) returned no current price.",
+        "price": 96.473,
+        "as_of": "2026-11-12",
+        "source": "TradingView https://www.tradingview.com/symbols/FINRA-BLPG6304798/ (HTTP 200); Black Pearl Compute LLC 6.125% Feb 15, 2031, symbol FINRA:BLPG6304798, FAQ text 'trade at 96.473%' of face; coupon 6.13% in Key terms; yield not shown; 'No trades' shown twice under title; NO quote-date/time field on page. Fetched 2026-11-16 after 17:00 ET (post US close). Value changed from 96.891 seen at the 2026-11-11 ~17:15 ET fetch, so the print is dated 2026-11-12..2026-11-16; as_of 2026-11-12 is the INFERRED lower bound, not page-shown. No clean/dirty label, treated as clean (TRACE convention). No cross-check source fetched this run.",
         "quote_kind": "close_clean"
       }
     },
