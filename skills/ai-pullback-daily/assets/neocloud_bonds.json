@@ -45,10 +45,10 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 79.23,
-        "as_of": "2026-11-16",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN (page title 9,750% bis 01.10.2031); fetched 2026-11-16 after 17:00 ET, HTTP 200. Selected venue Quotrix: Letzter 79,23 % at 19:46:11 CET 16.11.2026 (13:46 ET), Vortag 80,81 %, +/- -1,96 %, Spanne blank, Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 16.11.2026): Frankfurt 79,24 / 80,82 / 17:26:45 (Spanne 79,14-80,77); Duesseldorf 80,70 / 81,77 / 09:11:36 (Spanne 80,70-80,70). Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 78.97,
+        "as_of": "2026-11-17",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eucn-coreweave-anleihe ; WKN A4EUCN (page title 9,750% bis 01.10.2031); fetched 2026-11-17 ~09:05 ET (US pre-market), HTTP 200. Selected venue Quotrix: Letzter 78,97 % at 15:05:38 CET 17.11.2026 (09:05 ET), Vortag 79,23 %, +/- -0,34 %, Spanne blank, Umsatz nominal '-'. Other venues Letzter / Vortag / +/- / time (all 17.11.2026, CET): Frankfurt 78,75 / 79,24 / -0,62 / 14:40:08 (Spanne 78,38-78,75); Duesseldorf 78,60 / 80,70 / -2,60 / 09:05:59 (Spanne 78,60-78,60). Today's European intraday print (as_of = run date). Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -65,10 +65,10 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 80.33,
-        "as_of": "2026-11-16",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4 (page title 9,000% bis 01.02.2031); fetched 2026-11-16 after 17:00 ET, HTTP 200. Venue Frankfurt only: Letzter 80,33 % at 08:01:11 CET 16.11.2026 (02:01 ET, single early print, unchanged since the morning fetch), Vortag 80,20 %, +/- +0,16 %, Spanne 80,33-80,33, Umsatz nominal '-'. No other venues listed. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 79.27,
+        "as_of": "2026-11-17",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4eeq4-coreweave-anleihe ; WKN A4EEQ4, ISIN USU2069EAB66 (page title 9,000% bis 01.02.2031); fetched 2026-11-17 ~09:05 ET (US pre-market), HTTP 200. Venue Frankfurt only: Letzter 79,27 % at 08:00:46 CET 17.11.2026 (02:00 ET, single early print), Vortag 80,33 %, +/- -1,32 %, Spanne 79,27-79,27, Umsatz nominal '-'. No other venues listed. Today's European intraday print (as_of = run date). Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -86,9 +86,9 @@
       "rating_cohort": "single_b",
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
-        "price": 78.73,
-        "as_of": "2026-11-16",
-        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewud-coreweave-anleihe ; WKN A4EWUD (page title 8,500% bis 15.07.2032), EUR (currency not printed on page; per bonds.json terms); fetched 2026-11-16 ~15:10 CET after two HTTP 403. Venue gettex: Letzter 78,73 % at 14:43:22 CET 16.11.2026, Vortag 78,90 %, +/- -0,22 %, Spanne 78,73-78,90, Umsatz nominal '-'. Other venues Letzter / Vortag / time (all 16.11.2026): Baader 77,57 / 78,23 / 15:08:41 (Spanne 77,50-78,27); Duesseldorf 77,19 / 78,05 / 09:11:37; Frankfurt 77,15 / 78,04 / 08:09:27; Muenchen 77,15 / 77,71 / 08:12:28; Quotrix 78,25 / 79,13 / 07:27:07; Stuttgart 75,73 / 75,44 / 15:02:29 (Spanne 75,51-75,73). Not labelled clean/dirty, treated as clean. EUR: absolute spread N/A.",
+        "price": 76.53,
+        "as_of": "2026-11-17",
+        "source": "finanzen.net https://www.finanzen.net/anleihen/boersenplaetze/a4ewud-coreweave-anleihe ; WKN A4EWUD, ISIN XS3333139288 (page title 8,500% bis 15.07.2032), EUR (currency not printed on page; per bonds.json terms); fetched 2026-11-17 ~09:05 ET (US pre-market), HTTP 200. Selected venue gettex: Letzter 76,53 % at 14:44:11 CET 17.11.2026 (08:44 ET), Vortag 77,64 %, +/- -1,43 %, Spanne 76,53-77,64, Umsatz nominal '-'. Other venues Letzter / Vortag / +/- / time (all 17.11.2026, CET): Baader 75,65 / 76,66 / -1,31 / 14:38:22 (Spanne 75,64-76,91); Duesseldorf 75,56 / 77,19 / -2,11 / 09:06:31; Frankfurt 76,00 / 77,15 / -1,50 / 08:05:23; Muenchen 76,04 / 77,15 / -1,45 / 08:51:17; Quotrix 76,66 / 78,25 / -2,03 / 07:27:07; Stuttgart 75,14 / 75,73 / -0,78 / 15:00:02 (Spanne 74,10-75,14). Today's European intraday print (as_of = run date). Not labelled clean/dirty, treated as clean. EUR: absolute spread N/A.",
         "quote_kind": "intraday_indicative"
       }
     },
