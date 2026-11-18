@@ -24,10 +24,10 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 79.731,
-        "as_of": "2026-11-17",
-        "source": "onvista https://www.onvista.de/anleihen/A4EWUB ; 'CoreWeave Inc. DL-Notes 2026(26/32) Reg.S', ISIN USU2069EAE06, WKN A4EWUB, 9,625 %, Faelligkeit 15.07.2032; fetched 2026-11-17 ~17:30 ET, HTTP 200 (finanzen.net tier-1 page HTTP 403). Selected venue Baader Trading (Echtzeit): 79,731 % 'heute' 21:59:39 page time (read as UTC = 22:59:39 CET = 16:59:39 ET, 17.11.2026), change +0,105 / +0,13 %, volume 'unbekannt'; Baader bid 78,718 / ask 80,743 at 21:59 (1.200.000). Other venues: Frankfurt (verzoegert) 79,935 % 'heute' 07:00:46 page time (08:00:46 CET), change -1,550 / -1,90 %, 0 Nom.; Quotrix 97,782 % dated 07.07.2026 13:27:15 (stale), Quotrix bid 78,548 / ask 80,573 at 20:25. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 79.57,
+        "as_of": "2026-11-18",
+        "source": "onvista https://www.onvista.de/anleihen/A4EWUB ; 'CoreWeave Inc. DL-Notes 2026(26/32) Reg.S', ISIN USU2069EAE06, WKN A4EWUB; fetched 2026-11-18 ~09:10 ET, HTTP 200 (finanzen.net search page HTTP 200 but header is a Quotrix quote 79,84 @18.11.2026 15:05:04 CET equal to Quotrix bid, not used; finanzen.net bond URL HTTP 404). Selected venue Baader Trading (Echtzeit), same venue as stored quote: 79,570 % 'heute' 13:31:27 page time (read as UTC = 14:31:27 CET = 08:31:27 ET, 18.11.2026), change -0,161 / -0,20 %, volume 'unbekannt'; Baader bid 78,680 (13:56) / ask 80,450 (14:04), 1.200.000. Other venues: Muenchen 78,680 % 'heute' 13:59:20 (equals Muenchen bid 78,680 @14:04:25), change +0,090; Frankfurt (verzoegert) 80,065 % 'heute' 07:02:35, 0 Nom., bid 79,840 / ask 82,255 @13:07; Quotrix last 97,782 % dated 07.07.2026 (stale), bid 79,840 / ask 80,450 @14:05. as_of = page 'heute' on the run date; intraday, US pre-market. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -45,10 +45,10 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 78.585,
-        "as_of": "2026-11-17",
-        "source": "onvista https://www.onvista.de/anleihen/A4EUCN ; 'CoreWeave Inc. DL-Notes 2026(26/31) Reg.S', ISIN USU2069EAC40, WKN A4EUCN; fetched 2026-11-17 ~17:30 ET, HTTP 200 (finanzen.net tier-1 page HTTP 403; gettex page template-only; Boerse Stuttgart HTTP 403). Selected venue Frankfurt (verzoegert): 78,585 % 'heute' 16:20:07 page time (read as UTC = 17:20:07 CET = 11:20:07 ET, 17.11.2026), change -0,650 / -0,82 %, 0 Nom. Other venues: Duesseldorf 78,600 % 'heute' 08:05:59 page time (09:05:59 CET), change -2,100 / -2,60 %, 0 Nom.; Quotrix last 84,444 % dated 11.11.2026 13:41:43 (stale, 10.000 Nom.), Quotrix quote entries 78,585 (50.000) and 82,812 (0) at 18:46, spread 4,227. No Baader/gettex/late-session print visible for this WKN. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 79.435,
+        "as_of": "2026-11-18",
+        "source": "onvista https://www.onvista.de/anleihen/A4EUCN ; 'CoreWeave Inc. DL-Notes 2026(26/31) Reg.S', ISIN USU2069EAC40, WKN A4EUCN; fetched 2026-11-18 ~09:10 ET, HTTP 200 (finanzen.net search HTTP 200 shows Quotrix 79,21 @18.11.2026 15:06:01 CET = Quotrix bid, not used). Selected venue Frankfurt (verzoegert), same venue as stored quote: 79,435 % 'heute' 13:40:07 page time (read as UTC = 14:40:07 CET = 08:40:07 ET, 18.11.2026), change +0,850 / +1,08 %, 0 Nom.; Frankfurt bid 79,410 / ask 83,495 @13:50. Other venues: Duesseldorf 79,190 % 'heute' 08:12:52, change +0,590, 0 Nom., bid 79,210 / ask 83,480 @14:06; Quotrix last 84,444 % dated 11.11.2026 (stale), bid 79,207 / ask 83,476 @14:06. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -65,10 +65,10 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 79.27,
-        "as_of": "2026-11-17",
-        "source": "onvista https://www.onvista.de/anleihen/A4EEQ4 ; 'CoreWeave Inc. DL-Notes 2025(25/31) Reg.S', ISIN USU2069EAB66, WKN A4EEQ4, 9,000 %, Faelligkeit 01.02.2031; fetched 2026-11-17 ~17:30 ET, HTTP 200 (finanzen.net tier-1 HTTP 403; Deutsche Boerse live page shows last '-'). Only venue Frankfurt (verzoegert): 79,270 % 'heute' 07:00:46 page time (08:00:46 CET = 02:00:46 ET, 17.11.2026), change -1,060 / -1,32 %, 0 Nom. This is the same single early Frankfurt print already recorded at the 09:05 ET fetch; no later print on any venue today. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 79.725,
+        "as_of": "2026-11-18",
+        "source": "onvista https://www.onvista.de/anleihen/A4EEQ4 ; 'CoreWeave Inc. DL-Notes 2025(25/31) Reg.S', ISIN USU2069EAB66, WKN A4EEQ4; fetched 2026-11-18 ~09:10 ET, HTTP 200 (finanzen.net search HTTP 403). Only venue Frankfurt (verzoegert): 79,725 % 'heute' 07:02:36 page time (read as UTC = 08:02:36 CET = 02:02:36 ET, 18.11.2026), change +0,455 / +0,57 %, 0 Nom.; bid 79,765 / ask 82,765 @13:16:00, 20.000 Nom. Single early-session Frankfurt print. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -86,10 +86,10 @@
       "rating_cohort": "single_b",
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
-        "price": 75.946,
-        "as_of": "2026-11-17",
-        "source": "onvista https://www.onvista.de/anleihen/A4EWUD ; 'CoreWeave Inc. EO-Notes 2026(26/32) Reg.S', ISIN XS3333139288, WKN A4EWUD, 8,500 %, Faelligkeit 15.07.2032, EUR; fetched 2026-11-17 ~17:30 ET, HTTP 200 (finanzen.net tier-1 HTTP 403). Selected venue Baader Trading (Echtzeit): 75,946 % 'heute' 21:59:49 page time (read as UTC = 22:59:49 CET = 16:59:49 ET, 17.11.2026), change -0,820 / -1,07 %, volume 'unbekannt'. Other venues: Stuttgart (Echtzeit) 75,235 % 'heute' 20:45:04 page time (21:45:04 CET), change -0,493 / -0,65 %, 0 Nom.; Frankfurt (verzoegert) 75,995 % 'heute' 07:05:23 page time (08:05:23 CET), change -1,155 / -1,50 %, 0 Nom. Not labelled clean/dirty, treated as clean. EUR: absolute spread N/A.",
-        "quote_kind": "close_clean"
+        "price": 76.94,
+        "as_of": "2026-11-18",
+        "source": "finanzen.net https://www.finanzen.net/suchergebnis.asp?_search=XS3333139288 (HTTP 200), CoreWeave EUR note XS3333139288 / WKN A4EWUD; fetched 2026-11-18 ~09:10 ET. Main quote 76,94 % at 18.11.2026 15:05:41 CET (= 09:05:41 ET), Baader Bank 'Letzter' 76,94 vs Vortag 76,01. Venue table (undated rows): Duesseldorf 75,36; Frankfurt 74,87; gettex 76,53; Muenchen 74,93; Quotrix 76,00; Stuttgart 76,59 (Stuttgart bid stamped 15:00:09). Cross-check onvista https://www.onvista.de/anleihen/A4EWUD (HTTP 200): Baader Trading 76,943 % 'heute' 14:05:41 (UTC), bid 76,065 / ask 77,820 @14:05 (1.000.000); Stuttgart 76,585 % 'heute' 14:00:09; Frankfurt 74,870 % 'heute' 07:04:54. Same venue (Baader) as stored quote. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -107,9 +107,9 @@
       "note": "项目层 SPV，背后是 AWS 10-15 年租约 → L2 真正的主题指标。这条走阔才是论点崩坏",
       "is_l2_benchmark": true,
       "quote": {
-        "price": 96.473,
-        "as_of": "2026-11-12",
-        "source": "TradingView https://www.tradingview.com/symbols/FINRA-BLPG6304798/ (HTTP 200); Black Pearl Compute LLC 6.125% Feb 15, 2031, symbol FINRA:BLPG6304798, FAQ text 'trade at 96.473%' of face; coupon 6.13% in Key terms; yield not shown; 'No trades' shown twice under title; NO quote-date/time field on page. Re-fetched 2026-11-17 ~17:30 ET (post US close). Value unchanged from the 2026-11-16 post-close fetch (96.473), which itself changed from 96.891 at the 2026-11-11 fetch; print therefore dated 2026-11-12..2026-11-17 and as_of 2026-11-12 is the INFERRED lower bound, not page-shown. No clean/dirty label, treated as clean (TRACE convention). Cross-check divvydiary (ISIN US09216NAA81) shows 97.74% with no date/venue, not used.",
+        "price": 97.671,
+        "as_of": "2026-11-17",
+        "source": "TradingView https://www.tradingview.com/symbols/FINRA-BLPG6304798/ (HTTP 200); Black Pearl Compute LLC 6.125% Feb 15, 2031, symbol FINRA:BLPG6304798, FAQ text 'trade at 97.671%' of face; coupon 6.13% in Key terms (6.125% in title/FAQ); yield not shown; 'No trades' shown twice; NO quote-date/time field on page (only maturity 2031-02-15 and issue date 2026-02-11). Fetched 2026-11-18 ~09:10 ET. Value changed from 96.473 at the 2026-11-17 ~17:30 ET fetch, so the print appeared on the page after that fetch; as_of 2026-11-17 is the INFERRED lower bound (prior US session), not page-shown; quote_kind close_clean because inferred as_of precedes the run date. No clean/dirty label, treated as clean (TRACE convention). Cross-check divvydiary (ISIN US09216NAA81) 97.53% with no date/venue, not used. finanzen.net HTTP 403; Deutsche Boerse 404 (not listed).",
         "quote_kind": "close_clean"
       }
     },
