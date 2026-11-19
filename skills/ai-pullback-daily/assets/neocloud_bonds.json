@@ -24,10 +24,10 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 79.346,
-        "as_of": "2026-11-18",
-        "source": "onvista https://www.onvista.de/anleihen/A4EWUB (HTTP 200); 'CoreWeave Inc. DL-Notes 2026(26/32) Reg.S', ISIN USU2069EAE06, WKN A4EWUB; fetched 2026-11-18 ~17:05 ET. Venue Baader Trading (Echtzeit), same venue as stored quote: 79,346 % 'heute' 21:27:57 page time (read as UTC = 22:27:57 CET = 16:27:57 ET, 2026-11-18), change -0,385 / -0,48 %, volume 'unbekannt'; Baader bid 77,799 / ask 80,892 @21:27 (1.200.000). Other venues: Frankfurt (verzoegert) 80,065 % 'heute' 07:02:35, 0 Nom.; Quotrix last 97,782 % dated 07.07.2026 (stale), bid 77,833 / ask 80,908 @20:31; page header gettex 80,360 % 'heute' 21:41:15 (not in venue table, not used). Stored quote was 79.57 @ Baader 13:31:27 page time. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 79.406,
+        "as_of": "2026-11-19",
+        "source": "onvista https://www.onvista.de/anleihen/A4EWUB (HTTP 200); 'CoreWeave Inc. DL-Notes 2026(26/32) Reg.S', ISIN USU2069EAE06, WKN A4EWUB; fetched 2026-11-19 ~09:05 ET. Venue Baader Trading (Echtzeit), same venue as stored quote: 79,406 % 'heute' 14:02:30 page time (read as UTC = 09:02:30 ET, 2026-11-19) -> INTRADAY indication (as_of = run date), change +0,060 / +0,08 %, volume 'unbekannt'; Baader bid 78,033 / ask 80,778 @14:02. Last 2026-11-18 print: Baader 79,346 (not shown as a separate row; equals 79,406 - 0,060 and matches the stored 2026-11-18 quote). Other venues: Frankfurt (verzoegert) 79,530 % 'heute' 07:04:32, 0 Nom., bid 79,695 / ask 82,280 @13:27-13:32; Quotrix last 97,782 % dated 07.07.2026 (stale), bid 79,695 / ask 80,778 @14:03. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -45,10 +45,10 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 78.405,
-        "as_of": "2026-11-18",
-        "source": "onvista https://www.onvista.de/anleihen/A4EUCN (HTTP 200); 'CoreWeave Inc. DL-Notes 2026(26/31) Reg.S', ISIN USU2069EAC40, WKN A4EUCN; fetched 2026-11-18 ~17:05 ET. Venue Frankfurt (verzoegert), same venue as stored quote: 78,405 % 'heute' 16:20:09 page time (read as UTC = 17:20:09 CET = 11:20:09 ET, 2026-11-18), change -0,180 / -0,23 %, 0 Nom.; Frankfurt bid/ask not legible on page. Other venues: Duesseldorf 79,190 % 'heute' 08:12:52, 0 Nom.; Quotrix last 84,444 % dated 11.11.2026 (stale), bid 78,403 / ask 83,459 @18:46. Stored quote was 79.435 @ Frankfurt 13:40:07 page time. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 79.795,
+        "as_of": "2026-11-19",
+        "source": "onvista https://www.onvista.de/anleihen/A4EUCN (HTTP 200); 'CoreWeave Inc. DL-Notes 2026(26/31) Reg.S', ISIN USU2069EAC40, WKN A4EUCN; fetched 2026-11-19 ~09:05 ET. Venue Frankfurt (verzoegert), same venue as stored quote: 79,795 % 'heute' 13:40:06 page time (read as UTC = 08:40:06 ET, 2026-11-19) -> INTRADAY indication (as_of = run date), change +1,390 / +1,77 %, 0 Nom.; Frankfurt bid 79,735 / ask 84,420 @13:50. Last 2026-11-18 print: Frankfurt 78,405 (not a separate row; equals 79,795 - 1,390 and matches the stored 2026-11-18 quote). Note: page timestamp 13:40:06 is one second off the 2026-11-18 intraday print time 13:40:07 recorded in a prior source string; value and change differ, so read as a new print. Other venues: Duesseldorf 77,430 % 'heute' 08:10:40, change -1,760, 0 Nom., bid 79,760 / ask 84,470 @14:06; Quotrix last 84,444 % dated 11.11.2026 (stale), bid 79,758 / ask 84,467 @14:06. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -65,10 +65,10 @@
       "rating_cohort": "single_b",
       "note": "公司层无担保高收益债",
       "quote": {
-        "price": 79.725,
-        "as_of": "2026-11-18",
-        "source": "onvista https://www.onvista.de/anleihen/A4EEQ4 (HTTP 200); 'CoreWeave Inc. DL-Notes 2025(25/31) Reg.S', ISIN USU2069EAB66, WKN A4EEQ4; fetched 2026-11-18 ~17:05 ET. Only venue Frankfurt (verzoegert), same venue as stored quote: 79,725 % 'heute' 07:02:36 page time (read as UTC = 08:02:36 CET = 02:02:36 ET, 2026-11-18), change +0,455 / +0,57 %, 0 Nom.; bid shown 0,000 %, ask blank. This is the SAME single early-session print as the stored quote (identical value and timestamp); no later print on 2026-11-18. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 79.185,
+        "as_of": "2026-11-19",
+        "source": "onvista https://www.onvista.de/anleihen/A4EEQ4 (HTTP 200); 'CoreWeave Inc. DL-Notes 2025(25/31) Reg.S', ISIN USU2069EAB66, WKN A4EEQ4; fetched 2026-11-19 ~09:05 ET. Only venue Frankfurt (verzoegert), same venue as stored quote: 79,185 % 'heute' 07:04:32 page time (read as UTC = 02:04:32 ET, 2026-11-19) -> INTRADAY early-session indication (as_of = run date), change -0,540 / -0,68 %, 0 Nom.; bid 79,750 / ask 82,750 @13:31 (20.000). DATE CONFLICT: the page's bond-data section shows 'Kursdatum 18.11.2026' and 'Berechnungszeitpunkt 19.11.2026'; as_of 2026-11-19 is taken from the 'heute' label plus the change (79,725 - 0,540 = 79,185) against the stored 2026-11-18 print, i.e. a new print. Last 2026-11-18 print: Frankfurt 79,725 @07:02:36 (stored; equals 79,185 + 0,540). Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
@@ -86,10 +86,10 @@
       "rating_cohort": "single_b",
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
-        "price": 76.736,
-        "as_of": "2026-11-18",
-        "source": "FALLBACK tier 2: finanzen.net https://www.finanzen.net/suchergebnis.asp?_search=XS3333139288 HTTP 403 and ?_search=A4EWUD HTTP 403. Used onvista https://www.onvista.de/anleihen/A4EWUD (HTTP 200); 'CoreWeave Inc. EO-Notes 2026(26/32) Reg.S', ISIN XS3333139288, WKN A4EWUD; fetched 2026-11-18 ~17:05 ET. Venue Baader Trading (Echtzeit), same venue as stored quote (stored finanzen.net main quote was Baader 76,94): 76,736 % 'heute' 21:59:17 page time (read as UTC = 22:59:17 CET = 16:59:17 ET, 2026-11-18), change +0,790 / +1,04 %, volume 'unbekannt'; bid 75,491 / ask 77,980 @21:59 (1.000.000). Other venues: Stuttgart 76,585 % 'heute' 14:00:09, 0 Nom.; Frankfurt (verzoegert) 74,870 % 'heute' 07:04:54, 0 Nom. EUR-denominated. Not labelled clean/dirty, treated as clean.",
-        "quote_kind": "close_clean"
+        "price": 77.118,
+        "as_of": "2026-11-19",
+        "source": "onvista https://www.onvista.de/anleihen/A4EWUD (HTTP 200); 'CoreWeave Inc. EO-Notes 2026(26/32) Reg.S', ISIN XS3333139288, WKN A4EWUD; fetched 2026-11-19 ~09:05 ET. Venue Baader Trading (Echtzeit), same venue as stored quote: 77,118 % 'heute' 14:02:51 page time (read as UTC = 09:02:51 ET, 2026-11-19) -> INTRADAY indication (as_of = run date), change +0,382 / +0,50 %, volume 'unbekannt'; bid 76,240 / ask 77,995 @14:02 (1.000.000). Last 2026-11-18 prints: Baader 76,736 (not a separate row; equals 77,118 - 0,382, matches stored quote); Stuttgart 76,585 % 'gestern' 14:00:09 (2026-11-18), 0 Nom., bid 74,875 / ask 78,212 @12:21. Other venue: Frankfurt (verzoegert) 75,970 % 'heute' 07:07:03, change +1,100, 0 Nom., bid 76,235 / ask 77,990 @13:38. EUR-denominated. Not labelled clean/dirty, treated as clean.",
+        "quote_kind": "intraday_indicative"
       }
     },
     {
