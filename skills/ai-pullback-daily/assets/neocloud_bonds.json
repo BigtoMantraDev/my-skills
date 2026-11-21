@@ -147,9 +147,9 @@
       "rating_cohort": null,
       "note": "零息转债，同上仅参考",
       "quote": {
-        "price": 43.61,
+        "price": 43.5,
         "as_of": "2026-11-20",
-        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); row IREN6548018 'IREN Limited 0.0% 01-JUL-2031', outstanding 1 B USD, Price % 43.61%, YTW '—'; no quote-date field. Fetched 2026-11-20 ~17:10 ET. Value changed from stored 45.94 (fetched 2026-11-20 ~09:10 ET), so a print posted between the two same-day fetches; as_of 2026-11-20 INFERRED from that change, not page-shown. Zero coupon, clean = full.",
+        "source": "REFERENCE ONLY (convert). TradingView https://www.tradingview.com/symbols/NASDAQ-IREN/bonds/ (HTTP 200); row IREN6548018 'IREN Limited 0.0% 01-JUL-2031', outstanding 1 B USD, Price % 43.50%, YTW '—'; no quote-date field. Fetched 2026-11-21. Changed from stored 43.61 (fetched 2026-11-20 ~17:10 ET); as_of 2026-11-20 INFERRED (late-posted Friday print; no Saturday session), not page-shown. Zero coupon, clean = full.",
         "quote_kind": "close_clean"
       }
     }
