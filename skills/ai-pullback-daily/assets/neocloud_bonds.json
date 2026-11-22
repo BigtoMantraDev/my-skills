@@ -473,6 +473,49 @@
         "status": "priced",
         "purpose": "Not read from filing (tracker lists instrument only)",
         "source": "CCIR tracker https://ccir.io/credit (HTTP 200, row Issued 2026-11-18, 'confirmed', Rate 0.00%) citing ChronoScale 8-K Item 2.03 with Exhibit 4.3 form of Convertible Note, acc 0001493152-26-052998 https://www.sec.gov/Archives/edgar/data/1549084/000149315226052998/form8-k.htm (not fetched directly). Same 8-K as the stored OD1 JV term loan entry, but a separate instrument. Rate 0.00% fixed; no SOFR spread/OID -> null, not estimated. 'priced' is nearest enum value. Related-party style note, small size."
+      },
+      {
+        "date": "2026-10-28",
+        "issuer": "Morgan Stanley-led bank group (bridge lenders) — Nexus Data Centers project leased to Anthropic, Hubbard, Texas",
+        "instrument": "Planned high-yield bond sale (~$5-7bn) to refinance part of a ~$15bn construction loan (reported $14.2bn one-year loan + $1.4bn five-year revolver)",
+        "size_usd_mm": null,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "postponed",
+        "purpose": "Refinance/sell down construction loan for Anthropic-leased data center (Google guarantees reportedly effective only post-completion)",
+        "source": "Bloomberg 2026-10-28 https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center (HTTP 403, not read); secondary: https://fourweekmba.com/ai-banks-delay-bond-sale-on-15b-anthropic-tied-texas-loan/ , https://cryptobriefing.com/texas-grid-audit-stalls-5b-7b-bond-sale-for-anthropic-data-center/ . Source wording 'shelve'/'delay'; sales may be done in installments over the next year; cause reported as Texas hold on new data center projects/permits (power grid). Planned bond size $5-7bn not confirmed in Bloomberg lede per one analysis; size_usd_mm left null. Link of loan to this project is secondary-source matching. 'postponed' is nearest enum. No pricing terms -> null. Not a neocloud issuer; AI data center project financing."
+      },
+      {
+        "date": "2026-11-13",
+        "issuer": "QTS (Blackstone-owned) via QTS Thunder Managing Issuer LLC",
+        "instrument": "Private placement notes, 7-15 year maturities; downsized from ~$800mm to ~$300mm",
+        "size_usd_mm": 300,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "priced",
+        "purpose": "Data center financing (tenant not identified for this placement)",
+        "source": "Bloomberg 2026-11-13 via https://startupfortune.com/blackstones-qts-cuts-its-ai-data-center-debt-sale-to-300-million/ (HTTP 200, article 2026-11-14): cut ~60% after investors balked at offered price; QTS 'wasn't willing to pay much higher yields'; source states Bloomberg 'doesn't say the deal failed' and does not confirm final pricing. Arrangers Mizuho, Natixis, SocGen, Wells Fargo. 'priced' is nearest enum but pricing NOT confirmed (could equally be still-marketing); downsizing is not representable in the enum. No spread/yield/OID disclosed -> null. Not a neocloud issuer."
+      },
+      {
+        "date": "2026-11-19",
+        "issuer": "Saturn Funding Trust (Apollo-managed SPV; lessee SpaceX/xAI)",
+        "instrument": "~$32bn GPU-backed bonds in three classes; Class A3 ~$25.2bn priced to yield 8.259%; part of >$40bn package incl. senior secured loan",
+        "size_usd_mm": 32000,
+        "base_rate": "FIXED",
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "final_yield_pct": 8.259,
+        "status": "priced",
+        "purpose": "Finance ~$47.3bn of NVIDIA Rubin GPU equipment leased to SpaceX for ~5 years",
+        "source": "Bloomberg via https://finance.yahoo.com/technology/ai/articles/spacex-sells-32-billion-ai-234112045.html (HTTP 200, article 2026-11-20): priced 'on Thursday' -> 2026-11-19 inferred; Class A3 yield 8.259% vs avg US high-grade 5.95% that day; ~$26bn pre-committed, final ~$6bn of A3 offered Thursday; Goldman Sachs and Apollo ran the deal; CreditSights called pricing 'really wide'. Other tranche terms, ratings, initial talk, OID not disclosed -> null. Likely funds the xAI/Apollo GPU master finance lease commitment (CCIR row 2026-10-24, SpaceX 8-K acc. 0001104659-26-118614) — relation not confirmed. Fixed yield; no SOFR spread. Issuer is not a neocloud; AI compute financing."
       }
     ]
   },
