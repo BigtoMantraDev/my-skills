@@ -6,7 +6,7 @@
     },
     "2": {
       "state": "🟢",
-      "notes": "SPX 11-20 收 6910.39 未创 252 日新高（距 10-06 −11.62%）→前提不成立；barchart 空壳/stockcharts 429，比例无读数"
+      "notes": "SPX 11-20 收 6910.39 未创 252 日新高（距 10-06 −11.62%）→前提不成立；barchart 空壳/stockcharts 405，比例无读数"
     },
     "3": {
       "state": "⚪️",
@@ -18,15 +18,15 @@
     },
     "5": {
       "state": "🟢",
-      "notes": "净流动性 $5,824.5B @11-18，周减 −$19.8B，非连4周降"
+      "notes": "净流动性 $5,824.5B @11-18，周减 −$19.8B，非连4周降；4周 +$23.1B"
     },
     "6": {
       "state": "🟢",
-      "notes": "SPX 未创新高→前提不成立；stockcharts $NYAD 429 无读数"
+      "notes": "SPX 未创新高→前提不成立；stockcharts $NYAD 405 无读数"
     },
     "7": {
       "state": "⚪️",
-      "notes": "naaim.org 公开页延迟三个月、ycharts 空体、检索无 11-19 期；上次 72.9 @2026-11-13，滞后 1 周"
+      "notes": "naaim.org 公开页延迟三个月、检索无 11-19 期；上次 72.9 @2026-11-13，滞后 1 周"
     },
     "8": {
       "state": "🟢",
@@ -42,19 +42,19 @@
     },
     "11": {
       "state": "🟡",
-      "notes": "FINRA 2026-10 $1,448,360M（10月↓ −2.1%，首月下降；YoY +22.4%），11-22 核实仍为最新一期；macromicro 403 改取 FINRA 原页"
+      "notes": "FINRA 2026-10 $1,448,360M（10月↓ −2.1%，首月下降；YoY +22.4%），11 月未发布；macromicro 403 改取 FINRA 原页"
     },
     "12": {
       "state": "⚪️",
-      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后 16 周"
+      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后 20 周"
     },
     "13": {
       "state": "🔴",
-      "notes": "IPO 金额 YTD $230.3B +533.3%；件数 124 −36.1% @11-22 Renaissance；最大单案占 35.3%，剔除后 +309.7%"
+      "notes": "IPO 金额 YTD $230.3B +533.3%；件数 124 −36.1% @11-23 Renaissance；最大单 Anthropic $81.3B 占 35.3%"
     },
     "14": {
       "state": "🟢",
-      "notes": "BTC −0.0063% / ETH +0.0022% / SOL −0.0077% per 8h（Hyperliquid，Binance 451）"
+      "notes": "BTC +0.0100% / ETH −0.0004% / SOL +0.0064% per 8h（Hyperliquid，Binance 451）"
     },
     "15": {
       "state": "⚪️",
@@ -62,19 +62,19 @@
     },
     "16": {
       "state": "🟢",
-      "notes": "CoinGecko 57.64% @11-22；24h +2.91%（相对）上升；7d −1.50%（基准 11-15 同源）未达 −3%"
+      "notes": "CoinGecko 58.92% @11-23；24h +4.67%（相对）上升；7d −0.71%（基准 11-16 同源）未达 −3%"
     },
     "17": {
       "state": "🔴",
-      "notes": "稳定币 $243.55B @11-22，7d −$1.22B 净流出；14d −$4.13B；1d +$0.07B"
+      "notes": "稳定币 $243.49B @11-23，7d −$1.33B 净流出；14d −$4.09B；1d −$0.05B"
     },
     "18": {
-      "state": "🟢",
-      "notes": "隐含跳空 SP500 +1.32%（对 ^GSPC 11-20 收 6910.39）/ XYZ100 +1.62%（对 ^NDX 11-20 收 25028.98），均 ≥1% 点名 <2%；资金费率年化 +5.47%"
+      "state": "🔴",
+      "notes": "隐含跳空 SP500 +2.46%（对 ^GSPC 11-20 收 6910.39）/ XYZ100 +3.20%（对 ^NDX 11-20 收 25028.98），均 ≥2%；相对强弱 +0.74pt；资金费率年化 +11.65%/+12.84%"
     },
     "19": {
       "state": "🟡",
-      "notes": "SPX −3.70% = 2.24σ @11-20（2–3σ 留意，<2.5σ 未触发强制归因）；BTC −1.83% = 0.68σ @11-22"
+      "notes": "SPX −3.70% = 2.24σ @11-20（2–3σ 留意，<2.5σ 未触发强制归因）；BTC +0.32% = 0.12σ @11-23"
     },
     "20": {
       "state": "🟢",
@@ -98,7 +98,7 @@
     },
     "25": {
       "state": "🟢",
-      "notes": "LEI 99.3 @2026-10（11-19 发布），6个月 +0.1%（年化约 +0.2%）> −4%"
+      "notes": "LEI 99.3 @2026-10，6个月 +0.1%（年化约 +0.2%）> −4%"
     },
     "26": {
       "state": "🟡",
@@ -153,7 +153,7 @@
       "name": "BofA Bull & Bear（>8.0）"
     },
     "7": {
-      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后 16 周",
+      "notes": "GuruFocus 403、openinsider 503；上次 0.23 @2026-07，滞后 20 周",
       "symbol": "⚪️",
       "name": "Insider Buy/Sell（<0.17）"
     }
@@ -168,18 +168,10 @@
       "dma200_slope_positive": true
     }
   },
-  "date": "2026-11-22",
-  "updated_at": "2026-11-22 08:06:11+0000",
+  "date": "2026-11-23",
+  "updated_at": "2026-11-23 08:08:56+0000",
   "written_by": "snapshot.py",
   "history": [
-    {
-      "date": "2026-11-09",
-      "trigger_count": 0,
-      "unknown_count": 2,
-      "strategic_baseline_pct": 100,
-      "tactical_state": "🟢",
-      "above_200dma": true
-    },
     {
       "date": "2026-11-10",
       "trigger_count": 0,
@@ -278,6 +270,14 @@
     },
     {
       "date": "2026-11-22",
+      "trigger_count": 0,
+      "unknown_count": 2,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟡",
+      "above_200dma": false
+    },
+    {
+      "date": "2026-11-23",
       "trigger_count": 0,
       "unknown_count": 2,
       "strategic_baseline_pct": 100,
