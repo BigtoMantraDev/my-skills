@@ -2,11 +2,11 @@
   "signals": {
     "1": {
       "state": "🟢",
-      "notes": "HY OAS 3.52% @11-19，4周 +12bp（0.261× 自身 p95）利差腿未成立；SPX 未创新高；IG 0.94%(+5bp)/BBB 1.17%(+6bp) 观察腿未达自身线，分化 none"
+      "notes": "HY OAS 3.76% @11-20，4周 +38bp（0.826× 自身 p95）利差腿未成立；SPX 未创新高；IG 0.98%(+7bp)/BBB 1.22%(+9bp) 观察腿未达自身线，分化 none"
     },
     "2": {
       "state": "🟢",
-      "notes": "SPX 11-20 收 6910.39 未创 252 日新高（距 10-06 −11.62%）→前提不成立；barchart 空壳/stockcharts 405，比例无读数"
+      "notes": "SPX 11-23 收 7237.17 未创 252 日新高（距 10-06 −7.44%）→前提不成立；barchart 空壳/stockcharts 405，比例无读数"
     },
     "3": {
       "state": "⚪️",
@@ -14,7 +14,7 @@
     },
     "4": {
       "state": "🔴",
-      "notes": "VIX 28.44 > VIX3M 27.03 @11-19（FRED 同源同日），倒挂 −1.41（比值 1.052）"
+      "notes": "VIX 35.89 > VIX3M 30.94 @11-20（FRED 同源同日），倒挂 −4.95（比值 1.160）"
     },
     "5": {
       "state": "🟢",
@@ -22,7 +22,7 @@
     },
     "6": {
       "state": "🟢",
-      "notes": "SPX 未创新高→前提不成立；stockcharts $NYAD 405 无读数"
+      "notes": "SPX 未创新高→前提不成立；stockcharts $NYAD 405、mcoscillator 403 无读数"
     },
     "7": {
       "state": "⚪️",
@@ -34,7 +34,7 @@
     },
     "9": {
       "state": "🔴",
-      "notes": "CNN F&G 9.7 extreme fear @11-20 <25；前收 18.7，1周前 37.4，1月前 28.7"
+      "notes": "CNN F&G 17.0 extreme fear @11-24 <25；1周前 26.0，1月前 16.7，30日峰值 40.3 @11-12"
     },
     "10": {
       "state": "⚪️",
@@ -50,11 +50,11 @@
     },
     "13": {
       "state": "🔴",
-      "notes": "IPO 金额 YTD $230.3B +533.3%；件数 124 −36.1% @11-23 Renaissance；最大单 Anthropic $81.3B 占 35.3%"
+      "notes": "IPO 金额 YTD $230.3B +533.3%（剔除 Anthropic 仍 +309.7%）；件数 124 −36.1% @11-24 Renaissance"
     },
     "14": {
       "state": "🟢",
-      "notes": "BTC +0.0100% / ETH −0.0004% / SOL +0.0064% per 8h（Hyperliquid，Binance 451）"
+      "notes": "BTC +0.0034% / ETH +0.0030% / SOL +0.0100% per 8h（Hyperliquid，Binance 451）"
     },
     "15": {
       "state": "⚪️",
@@ -62,35 +62,35 @@
     },
     "16": {
       "state": "🟢",
-      "notes": "CoinGecko 58.92% @11-23；24h +4.67%（相对）上升；7d −0.71%（基准 11-16 同源）未达 −3%"
+      "notes": "CoinGecko 57.81% @11-24；24h +0.59%（相对）上升；7d −1.09%（基准 11-17 同源）未达 −3%"
     },
     "17": {
       "state": "🔴",
-      "notes": "稳定币 $243.49B @11-23，7d −$1.33B 净流出；14d −$4.09B；1d −$0.05B"
+      "notes": "稳定币 $244.23B @11-24，7d −$0.65B 净流出；14d −$2.62B；1d +$0.73B"
     },
     "18": {
-      "state": "🔴",
-      "notes": "隐含跳空 SP500 +2.46%（对 ^GSPC 11-20 收 6910.39）/ XYZ100 +3.20%（对 ^NDX 11-20 收 25028.98），均 ≥2%；相对强弱 +0.74pt；资金费率年化 +11.65%/+12.84%"
+      "state": "🟢",
+      "notes": "隐含跳空 SP500 +0.28%（对 ^GSPC 11-23 收 7237.17，--spx）；XYZ100 +1.10%（对 FRED ^NDX 11-19 收 26517.05，滞后 5 天）；资金费率年化 +5.47%/+5.47% 基线"
     },
     "19": {
       "state": "🟡",
-      "notes": "SPX −3.70% = 2.24σ @11-20（2–3σ 留意，<2.5σ 未触发强制归因）；BTC +0.32% = 0.12σ @11-23"
+      "notes": "SPX +4.73% = 2.35σ @11-23（上涨，2–3σ 留意）；BTC −1.44% = 0.58σ @11-24"
     },
     "20": {
       "state": "🟢",
-      "notes": "VRP +5.11（FRED VIX 28.44 @11-19 − RV20 23.33）"
+      "notes": "VRP +9.65（FRED VIX 35.89 @11-20 − RV20 26.24）"
     },
     "21": {
-      "state": "🟡",
-      "notes": "SPY −3.64% @11-20；TLT +1.37% / GLD −3.67% 混合，不作 Tier 1 触发"
+      "state": "🟢",
+      "notes": "SPY +4.71% @11-23 未跌 >1%，不适用"
     },
     "22": {
       "state": "🟡",
-      "notes": "RSP −1.98% vs SPY −3.64%，RSP−SPY +1.66pt @11-20，巨头在拖"
+      "notes": "RSP +2.59% vs SPY +4.71%，RSP−SPY −2.12pt @11-23，涨势集中巨头"
     },
     "23": {
       "state": "🟢",
-      "notes": "T10Y2Y +0.29 / T10Y3M +0.60 @11-20，30日内未倒挂"
+      "notes": "T10Y2Y +0.29 / T10Y3M +0.55 @11-23，30日内未倒挂"
     },
     "24": {
       "state": "🟢",
@@ -102,15 +102,15 @@
     },
     "26": {
       "state": "🟡",
-      "notes": "SPX 6910.39 vs 200DMA 7348.58，−5.96%，斜率 +0.79%，站稳连续 0 日 @11-20 → 过渡"
+      "notes": "SPX 7237.17 vs 200DMA 7350.10，−1.54%，斜率 +0.75%，站稳连续 0 日 @11-23 → 过渡"
     },
     "27": {
       "state": "🔴",
       "notes": "Buffett 255.05% @2026-Q2（FRED 同季对齐）；对照 244%（06-30 currentmarketvaluation）"
     },
     "28": {
-      "state": "🔴",
-      "notes": "Shiller CAPE 36.44 @11-20 > 30"
+      "state": "⚪️",
+      "notes": "multpl.com curl exit 35 ×2 + web_fetch 503；上次 36.44 @2026-11-20，滞后 <1 周（4 天）"
     },
     "29": {
       "state": "🔴",
@@ -123,7 +123,7 @@
   },
   "hard_thresholds": {
     "1": {
-      "notes": "FRED VIXCLS 25.46 @11-17、24.56 @11-18、28.44 @11-19 → 连续 >25 天数 1/3（11-20 FRED 未发布）",
+      "notes": "FRED VIXCLS 24.56 @11-18、28.44 @11-19、35.89 @11-20 → 连续 >25 天数 2/3（11-23 FRED 未发布）",
       "symbol": "⚠️",
       "name": "VIX 突破并站稳（>25 且连续 3 个交易日）"
     },
@@ -133,12 +133,12 @@
       "name": "Margin Debt 月减（连续 3 个月）"
     },
     "3": {
-      "notes": "HY OAS 3.52% @11-19 < 4.5%",
+      "notes": "HY OAS 3.76% @11-20 < 4.5%",
       "symbol": "❌",
       "name": "HY Spread 扩张（>4.5%）"
     },
     "4": {
-      "notes": "F&G 9.7 @11-20；30日峰值 45.6 未曾 >75，脚本回 false",
+      "notes": "F&G 17.0 @11-24；30日峰值 40.3 未曾 >75，脚本回 false",
       "symbol": "❌",
       "name": "Fear & Greed 从高位回落（>75 跌回 <50）"
     },
@@ -168,18 +168,10 @@
       "dma200_slope_positive": true
     }
   },
-  "date": "2026-11-23",
-  "updated_at": "2026-11-23 08:08:56+0000",
+  "date": "2026-11-24",
+  "updated_at": "2026-11-24 08:06:44+0000",
   "written_by": "snapshot.py",
   "history": [
-    {
-      "date": "2026-11-10",
-      "trigger_count": 0,
-      "unknown_count": 2,
-      "strategic_baseline_pct": 100,
-      "tactical_state": "🟢",
-      "above_200dma": true
-    },
     {
       "date": "2026-11-11",
       "trigger_count": 0,
@@ -278,6 +270,14 @@
     },
     {
       "date": "2026-11-23",
+      "trigger_count": 0,
+      "unknown_count": 2,
+      "strategic_baseline_pct": 100,
+      "tactical_state": "🟡",
+      "above_200dma": false
+    },
+    {
+      "date": "2026-11-24",
       "trigger_count": 0,
       "unknown_count": 2,
       "strategic_baseline_pct": 100,
