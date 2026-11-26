@@ -26,8 +26,8 @@
       "quote": {
         "price": 76.3,
         "as_of": "2026-11-26",
-        "source": "onvista https://www.onvista.de/anleihen/A4EWUB (HTTP 200); 'CoreWeave Inc. DL-Notes 2026(26/32) Reg.S', ISIN USU2069EAE06; fetched 2026-11-26 ~09:15 ET. Frankfurt (verzoegert) 76,300 % 'heute, 07:01:26' (CET = 01:01:26 ET 2026-11-26), change -0,385 / -0,50 % (prior Frankfurt 76,685 matches stored 2026-11-25 Frankfurt print), 0 Nom.; bid 76,300 / ask 78,505 @07:01. VENUE NOTE: stored quote used Baader; today Baader shows 75,896 % 'heute, 08:01:01' with change 0,000 / 0,00 %, identical to the stored 2026-11-25 Baader value -> no evidenced new Baader print, so Frankfurt (changed print) is reported; Baader alternative 75,896 is available to the parent. gettex header 77,268 % 'heute, 13:40:28' equals its ask. Quotrix last 97,782 % dated 07.07.2026 (stale). Page Kursdatum 25.11.2026, Berechnungskurs 74,523 % (Berechnungszeitpunkt 26.11.2026), Stueckzinsen 4,278 %. Not labelled clean/dirty, treated as clean. as_of = RUN_DATE -> quote_kind 'intraday_indicative'.",
-        "quote_kind": "intraday_indicative"
+        "source": "onvista https://www.onvista.de/anleihen/A4EWUB (HTTP 200), ISIN USU2069EAE06; fetched 2026-11-26 ~17:05 ET (European venues closed). Frankfurt (verzoegert) 76,300 % 'heute, 07:01:26' CET (= 01:01:26 ET 2026-11-26), 0 Nom. UNCHANGED vs stored (same venue, same print time, same value): no later Frankfurt print during the day. Other venues: Baader 75,896 % 'heute, 17:01:22' with change 0,000 and value equal to the bid 74,180 / ask 77,611 midpoint (quote-refresh, same value as stored 2026-11-25 Baader) -> no evidenced Baader trade; gettex 77,268 % 'heute, 21:47:43' change 0,000 (earlier same day equalled its ask). Page Kursdatum 25.11.2026, Berechnungskurs 74,523 %, Stueckzinsen 4,278 %. Not labelled clean/dirty, treated as clean. as_of = RUN_DATE. Postclose run (17:05 ET, European venues closed) -> end-of-day print -> quote_kind 'close_clean'.",
+        "quote_kind": "close_clean"
       }
     },
     {
@@ -45,10 +45,10 @@
       "note": "公司层无担保高收益债，本组规模最大 → 作为 L1 基准债",
       "is_l1_benchmark": true,
       "quote": {
-        "price": 73.155,
+        "price": 72.975,
         "as_of": "2026-11-26",
-        "source": "onvista https://www.onvista.de/anleihen/A4EUCN (HTTP 200); 'CoreWeave Inc. DL-Notes 2026(26/31) Reg.S', ISIN USU2069EAC40; fetched 2026-11-26 ~09:15 ET. Frankfurt (verzoegert) 73,155 % 'heute, 13:40:07' (CET = 07:40:07 ET 2026-11-26), change +1,155 / +1,60 %, 0 Nom.; bid 72,985 / ask 78,265 @13:48. Page shows date as 'heute' (not explicit). Note: Frankfurt print time 13:40:0x recurs on 2026-11-24/25/26 with different prices. Other venues: Duesseldorf 73,450 % 'heute, 08:02:47' (0 Nom.); Quotrix last 84,444 % dated 11.11.2026 (stale). Page Kursdatum 11.11.2026, Berechnungskurs 84,444 % (Quotrix-linked), Berechnungszeitpunkt 26.11.2026, Stueckzinsen 1,625 %. Not labelled clean/dirty, treated as clean. as_of = RUN_DATE 2026-11-26 -> quote_kind 'intraday_indicative' per neocloud-credit.md editor note.",
-        "quote_kind": "intraday_indicative"
+        "source": "onvista https://www.onvista.de/anleihen/A4EUCN (HTTP 200), ISIN USU2069EAC40; fetched 2026-11-26 ~17:05 ET (European venues closed). Frankfurt (verzoegert) 72,975 % 'heute, 16:20:07' CET (= 10:20:07 ET 2026-11-26), change +0,975 / +1,35 %, 0 Nom. CHANGED vs stored 73,155 (Frankfurt 'heute, 13:40:07'): same venue, later print. Other venues: Duesseldorf 73,450 % 'heute, 08:02:47' (0 Nom.); Quotrix last 84,444 % dated 11.11.2026 (stale), bid 73,095 / ask 80,202 @16:40. Page Kursdatum 11.11.2026, Berechnungskurs 84,444 % (Quotrix-linked), Stueckzinsen 1,625 %. Not labelled clean/dirty, treated as clean. as_of = RUN_DATE. Postclose run (17:05 ET, European venues closed) -> end-of-day print -> quote_kind 'close_clean'.",
+        "quote_kind": "close_clean"
       }
     },
     {
@@ -67,8 +67,8 @@
       "quote": {
         "price": 72.525,
         "as_of": "2026-11-26",
-        "source": "onvista https://www.onvista.de/anleihen/A4EEQ4 (HTTP 200); 'CoreWeave Inc. DL-Notes 2025(25/31) Reg.S', ISIN USU2069EAB66; fetched 2026-11-26 ~09:15 ET. Only venue: Frankfurt (verzoegert) 72,525 % 'heute, 07:01:26' (CET = 01:01:26 ET 2026-11-26), change -3,180 / -4,20 %, 0 Nom.; bid 74,000 @08:24:36 (20.000) / ask 75,525 @07:01:29 (20.000). Note: last print 72,525 sits below the displayed bid 74,000. Page Kursdatum 25.11.2026, Berechnungskurs 75,705 % (Berechnungszeitpunkt 26.11.2026), Stueckzinsen 2,900 %. Not labelled clean/dirty, treated as clean. as_of = RUN_DATE -> quote_kind 'intraday_indicative'.",
-        "quote_kind": "intraday_indicative"
+        "source": "onvista https://www.onvista.de/anleihen/A4EEQ4 (HTTP 200), ISIN USU2069EAB66; fetched 2026-11-26 ~17:05 ET (European venues closed). Only venue Frankfurt (verzoegert) 72,525 % 'heute, 07:01:26' CET (= 01:01:26 ET 2026-11-26), change -3,180 / -4,20 %, 0 Nom. UNCHANGED vs stored (same venue, same print time, same value): no later print during the day. Bid/ask not legible on this fetch. Page Kursdatum 25.11.2026, Berechnungskurs 75,705 %, Stueckzinsen 2,900 %. Not labelled clean/dirty, treated as clean. as_of = RUN_DATE. Postclose run (17:05 ET, European venues closed) -> end-of-day print -> quote_kind 'close_clean'.",
+        "quote_kind": "close_clean"
       }
     },
     {
@@ -86,10 +86,10 @@
       "rating_cohort": "single_b",
       "note": "欧元计价，不与美债曲线比；只对 EUR HY 指数(BAMLHE00EHYIOAS)做相对比较",
       "quote": {
-        "price": 73.468,
+        "price": 73.681,
         "as_of": "2026-11-26",
-        "source": "onvista https://www.onvista.de/anleihen/A4EWUD (HTTP 200); 'CoreWeave Inc. EO-Notes 2026(26/32) Reg.S', ISIN XS3333139288; fetched 2026-11-26 ~09:15 ET. Baader 73,468 % 'heute, 13:37:59' (CET = 07:37:59 ET 2026-11-26), change +0,287 / +0,39 %, volume 'unbekannt'; bid 70,965 / ask 75,970 @13:37 (1.000.000). Same venue as stored quote. Other venues: Stuttgart 70,250 % 'heute, 14:00:07' (0 Nom.; bid 70,250 / ask 74,965); Frankfurt 75,835 % dated 20.11.2026 07:13:33 (stale). Page Kursdatum 25.11.2026, Berechnungskurs 74,377 % (Berechnungszeitpunkt 26.11.2026), Stueckzinsen 3,872 %. EUR-denominated. Not labelled clean/dirty, treated as clean. as_of = RUN_DATE -> quote_kind 'intraday_indicative'.",
-        "quote_kind": "intraday_indicative"
+        "source": "onvista https://www.onvista.de/anleihen/A4EWUD (HTTP 200), ISIN XS3333139288; fetched 2026-11-26 ~17:05 ET (European venues closed). Baader Trading 73,681 % 'heute, 21:52:03' CET (= 15:52:03 ET 2026-11-26), change +0,500 / +0,68 %, volume 'unbekannt'; bid 72,209 / ask 75,152 @21:52 (1.000.000) -> 73,681 equals the bid/ask midpoint. Same venue as stored; CHANGED vs stored 73,468 (Baader 'heute, 13:37:59'). Other venues: Stuttgart 70,183 % 'heute, 20:45:05' (0 Nom.); Frankfurt 75,835 % dated 20.11.2026 07:13:33 (stale). Page Kursdatum 25.11.2026, Berechnungskurs 74,377 %, Stueckzinsen 3,872 %. EUR-denominated. Not labelled clean/dirty, treated as clean. as_of = RUN_DATE. Postclose run (17:05 ET, European venues closed) -> end-of-day print -> quote_kind 'close_clean'.",
+        "quote_kind": "close_clean"
       }
     },
     {
@@ -516,6 +516,20 @@
         "status": "priced",
         "purpose": "Finance ~$47.3bn of NVIDIA Rubin GPU equipment leased to SpaceX for ~5 years",
         "source": "Bloomberg via https://finance.yahoo.com/technology/ai/articles/spacex-sells-32-billion-ai-234112045.html (HTTP 200, article 2026-11-20): priced 'on Thursday' -> 2026-11-19 inferred; Class A3 yield 8.259% vs avg US high-grade 5.95% that day; ~$26bn pre-committed, final ~$6bn of A3 offered Thursday; Goldman Sachs and Apollo ran the deal; CreditSights called pricing 'really wide'. Other tranche terms, ratings, initial talk, OID not disclosed -> null. Likely funds the xAI/Apollo GPU master finance lease commitment (CCIR row 2026-10-24, SpaceX 8-K acc. 0001104659-26-118614) — relation not confirmed. Fixed yield; no SOFR spread. Issuer is not a neocloud; AI compute financing."
+      },
+      {
+        "date": "2026-11-26",
+        "issuer": "Compass Datacenters (Brookfield-owned)",
+        "instrument": "Asset-backed securities (data center ABS)",
+        "size_usd_mm": 380,
+        "base_rate": null,
+        "initial_spread_bp": null,
+        "final_spread_bp": null,
+        "initial_oid": null,
+        "final_oid": null,
+        "status": "postponed",
+        "purpose": "Data center ABS financing; reported trigger: investor pullback after an outage at one site",
+        "source": "Wisevoter 2026-11-26 https://wisevoter.com/world/2026/11/26/compass-datacenters-postpones-380m-securities-deal (HTTP 200), states it includes information reported by DatacenterDynamics: Compass 'no longer plans to complete its $380 million asset-backed securities transaction this year' and 'postponed it to next year' (2027). FourWeekMBA mirror HTTP 403; DCD original not located. date = report date (postponement date not stated). No price talk disclosed -> null. Issuer is a data center developer, not on the dispatched neocloud issuer list; secondary sources only."
       }
     ]
   },
